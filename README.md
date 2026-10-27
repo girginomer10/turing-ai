@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://testflight.apple.com/join/Fjtm5j1Z"><b>Try the beta on TestFlight</b></a>
+  <a href="https://testflight.apple.com/join/Fjtm5j1Z"><b>iPhone and iPad: TestFlight beta</b></a> · <a href="https://github.com/girginomer10/turing-ai/releases/download/v1.0/Turing-AI-0.1.0-android-arm64.apk"><b>Android: download the APK</b></a>
 </p>
 
 ---
@@ -63,7 +63,7 @@ The Apple apps share one Swift package, `MosaicCore`, which holds the entire fea
 
 ## Getting started
 
-To try the app without building it, join the public [TestFlight beta](https://testflight.apple.com/join/Fjtm5j1Z).
+To try the app without building it, join the public [TestFlight beta](https://testflight.apple.com/join/Fjtm5j1Z) on iPhone and iPad, or install the signed [Android APK](https://github.com/girginomer10/turing-ai/releases/download/v1.0/Turing-AI-0.1.0-android-arm64.apk) (arm64, Android 8.0+).
 
 ### Apple platforms
 
