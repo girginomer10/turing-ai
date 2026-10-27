@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  swift-tests:
+    name: Swift package tests and Apple compile checks
+    # Xcode 26 / Swift 6.2 is required: MosaicCore pins swift-markdown 0.8.0.
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select newest Xcode
+        run: |
+          XCODE_APP="$(ls -d /Applications/Xcode*.app | sort -V | tail -n 1)"
+          echo "Using ${XCODE_APP}"
+          sudo xcode-select -s "${XCODE_APP}"
+          xcodebuild -version
+          swift --version
+
+      - name: Cache SwiftPM
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.swiftpm
+            Packages/MosaicCore/.build
+          key: swiftpm-${{ runner.os }}-${{ hashFiles('Packages/MosaicCore/Package.resolved', 'Packages/MosaicCore/Package.swift') }}
+          restore-keys: |
+            swiftpm-${{ runner.os }}-
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate --spec project.yml
+
+      - name: Swift package tests
+        run: swift test --package-path Packages/MosaicCore
+
+      - name: macOS compile check
+        run: |
+          xcodebuild -project Mosaic.xcodeproj -scheme Mosaic-macOS \
+            -destination 'platform=macOS,arch=arm64' \
+            -derivedDataPath /tmp/mosaic-macos \
+            CODE_SIGNING_ALLOWED=NO build -quiet
+
+      - name: iOS Simulator compile check
+        run: |
+          xcodebuild -project Mosaic.xcodeproj -scheme Mosaic-iOS \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath /tmp/mosaic-ios \
+            CODE_SIGNING_ALLOWED=NO build -quiet
+
+  android:
+    name: Android core tests and debug build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Apps/Android
+    steps:
+      - uses: actions/checkout@v4
+
+      # The core module pins jvmToolchain(21); AGP 9 needs JDK 17 or newer.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Core tests and debug APK
+        run: ./gradlew :core:test :app:assembleDebug --no-daemon

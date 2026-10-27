@@ -1,0 +1,1181 @@
+{
+ "persona": "p7",
+ "summary": "Retired accountant Recep Aydoğan, 68, living in Konyaaltı (Antalya) with wife Nazmiye; orange orchard in Finike, home garden, grandchildren visits, daily supplement reminders, pension and tax paperwork. Turkish-dominant.",
+ "items": [
+  {
+   "id": "p7-m001",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Career",
+   "text": "Kullanıcı 38 yıl muhasebecilik yaptı ve iki yıl önce emekli oldu; yine de bazı komşularının ve eski müşterilerinin vergi işlerine bakmaya devam ediyor.",
+   "age_days": 700,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p7-c001"
+  },
+  {
+   "id": "p7-m002",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Home and wife",
+   "text": "Kullanıcı eşi Nazmiye ile Konyaaltı'nda iki katlı müstakil bir evde yaşıyor; ikisi her sabah sahil yolunda yürüyüş yapıyor.",
+   "age_days": 650,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p7-c002"
+  },
+  {
+   "id": "p7-m003",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Daughter Gülşen",
+   "text": "Kullanıcının kızı Gülşen, eşi Barış ve iki çocuğuyla Ankara'da yaşıyor ve bir ilkokulda sınıf öğretmeni olarak çalışıyor.",
+   "age_days": 600,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p7-c003"
+  },
+  {
+   "id": "p7-m004",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Grandchild Defne",
+   "text": "Kullanıcının torunu Defne 8 yaşında; doğum günü 14 Mart ve en çok kitap okumayı ve resim yapmayı seviyor.",
+   "age_days": 520,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p7-c004"
+  },
+  {
+   "id": "p7-m005",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Grandchild Kerem",
+   "text": "Kullanıcının torunu Kerem 5 yaşında; doğum günü 29 Ağustos ve dinozorlara, traktörlere bayılıyor.",
+   "age_days": 520,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p7-c005"
+  },
+  {
+   "id": "p7-m006",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Son Okan",
+   "text": "Kullanıcının oğlu Okan İstanbul'da bir yazılım firmasında mühendis olarak çalışıyor; eşi Merve ve 3 yaşındaki kızları Ela ile Kadıköy'de oturuyor.",
+   "age_days": 580,
+   "confidence": 0.85,
+   "importance": 0.7,
+   "container": "p7-c006"
+  },
+  {
+   "id": "p7-m007",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Orange orchard",
+   "text": "Kullanıcının Finike'de yaklaşık 120 ağaçlık bir portakal bahçesi var; ağaçların çoğu Washington göbek, geri kalanı Valencia cinsi.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.9,
+   "container": "p7-c007"
+  },
+  {
+   "id": "p7-m008",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Home garden",
+   "text": "Kullanıcının Konyaaltı'ndaki evinin arka bahçesinde bir limon ağacı, bir sıra gül fidanı ve küçük bir sebze yatağı bulunuyor.",
+   "age_days": 640,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p7-c008"
+  },
+  {
+   "id": "p7-m009",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Orchard care",
+   "text": "Kullanıcı Finike'deki ağaçları yılda iki kez, ilkbaharda ve sonbaharda gübreliyor; sulamayı damla sistemle yapıyor.",
+   "age_days": 450,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p7-c009"
+  },
+  {
+   "id": "p7-m010",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Cat Pamuk",
+   "text": "The user's cat Pamuk is 6 years old and gets her vaccinations at the vet every April.",
+   "age_days": 410,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p7-c010"
+  },
+  {
+   "id": "p7-m011",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Morning supplements",
+   "text": "Kullanıcı her sabah kahvaltıdan sonra, saat 08:30 civarında, D vitamini ve bir multivitamin alıyor.",
+   "age_days": 300,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p7-c011"
+  },
+  {
+   "id": "p7-m012",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Evening supplement",
+   "text": "Kullanıcı magnezyum takviyesini her akşam yatmadan önce, saat 22:00'de alıyor.",
+   "age_days": 300,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p7-c012"
+  },
+  {
+   "id": "p7-m013",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "User pension",
+   "text": "Kullanıcının emekli aylığı her ayın 17'sinde Ziraat Bankası hesabına yatıyor.",
+   "age_days": 500,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p7-c013"
+  },
+  {
+   "id": "p7-m014",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Wife pension",
+   "text": "Kullanıcının eşi Nazmiye'nin emekli aylığı her ayın 3'ünde Halkbank hesabına yatıyor.",
+   "age_days": 500,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p7-c014"
+  },
+  {
+   "id": "p7-m015",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Tuesday orchard trip",
+   "text": "The user goes to the Finike orchard every Tuesday and buys cheese and olives at the district market on the way back.",
+   "age_days": 350,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p7-c015"
+  },
+  {
+   "id": "p7-m016",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Cevdet tax return",
+   "text": "Every year at the end of March the user prepares the annual income tax return of Cevdet, a retired-teacher neighbour.",
+   "age_days": 480,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p7-c016"
+  },
+  {
+   "id": "p7-m017",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Hatice VAT",
+   "text": "Kullanıcı, bakkal Hatice Hanım'ın aylık KDV beyannamesi taslağını her ayın 20'si civarında hazırlıyor ve 26'sına kadar sisteme giriyor.",
+   "age_days": 430,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p7-c017"
+  },
+  {
+   "id": "p7-m018",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Tablet video calls",
+   "text": "The user is learning to use a tablet; their daughter Gülşen set it up for video calls with the grandchildren every Sunday at 7 pm.",
+   "age_days": 200,
+   "confidence": 0.8,
+   "importance": 0.6,
+   "container": "p7-c018"
+  },
+  {
+   "id": "p7-m019",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Tea habit",
+   "text": "The user has black tea after dinner and stays away from coffee once lunchtime has passed.",
+   "age_days": 700,
+   "confidence": 0.7,
+   "importance": 0.3,
+   "container": "p7-c019"
+  },
+  {
+   "id": "p7-m020",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Food preferences",
+   "text": "The user likes fish, but his wife Nazmiye avoids seafood, so at home they mostly eat olive-oil vegetable dishes and have a meat meal once a week.",
+   "age_days": 560,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p7-c020"
+  },
+  {
+   "id": "p7-m021",
+   "kind": "event",
+   "lang": "en",
+   "title": "Dentist",
+   "text": "On 5 October the user said they have a dentist appointment on Wednesday 28 October at 14:30.",
+   "age_days": 18,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p7-c021"
+  },
+  {
+   "id": "p7-m022",
+   "kind": "event",
+   "lang": "en",
+   "title": "Eye check-up",
+   "text": "On 12 October the user said they booked an eye check-up for Friday 6 November at 10:00.",
+   "age_days": 11,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p7-c022"
+  },
+  {
+   "id": "p7-m023",
+   "kind": "event",
+   "lang": "en",
+   "title": "Gülşen visit",
+   "text": "On 2 October the user said Gülşen and Barış will bring the children and fly into Antalya on the evening of 28 October for the long national-holiday weekend.",
+   "age_days": 21,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p7-c023"
+  },
+  {
+   "id": "p7-m024",
+   "kind": "event",
+   "lang": "en",
+   "title": "Okan visit",
+   "text": "On 14 October the user said Okan's family will arrive on 27 December and stay in Antalya for the New Year week.",
+   "age_days": 9,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p7-c024"
+  },
+  {
+   "id": "p7-m025",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Harvest plan",
+   "text": "25 Eylül'de kullanıcı portakal hasadına 15 Kasım'da başlamayı planladığını ve iki gün için üç işçi tutacağını söyledi.",
+   "age_days": 28,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p7-c025"
+  },
+  {
+   "id": "p7-m026",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Second alarm",
+   "text": "9 Ekim'de kullanıcı bir hafta boyunca akşam magnezyumunu almayı unuttuğunu fark edip telefonuna ikinci bir alarm kurdu.",
+   "age_days": 14,
+   "confidence": 0.7,
+   "importance": null,
+   "container": "p7-c026"
+  },
+  {
+   "id": "p7-m027",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Hatice VAT deadline",
+   "text": "1 Ekim'de kullanıcı, Hatice Hanım'ın eylül ayı KDV beyannamesi için taslağı hazırladığını ve 26 Ekim'e kadar verilmesi gerektiğini söyledi.",
+   "age_days": 22,
+   "confidence": 0.75,
+   "importance": null,
+   "container": "p7-c027"
+  },
+  {
+   "id": "p7-m028",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Pipe leak",
+   "text": "18 Eylül'de kullanıcı Finike'deki damla sulama borusunda sızıntı bulduğunu ve Usta Veli'nin 22 Eylül Salı günü tamir edeceğini söyledi.",
+   "age_days": 35,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p7-c028"
+  },
+  {
+   "id": "p7-m029",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Pump panel",
+   "text": "6 Eylül'de kullanıcı, bahçedeki su pompasının elektrik panosuna Usta Selim'in 10 Eylül Perşembe günü bakacağını söyledi.",
+   "age_days": 47,
+   "confidence": 0.75,
+   "importance": null,
+   "container": "p7-c029"
+  },
+  {
+   "id": "p7-m030",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Cat appetite",
+   "text": "20 Ekim'de kullanıcı kedisi Pamuk'un iki gündür iştahsız olduğunu, ama o gün tekrar iyi yemek yediğini söyledi.",
+   "age_days": 3,
+   "confidence": 0.7,
+   "importance": null,
+   "container": "p7-c030"
+  },
+  {
+   "id": "p7-m031",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Summer visit",
+   "text": "20 Temmuz'da kullanıcı, torunları Defne ve Kerem'in iki haftalığına yanlarına geldiğini ve 3 Ağustos'ta uçakla Ankara'ya döneceklerini söyledi.",
+   "age_days": 95,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p7-c031"
+  },
+  {
+   "id": "p7-m032",
+   "kind": "event",
+   "lang": "en",
+   "title": "Home insurance",
+   "text": "On 16 October the user said they renewed the home earthquake insurance (DASK) for 1,150 TL and set a reminder to renew it again next October.",
+   "age_days": 7,
+   "confidence": 0.9,
+   "importance": null,
+   "container": "p7-c032"
+  },
+  {
+   "id": "p7-m033",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Rıza komisyoncu bu sene portakalı kiloya 14 lira veriyor ama nakliye benden. Hem kasa hem kamyon derdi var, bakalım.",
+   "age_days": 62,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c033"
+  },
+  {
+   "id": "p7-m034",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Nuri ise 12,5 lira dedi, nakliyeyi kendisi karşılıyormuş. Telefonda sesi çok emin geldi.",
+   "age_days": 62,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c033"
+  },
+  {
+   "id": "p7-m035",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Nakliyeyi de hesaba katınca Nuri'nin teklifi daha mantıklı duruyor, yarın arayıp haber veririm.",
+   "age_days": 61,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c033"
+  },
+  {
+   "id": "p7-m036",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Gülşen tableti kurdu ama kamera bazen donuyor, wifi mi tablet mi anlamadım. Defne'yle konuşurken yine kesildi, çok sinirlendim.",
+   "age_days": 150,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c034"
+  },
+  {
+   "id": "p7-m037",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Defne bana ördek resmi çizmiş, ekranda gösterdi. Buzdolabına asacağım.",
+   "age_days": 150,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c034"
+  },
+  {
+   "id": "p7-m038",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Kerem de araya girip dinozor sesi çıkardı, gülmekten karnım ağrıdı.",
+   "age_days": 150,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c034"
+  },
+  {
+   "id": "p7-m039",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "D vitamini alarmı çalıyor ama ben mutfağa gitmeden bakıp unutuyorum. Alarmın adını 'önce kahvaltı' yapayım bari.",
+   "age_days": 90,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c035"
+  },
+  {
+   "id": "p7-m040",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Eczaneden Nazmiye için kalsiyum aldım. Tabletler iri, yarım yapabilir miyiz diye sordum ama eczacı hanım bölünmez dedi.",
+   "age_days": 88,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c035"
+  },
+  {
+   "id": "p7-m041",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Note to self: omega-3 capsules only with lunch, never at breakfast. Nazmiye says it upsets her stomach otherwise.",
+   "age_days": 85,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c035"
+  },
+  {
+   "id": "p7-m042",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Domateslerin yaprakları kıvrılmaya başladı, beyaz sinek olabilir. Sarı yapışkan tuzak astım.",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c036"
+  },
+  {
+   "id": "p7-m043",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Gül fidanlarına kuru kahve telvesi serptim, Nazmiye 'komşu ne der' diye güldü ama let's see ne olacak.",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c036"
+  },
+  {
+   "id": "p7-m044",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "So many lemons this year! Gave loads to the neighbours and kept three crates for pickles and lemonade.",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c036"
+  },
+  {
+   "id": "p7-m045",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Cevdet Bey'in kira geliri beyanı bu yıl biraz karışık, iki dairesi var biri boş duruyor. İstisna tutarını tekrar kontrol etmem lazım.",
+   "age_days": 250,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c037"
+  },
+  {
+   "id": "p7-m046",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Hatice Hanım yine fişleri poşetle getirdi. Hepsini tarih sırasına dizip zarflara ayırdım, gelecek ay ona da bir bilgisayar kursu bulacağım.",
+   "age_days": 120,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c037"
+  },
+  {
+   "id": "p7-m047",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Reminder: never leave filing for the last day, the e-government portal always crashes on deadline night.",
+   "age_days": 240,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c037"
+  },
+  {
+   "id": "p7-m048",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Nazmiye'yle Kasım başında Pamukkale'ye gitmeyi düşünüyoruz, termal otel bakıyorum. İki gece yeter.",
+   "age_days": 18,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c038"
+  },
+  {
+   "id": "p7-m049",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Bir otel gecesi 1.850 TL, kahvaltı dahil ama free cancellation yok. Biraz düşünmem lazım.",
+   "age_days": 18,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c038"
+  },
+  {
+   "id": "p7-m050",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Sonunda iptal edilebilen başka bir yere baktım, Karahayıt Vadi Konağı, gecesi 1.600 lira. Nazmiye'ye de gösterdim, havuzu çok hoşuna gitti.",
+   "age_days": 17,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c038"
+  },
+  {
+   "id": "p7-m051",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Nazmiye'nin zeytinyağlı enginar tarifini yazıyorum: enginarları önce limonlu suya at, sonra soğan, havuç ve bezelyeyle kısık ateşte 35 dakika pişir. Dereotu en sonda.",
+   "age_days": 330,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c039"
+  },
+  {
+   "id": "p7-m052",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Kuru fasulyeyi akşamdan ıslatıp sabah tencereye koymak lazım, yaklaşık 50 dakika kaynıyor. Tuzu en sona bırakmak şart, yoksa sertleşiyor.",
+   "age_days": 330,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c039"
+  },
+  {
+   "id": "p7-m053",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Kumpir yapacaktım ama patatesler bitmiş, markete inmeye de üşendim. Meanwhile makarna yedik.",
+   "age_days": 100,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c039"
+  },
+  {
+   "id": "p7-m054",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Torunlar gelince nane limonata ve patatesli börek yapacağım, Defne limonatayı çok seviyor.",
+   "age_days": 110,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c039"
+  },
+  {
+   "id": "p7-m055",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Usta Veli sulama boruları için malzeme dahil 8.400 lira çıkarmış. Biraz pahalı ama işi garantili yapıyor.",
+   "age_days": 50,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c040"
+  },
+  {
+   "id": "p7-m056",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Usta Selim pano değişimi için 3.200 lira dedi, kabloları benim almam gerekiyor.",
+   "age_days": 50,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c040"
+  },
+  {
+   "id": "p7-m057",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Pump is running again now. The irrigation went on all night at the orchard, such a relief.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c040"
+  },
+  {
+   "id": "p7-m058",
+   "kind": "document",
+   "lang": "tr",
+   "title": "SGK letter: changing bank",
+   "text": "Sayın Recep Aydoğan, aylığınızın yatırıldığı banka veya şubeyi değiştirmek istiyorsanız e-Devlet üzerinden elektronik başvuru yapabilirsiniz. Değişiklik, başvuruyu izleyen ödeme döneminde geçerli olur. Şubeye gitmeniz gerekmez.",
+   "age_days": 400,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c041"
+  },
+  {
+   "id": "p7-m059",
+   "kind": "document",
+   "lang": "tr",
+   "title": "SGK letter: holiday bonus",
+   "text": "Emekli aylığı alanlara Ramazan ve Kurban bayramlarından önce, 4.000 TL tutarında ikramiye ayrıca ödenir. İkramiye aylıkla birleştirilmez, ayrı bir yatırma işlemiyle hesaba geçer.",
+   "age_days": 400,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c041"
+  },
+  {
+   "id": "p7-m060",
+   "kind": "document",
+   "lang": "tr",
+   "title": "SGK letter: returning to work",
+   "text": "Aylık bağlandıktan sonra yeniden bir işe girilmesi hâlinde durumun SGK'ya en geç on gün içinde bildirilmesi gerekir. Bildirim yapılmadığında yersiz ödenen tutarlar geri istenebilir.",
+   "age_days": 400,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c041"
+  },
+  {
+   "id": "p7-m061",
+   "kind": "document",
+   "lang": "tr",
+   "title": "SGK letter: prescription share",
+   "text": "Emekliler için ilaç bedellerinin bir bölümü sağlık güvencesi kapsamında karşılanır; kalan katılım payı eczanede ödenir. Reçete ve provizyon işlemlerini eczane yürütür.",
+   "age_days": 400,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c041"
+  },
+  {
+   "id": "p7-m062",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Property tax: house",
+   "text": "2026 emlak vergisi bildirimi, Konyaaltı konut: Yıllık vergi 3.640 TL'dir ve iki eşit taksitte, Mayıs ve Kasım aylarında ödenir. Taksitler belediyenin internet sitesinden de ödenebilir.",
+   "age_days": 180,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c042"
+  },
+  {
+   "id": "p7-m063",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Property tax: garden house",
+   "text": "2026 emlak vergisi bildirimi, Finike bahçe evi: Yıllık vergi 1.280 TL'dir ve iki eşit taksitte, Mayıs ve Kasım aylarında ödenir. Taksitler belediyenin internet sitesinden de ödenebilir.",
+   "age_days": 180,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c042"
+  },
+  {
+   "id": "p7-m064",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Property tax: late payment",
+   "text": "Süresi içinde ödenmeyen taksitlere aylık gecikme zammı uygulanır. Mükellef, ödeme gününden önce belediye mali hizmetler birimine başvurarak durumunu bildirebilir.",
+   "age_days": 180,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c042"
+  },
+  {
+   "id": "p7-m065",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Citrus sale contract: parties",
+   "text": "Satıcı Recep Aydoğan, Finike'deki bahçesinin 2026-2027 sezonu portakal rekoltesini Nuri Toprak Narenciye'ye satmayı kabul eder. Kilogram birim fiyatı sözleşme ekinde yer alır ve nakliye alıcıya aittir.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c043"
+  },
+  {
+   "id": "p7-m066",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Citrus sale contract: payment",
+   "text": "Bedelin yüzde 30'u sözleşmenin imzalandığı gün peşin, kalanı son tesliminden sonraki on beş gün içinde ödenir. Ödemeler banka havalesiyle yapılır.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c043"
+  },
+  {
+   "id": "p7-m067",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Citrus sale contract: quality",
+   "text": "Çapı 60 mm'nin altında kalan, lekeli veya çürük meyveler kapsam dışıdır ve toplam teslimatın yüzde 5'ini geçemez. Hasat 15-30 Kasım tarihleri arasında yapılır.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p7-c043"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p7-q001",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Finike'deki portakal bahçemde kaç ağaç var?",
+   "gold": [
+    "p7-m007"
+   ],
+   "note": "tree count in the Finike orchard"
+  },
+  {
+   "id": "p7-q002",
+   "type": "direct",
+   "lang": "en",
+   "text": "What time is my dentist appointment on Wednesday?",
+   "gold": [
+    "p7-m021"
+   ],
+   "note": "dentist 28 Oct 14:30; eye check-up is a distractor"
+  },
+  {
+   "id": "p7-q003",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Zeytinyağlı enginar tarifini nasıl yazmıştım?",
+   "gold": [
+    "p7-m051"
+   ],
+   "note": "artichoke recipe message"
+  },
+  {
+   "id": "p7-q004",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Portakal hasadı için kaç işçi tutacağım?",
+   "gold": [
+    "p7-m025"
+   ],
+   "note": "three workers for two days"
+  },
+  {
+   "id": "p7-q005",
+   "type": "direct",
+   "lang": "en",
+   "text": "How much did I pay to renew my home insurance this year?",
+   "gold": [
+    "p7-m032"
+   ],
+   "note": "DASK 1,150 TL"
+  },
+  {
+   "id": "p7-q006",
+   "type": "direct",
+   "lang": "en",
+   "text": "Which day and time do I video call the grandchildren on the tablet?",
+   "gold": [
+    "p7-m018"
+   ],
+   "note": "Sundays 7 pm"
+  },
+  {
+   "id": "p7-q007",
+   "type": "direct",
+   "lang": "en",
+   "text": "How old is my cat Pamuk?",
+   "gold": [
+    "p7-m010"
+   ],
+   "note": "6 years old; e10 is about appetite, no age"
+  },
+  {
+   "id": "p7-q008",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Yaz tatilinde çocuklar yanımda kaç hafta kalmıştı?",
+   "gold": [
+    "p7-m031"
+   ],
+   "note": "summer visit of Defne and Kerem, two weeks"
+  },
+  {
+   "id": "p7-q009",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Pamuk birkaç gün önce keyifsizdi, şimdi toparlandı mı?",
+   "gold": [
+    "p7-m030"
+   ],
+   "note": "cat had no appetite for two days, ate well again on 20 Oct"
+  },
+  {
+   "id": "p7-q010",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Uyumadan önceki takviyeyi sık kaçırınca telefonuma ne eklemiştim?",
+   "gold": [
+    "p7-m026"
+   ],
+   "note": "second alarm after forgetting the evening magnesium"
+  },
+  {
+   "id": "p7-q011",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Sebzelerimde zararlı böcek olduğundan şüpheleniyordum, ne yapmıştım?",
+   "gold": [
+    "p7-m042"
+   ],
+   "note": "suspected whitefly on tomatoes, hung yellow sticky trap"
+  },
+  {
+   "id": "p7-q012",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Dini tatillerden önce hesabıma yatan ek para kaç lira?",
+   "gold": [
+    "p7-m059"
+   ],
+   "note": "bayram bonus 4,000 TL"
+  },
+  {
+   "id": "p7-q013",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Tekrar çalışmaya başlarsam emeklilik kurumunu ne kadar süre içinde bilgilendirmeliyim?",
+   "gold": [
+    "p7-m060"
+   ],
+   "note": "notify SGK within ten days"
+  },
+  {
+   "id": "p7-q014",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Esnaf komşu belgelerini dağınık getirince ne yapmıştım?",
+   "gold": [
+    "p7-m046"
+   ],
+   "note": "sorted Hatice's receipts by date into envelopes"
+  },
+  {
+   "id": "p7-q015",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What do I usually shop for after my weekly trip to the grove?",
+   "gold": [
+    "p7-m015"
+   ],
+   "note": "cheese and olives from the district market"
+  },
+  {
+   "id": "p7-q016",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Why should I submit tax declarations early?",
+   "gold": [
+    "p7-m047"
+   ],
+   "note": "e-government portal crashes on deadline night"
+  },
+  {
+   "id": "p7-q017",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Which warm beverage is part of my night routine, and what do I steer clear of later in the day?",
+   "gold": [
+    "p7-m019"
+   ],
+   "note": "black tea after dinner, no coffee after lunchtime"
+  },
+  {
+   "id": "p7-q018",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Evin arkasındaki yeşil alanda neler yetişiyor?",
+   "gold": [
+    "p7-m008"
+   ],
+   "note": "lemon tree, roses, vegetable bed in the back garden"
+  },
+  {
+   "id": "p7-q019",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Emekli olmadan önce kaç yıl hesap işleriyle uğraştım?",
+   "gold": [
+    "p7-m001"
+   ],
+   "note": "38 years as an accountant"
+  },
+  {
+   "id": "p7-q020",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What does my daughter in Ankara do for a living?",
+   "gold": [
+    "p7-m003"
+   ],
+   "note": "Gülşen is a primary school class teacher (Turkish item)"
+  },
+  {
+   "id": "p7-q021",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "How long should I simmer dried beans, and when should the salt go in?",
+   "gold": [
+    "p7-m052"
+   ],
+   "note": "about 50 minutes, salt at the end (Turkish message)"
+  },
+  {
+   "id": "p7-q022",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Which thermal-area hotel did I find that can be cancelled?",
+   "gold": [
+    "p7-m050"
+   ],
+   "note": "Karahayıt Vadi Konağı, 1,600 per night (Turkish message)"
+  },
+  {
+   "id": "p7-q023",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Which tradesman quoted me for the electrical panel and how much?",
+   "gold": [
+    "p7-m056"
+   ],
+   "note": "Usta Selim, 3,200 TL (Turkish message); e9 has no price"
+  },
+  {
+   "id": "p7-q024",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What share of the sale price is paid upfront when signing the citrus contract?",
+   "gold": [
+    "p7-m066"
+   ],
+   "note": "30 percent upfront (Turkish document)"
+  },
+  {
+   "id": "p7-q025",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Omega-3'ü hangi öğünde almam gerekiyor?",
+   "gold": [
+    "p7-m041"
+   ],
+   "note": "only with lunch (English message)"
+  },
+  {
+   "id": "p7-q026",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Bu sene fazla gelen limonlarla ne yaptım?",
+   "gold": [
+    "p7-m044"
+   ],
+   "note": "gave to neighbours, kept 3 crates for pickles and lemonade (English message)"
+  },
+  {
+   "id": "p7-q027",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What does my son in Istanbul do for work?",
+   "gold": [
+    "p7-m006"
+   ],
+   "note": "Okan is a software engineer (Turkish item)"
+  },
+  {
+   "id": "p7-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "On which day did the tradesman fix the leaking drip line at the farm?",
+   "gold": [
+    "p7-m028"
+   ],
+   "note": "Usta Veli, Tuesday 22 Sep (Turkish event); e9 is the pump panel"
+  },
+  {
+   "id": "p7-q029",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Nazmiye hangi yemekleri yemiyor?",
+   "gold": [
+    "p7-m020"
+   ],
+   "note": "avoids seafood (English topic)"
+  },
+  {
+   "id": "p7-q030",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Torunum Defne'nin doğum günü hangi ay?",
+   "gold": [
+    "p7-m004"
+   ],
+   "note": "Defne 14 March; distractor m005 Kerem 29 August"
+  },
+  {
+   "id": "p7-q031",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Sabahları saat kaçta vitamin alıyorum?",
+   "gold": [
+    "p7-m011"
+   ],
+   "note": "08:30; distractor m012 is the evening magnesium at 22:00"
+  },
+  {
+   "id": "p7-q032",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "When are Gülşen and the kids flying in?",
+   "gold": [
+    "p7-m023"
+   ],
+   "note": "28 Oct evening; distractor e4 is Okan's family on 27 Dec"
+  },
+  {
+   "id": "p7-q033",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Usta Veli boru işi için ne kadar istedi?",
+   "gold": [
+    "p7-m055"
+   ],
+   "note": "8,400 TL; distractor H2 is Usta Selim's panel quote"
+  },
+  {
+   "id": "p7-q034",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Finike'deki bahçe evi için emlak vergisi kaç lira?",
+   "gold": [
+    "p7-m063"
+   ],
+   "note": "1,280 TL; distractor d2a is the Konyaaltı house at 3,640 TL"
+  },
+  {
+   "id": "p7-q035",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What day is my eye check-up?",
+   "gold": [
+    "p7-m022"
+   ],
+   "note": "Friday 6 Nov; distractor e1 is the dentist on 28 Oct"
+  },
+  {
+   "id": "p7-q036",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Rıza komisyoncu kiloyu kaç liradan alıyor?",
+   "gold": [
+    "p7-m033"
+   ],
+   "note": "14 lira; distractor A2 is Nuri at 12.5"
+  },
+  {
+   "id": "p7-q037",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "When do I usually work on Cevdet's tax return?",
+   "gold": [
+    "p7-m016"
+   ],
+   "note": "end of March; distractor m017 is Hatice's monthly VAT"
+  },
+  {
+   "id": "p7-q038",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Nazmiye'nin aylığı ayın kaçında yatıyor?",
+   "gold": [
+    "p7-m014"
+   ],
+   "note": "the 3rd; distractor m013 is the user's own pension on the 17th"
+  },
+  {
+   "id": "p7-q039",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Kerem'in anaokulundaki öğretmeninin adı neydi?",
+   "gold": [],
+   "note": "Kerem exists, teacher name not stored"
+  },
+  {
+   "id": "p7-q040",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Magnezyum kutusunu hangi eczaneden alıyorum?",
+   "gold": [],
+   "note": "magnesium and a pharmacy visit exist, pharmacy name does not"
+  },
+  {
+   "id": "p7-q041",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "Which airline are Gülşen and the kids flying with?",
+   "gold": [],
+   "note": "visit date exists, airline not stored"
+  },
+  {
+   "id": "p7-q042",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Finike'deki bahçenin toprak analizi sonucu ne çıktı?",
+   "gold": [],
+   "note": "no soil analysis stored"
+  },
+  {
+   "id": "p7-q043",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "How many litres does the orchard's water tank hold?",
+   "gold": [],
+   "note": "irrigation exists, tank size not stored"
+  },
+  {
+   "id": "p7-q044",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Nazmiye'nin doğum günü ne zaman?",
+   "gold": [],
+   "note": "grandchildren birthdays stored, wife's is not"
+  },
+  {
+   "id": "p7-q045",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Bu yıl kendi gelir vergi beyannamemde ne kadar vergi çıktı?",
+   "gold": [],
+   "note": "only property tax and others' returns are stored"
+  }
+ ]
+}

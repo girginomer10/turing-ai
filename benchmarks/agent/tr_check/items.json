@@ -1,0 +1,222 @@
+{
+  "about": "Day-1 Turkish check for small local controllers. All people, projects, companies and messages are fictional. Action items follow the controller contract (search/expand/select/stop); probes are free-text comprehension checks. Matching is done on Turkish-folded text (I->ı, İ->i, lowercase, diacritics removed).",
+  "action_items": [
+    {
+      "id": "first_01", "type": "first_step",
+      "question": "Elif en son hangi şehre taşındı?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["elif"]}
+    },
+    {
+      "id": "first_02", "type": "first_step",
+      "question": "Kaan'ın köpeğinin adı neydi?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["kaan"]}
+    },
+    {
+      "id": "first_03", "type": "first_step",
+      "question": "Atlas projesinin teslim tarihi ne zamana ertelendi?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["atlas"]}
+    },
+    {
+      "id": "first_04", "type": "first_step",
+      "question": "Mert'in kullandığı laptop modeli neydi, MacBook mu ThinkPad mi?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["mert"]}
+    },
+    {
+      "id": "first_05", "type": "first_step",
+      "question": "İlkay'ın çalıştığı şirketin adı ne?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["ilkay"]}
+    },
+    {
+      "id": "first_06", "type": "first_step",
+      "question": "Geçen yaz Işıl ile hangi otelde kalmıştık?",
+      "evidence": [], "previous_searches": [], "budget": 6,
+      "expect": {"action": "search", "query_contains_any": ["isil"]}
+    },
+
+    {
+      "id": "select_01", "type": "select",
+      "question": "Elif şu an hangi şehirde yaşıyor?",
+      "evidence": [
+        {"id": "m11", "date": "2024-03-02", "text": "Elif Ankara'ya taşındı, yeni evi Çankaya'da."},
+        {"id": "m12", "date": "2025-06-18", "text": "Elif İzmir'e taşındı, Ankara'dan sonra deniz kenarı iyi geldi dedi."},
+        {"id": "m13", "date": "2025-01-10", "text": "Selin Ankara'da yeni bir işe başladı."},
+        {"id": "m14", "date": "2024-11-05", "text": "Elif'le dün kahve içtik, çok yorgundu."},
+        {"id": "m15", "date": "2025-07-01", "text": "Kaan İzmir'e iş için gitti, sadece 2 gün kalacak."}
+      ],
+      "previous_searches": ["Elif taşındı"], "budget": 5,
+      "expect": {"action": "select", "ids": ["m12"], "stale_ids": ["m11"]}
+    },
+    {
+      "id": "select_02", "type": "select",
+      "question": "Atlas projesinin yeni teslim tarihi ne?",
+      "evidence": [
+        {"id": "a1", "date": "2025-02-01", "text": "Atlas deadline 15 Mart olarak belirlendi."},
+        {"id": "a2", "date": "2025-03-05", "text": "Atlas'ın deadline'ı 30 Nisan'a ertelendi, client onayladı."},
+        {"id": "a3", "date": "2025-03-06", "text": "Orion projesinin teslimi 20 Nisan."},
+        {"id": "a4", "date": "2025-01-20", "text": "Atlas için yeni bir designer lazım."},
+        {"id": "a5", "date": "2025-03-07", "text": "Toplantı notu: Atlas sprint review cuma 14:00'te."}
+      ],
+      "previous_searches": ["Atlas teslim tarihi"], "budget": 5,
+      "expect": {"action": "select", "ids": ["a2"], "stale_ids": ["a1"]}
+    },
+    {
+      "id": "select_03", "type": "select",
+      "question": "Kaan'ın evcil hayvanlarının adları ne?",
+      "evidence": [
+        {"id": "k1", "date": "2023-05-12", "text": "Kaan'ın köpeğinin adı Fıstık."},
+        {"id": "k2", "date": "2024-09-03", "text": "Kaan bir kedi sahiplendi, adını Pamuk koydu."},
+        {"id": "k3", "date": "2024-09-04", "text": "Pamuk pamuk bulutlar var bugün, hava süper."},
+        {"id": "k4", "date": "2022-01-15", "text": "Mert'in köpeği Karamel çok enerjik."},
+        {"id": "k5", "date": "2024-10-10", "text": "Kaan new job'a başladı, remote çalışıyor."}
+      ],
+      "previous_searches": ["Kaan köpek kedi"], "budget": 5,
+      "expect": {"action": "select", "ids": ["k1", "k2"], "stale_ids": []}
+    },
+    {
+      "id": "select_04", "type": "select",
+      "question": "Zeynep şu an hangi şirkette çalışıyor?",
+      "evidence": [
+        {"id": "z1", "date": "2023-08-01", "text": "Zeynep Trendlab'de product manager olarak başladı."},
+        {"id": "z2", "date": "2025-04-22", "text": "Zeynep Trendlab'den ayrıldı, artık Kuzey Yazılım'da çalışıyor."},
+        {"id": "z3", "date": "2025-04-23", "text": "Kuzey Yazılım'ın ofisi Maslak'ta."},
+        {"id": "z4", "date": "2024-02-14", "text": "Zeynep'in doğum günü 14 Şubat, unutma!"},
+        {"id": "z5", "date": "2025-05-01", "text": "Deniz de Trendlab'e geçti galiba."}
+      ],
+      "previous_searches": ["Zeynep şirket iş"], "budget": 4,
+      "expect": {"action": "select", "ids": ["z2"], "stale_ids": ["z1"]}
+    },
+    {
+      "id": "select_05", "type": "select",
+      "question": "Bütçe toplantısı en son hangi güne alındı ve nerede yapılacak?",
+      "evidence": [
+        {"id": "b1", "date": "2025-09-01", "text": "Bütçe toplantısı Salı'ya alındı."},
+        {"id": "b2", "date": "2025-09-01", "text": "Bütçe meeting'i için room: Kadıköy ofisi, 3. kat toplantı odası."},
+        {"id": "b3", "date": "2025-08-25", "text": "Bütçe toplantısı Pazartesi 10:00'da, online."},
+        {"id": "b4", "date": "2025-09-02", "text": "Pazarlama sync'i Perşembe."},
+        {"id": "b5", "date": "2025-09-02", "text": "Bütçe excel'ini drive'a yükledim."}
+      ],
+      "previous_searches": ["bütçe toplantısı"], "budget": 4,
+      "expect": {"action": "select", "ids": ["b1", "b2"], "stale_ids": ["b3"]}
+    },
+    {
+      "id": "select_06", "type": "select",
+      "question": "İlkay'ın şu anki arabası ne marka?",
+      "evidence": [
+        {"id": "i1", "date": "2021-04-03", "text": "İlkay Fiat Egea aldı, beyaz renk."},
+        {"id": "i2", "date": "2025-02-11", "text": "İlkay Fiat'ı sattı, yerine elektrikli bir Togg aldı."},
+        {"id": "i3", "date": "2025-02-12", "text": "Togg'un menzili ne kadar acaba, anyone knows?"},
+        {"id": "i4", "date": "2024-07-19", "text": "Işıl'ın arabası bozuldu yine."}
+      ],
+      "previous_searches": ["İlkay araba"], "budget": 5,
+      "expect": {"action": "select", "ids": ["i2"], "stale_ids": ["i1"]}
+    },
+
+    {
+      "id": "hop_01", "type": "second_hop",
+      "question": "Atlas projesinin şu anki lideri hangi şehirde yaşıyor?",
+      "evidence": [
+        {"id": "h11", "date": "2025-05-02", "text": "Atlas'ın lideri artık Kaan, Burcu başka projeye geçti."}
+      ],
+      "previous_searches": ["Atlas proje lideri"], "budget": 5,
+      "expect": {"action": "search", "query_contains_any": ["kaan"]}
+    },
+    {
+      "id": "hop_02", "type": "second_hop",
+      "question": "Elif'in kardeşinin çalıştığı hastane hangi semtte?",
+      "evidence": [
+        {"id": "h21", "date": "2025-02-17", "text": "Elif'in kardeşi Deniz geçen ay hemşire olarak yeni bir hastanede işe başladı."}
+      ],
+      "previous_searches": ["Elif kardeşi"], "budget": 5,
+      "expect": {"action": "search", "query_contains_any": ["deniz"]}
+    },
+    {
+      "id": "hop_03", "type": "second_hop",
+      "question": "Mert'in en sevdiği restoranın sahibi kim?",
+      "evidence": [
+        {"id": "h31", "date": "2024-12-06", "text": "Mert'in favori mekanı Lokanta Mavi, her cuma orada."}
+      ],
+      "previous_searches": ["Mert en sevdiği restoran"], "budget": 5,
+      "expect": {"action": "search", "query_contains_any": ["mavi"]}
+    },
+    {
+      "id": "hop_04", "type": "second_hop",
+      "question": "Orion ekibinin yeni tasarımcısı hangi üniversiteden mezun?",
+      "evidence": [
+        {"id": "h41", "date": "2025-03-10", "text": "Orion'a yeni designer olarak Ilgaz katıldı, ilk günü pazartesi."}
+      ],
+      "previous_searches": ["Orion yeni tasarımcı"], "budget": 5,
+      "expect": {"action": "search", "query_contains_any": ["ilgaz"]}
+    },
+
+    {
+      "id": "stop_01", "type": "stop",
+      "question": "Selin hangi şehre taşındı?",
+      "evidence": [
+        {"id": "p11", "date": "2025-08-14", "text": "Selin Eskişehir'e taşındı, yeni adresi Odunpazarı'nda."}
+      ],
+      "previous_searches": ["Selin taşındı"], "budget": 4,
+      "expect": {"action": "stop", "ids": ["p11"]}
+    },
+    {
+      "id": "stop_02", "type": "stop",
+      "question": "Kaan'ın kedisinin adı ne?",
+      "evidence": [
+        {"id": "p21", "date": "2024-09-03", "text": "Kaan bir kedi sahiplendi, adını Pamuk koydu."}
+      ],
+      "previous_searches": ["Kaan kedi"], "budget": 4,
+      "expect": {"action": "stop", "ids": ["p21"]}
+    },
+    {
+      "id": "stop_03", "type": "stop",
+      "question": "Atlas projesinin şu anki lideri hangi şehirde yaşıyor?",
+      "evidence": [
+        {"id": "p31", "date": "2025-05-02", "text": "Atlas'ın lideri artık Kaan, Burcu başka projeye geçti."},
+        {"id": "p32", "date": "2025-06-11", "text": "Kaan geçen ay Antalya'ya yerleşti, remote çalışıyor."}
+      ],
+      "previous_searches": ["Atlas proje lideri", "Kaan yaşadığı şehir"], "budget": 3,
+      "expect": {"action": "stop", "ids": ["p31", "p32"]}
+    },
+    {
+      "id": "stop_04", "type": "stop",
+      "question": "Zeynep'in doğum günü ne zaman?",
+      "evidence": [
+        {"id": "p41", "date": "2024-02-14", "text": "Zeynep'in doğum günü 14 Şubat, unutma!"}
+      ],
+      "previous_searches": ["Zeynep doğum günü"], "budget": 2,
+      "expect": {"action": "stop", "ids": ["p41"]}
+    }
+  ],
+
+  "probes": [
+    {
+      "id": "probe_01",
+      "prompt": "Mesaj: \"Selin geçen ay Eskişehir'e taşındı, Burak ise hâlâ Bursa'da oturuyor.\"\nBu mesajda kim nereye taşınmış? Tek satırda yaz.",
+      "must_all": [["selin"], ["eskisehir"]], "must_not": []
+    },
+    {
+      "id": "probe_02",
+      "prompt": "Mesajlar:\n(2024-03-02) \"Elif Ankara'ya taşındı.\"\n(2025-06-18) \"Elif İzmir'e taşındı.\"\nElif şu an hangi şehirde yaşıyor? Sadece şehir adını yaz.",
+      "must_all": [["izmir"]], "must_not": ["ankara"]
+    },
+    {
+      "id": "probe_03",
+      "prompt": "Mesaj: \"Yarınki standup iptal, onun yerine Perşembe 11:00'de retro yapacağız.\"\nRetro hangi gün ve saatte? Kısa cevap ver.",
+      "must_all": [["persembe"], ["11"]], "must_not": []
+    },
+    {
+      "id": "probe_04",
+      "prompt": "Mesaj: \"Kaan toplantıya gelemeyecek ama Mert gelecek.\"\nToplantıya kim gelecek? Sadece ismi yaz.",
+      "must_all": [["mert"]], "must_not": ["kaan"]
+    },
+    {
+      "id": "probe_05",
+      "prompt": "Mesaj: \"Zeynep'in kızı Ada üç yaşına girdi, kutlama Cumartesi.\"\nAda kaç yaşında? Sadece sayıyı rakamla yaz.",
+      "must_all": [["3"]], "must_not": []
+    }
+  ]
+}

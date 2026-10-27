@@ -1,0 +1,700 @@
+{
+  "verifiedOn": "2026-09-05",
+  "usage": "Provider identification only. Marks belong to their owners. Custom endpoints use a neutral system icon.",
+  "logos": [
+    {
+      "asset": "ProviderLogoOpenAI",
+      "provider": "OpenAI",
+      "sourcePage": "https://developers.openai.com/",
+      "sourceURL": "https://developers.openai.com/",
+      "sourceSHA256": "335dd107fd0ff99197d3a847c2c0d6dc8a9160fed91130de423b9cbfdad0f0f5",
+      "file": "ProviderLogoOpenAI.imageset/logo.png",
+      "sha256": "5db98b7e28e11f2b6ca2726afba6895aaeee68d9e228906ea9b43d59ecee9736",
+      "sourceDimensions": [
+        100,
+        100
+      ],
+      "adaptation": "Unchanged inline 100x100 Blossom SVG in header; currentColor renders black"
+    },
+    {
+      "asset": "ProviderLogoAnthropic",
+      "provider": "Anthropic",
+      "sourcePage": "https://www.anthropic.com/",
+      "sourceURL": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67d31dd7aa394792257596c5_webclip.png",
+      "sourceSHA256": "c91922918edeef31af5e969413c0eecf583707d14588de3fecc1d649b4303bf7",
+      "file": "ProviderLogoAnthropic.imageset/logo.png",
+      "sha256": "0c2e36ecadf3248d7878b2409fa2991e62ad303c5a918786b5a141bb5482c714",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoGoogle",
+      "provider": "Google",
+      "sourcePage": "https://ai.google.dev/",
+      "sourceURL": "https://www.gstatic.com/devrel-devsite/prod/v5e941f15ff6710591bee254538202655020220785b40a3f4d932e94adb9f6037/googledevai/images/touchicon-180-new.png",
+      "sourceSHA256": "46dea242a643a5e1d36b969f369c64f68134586de60a5bd5a5e1ce64808cd159",
+      "file": "ProviderLogoGoogle.imageset/logo.png",
+      "sha256": "68290033bc07143d7da81a53a8e6488d4f6d267648ff603c6ea0607ef07298c8",
+      "sourceDimensions": [
+        180,
+        180
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoXAI",
+      "provider": "XAI",
+      "sourcePage": "https://docs.x.ai/overview",
+      "sourceURL": "https://docs.x.ai/_next/static/media/favicon-light.1u6watcuoe8mg.svg?dpl=fab810550d06fd6c28e54e6079cac6c27f35ea13",
+      "sourceSHA256": "f441eef32955dabf2ded0bb66bf5674a53afb81557d9281c00735dd245dfdc86",
+      "file": "ProviderLogoXAI.imageset/logo.png",
+      "sha256": "60ee88372c6e9d1b2166245b1b08da05a2a01f6ee5d0cc877ca88cd5c21834bd",
+      "sourceDimensions": [
+        512,
+        512
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoMeta",
+      "provider": "Meta",
+      "sourcePage": "https://developer.meta.com/ai/",
+      "sourceURL": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+      "sourceSHA256": "9c354dc7d40f7862df2dfb34df05ae08c3e956d55a450379803d6cac6878a63e",
+      "file": "ProviderLogoMeta.imageset/logo.png",
+      "sha256": "8d51e79f2782395a7d3c5d88d489bcf116f6732fe663f8b54b08a3f61c82a7bb",
+      "sourceDimensions": [
+        32,
+        32
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoMistral",
+      "provider": "Mistral",
+      "sourcePage": "https://mistral.ai/",
+      "sourceURL": "https://mistral.ai/",
+      "sourceSHA256": "fcc1e2b4b630bf7eab2c12b5228d8e788f8394bba7db3cfcb2bb3d8d7cba9986",
+      "file": "ProviderLogoMistral.imageset/logo.png",
+      "sha256": "9d73cf7835a282ec2b10ccbeb1d1a03ba3018427c4687fd1aba1828b63154c7c",
+      "sourceDimensions": [
+        21,
+        15
+      ],
+      "adaptation": "Unchanged SVG inside data-mobile-logo-icon"
+    },
+    {
+      "asset": "ProviderLogoCohere",
+      "provider": "Cohere",
+      "sourcePage": "https://cohere.com/",
+      "sourceURL": "https://cohere.com/logo_mobile.svg",
+      "sourceSHA256": "e8e16e7acc738997a398e7f06027b8ae8d5eb27047f5f63219db55868bb8cde9",
+      "file": "ProviderLogoCohere.imageset/logo.png",
+      "sha256": "3d299b8564215a08e889fde635326bf1f62acedcbdd4486d869624f16f5e39af",
+      "sourceDimensions": [
+        32,
+        32
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoDeepSeek",
+      "provider": "DeepSeek",
+      "sourcePage": "https://www.deepseek.com/",
+      "sourceURL": "https://www.deepseek.com/favicon.ico",
+      "sourceSHA256": "30a4420e6e4dcb17fd7de560c5004346c2bc8cd971d2d5f5ee15326603e51321",
+      "file": "ProviderLogoDeepSeek.imageset/logo.png",
+      "sha256": "9b2db0a2999ede9cc23340f7b712b60143d7ef6f4c255e01858dc27e88316c79",
+      "sourceDimensions": [
+        225,
+        225
+      ],
+      "adaptation": "Largest ICO frame to RGBA PNG"
+    },
+    {
+      "asset": "ProviderLogoQwen",
+      "provider": "Qwen",
+      "sourcePage": "https://qwen.ai/",
+      "sourceURL": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+      "sourceSHA256": "cd9390bc4209c319121d111f3a1f535b3c7dd909b8f860d41acc9744138d58df",
+      "file": "ProviderLogoQwen.imageset/logo.png",
+      "sha256": "91ab3e27df5b4643acea804d04d53cf8c1b92157a2caf662ae1bf259d40a0eba",
+      "sourceDimensions": [
+        80,
+        80
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoKimi",
+      "provider": "Kimi",
+      "sourcePage": "https://www.kimi.com/",
+      "sourceURL": "https://www.kimi.com/pwa-192.png",
+      "sourceSHA256": "6c14f9c3062e953b3ed57ae3e19db931c1c1bba38d4d8d55550544f31d55e469",
+      "file": "ProviderLogoKimi.imageset/logo.png",
+      "sha256": "0e16366e8c71c8399cd8070e2cd0751a56f97805b013f2d1125c68afa81861e1",
+      "sourceDimensions": [
+        192,
+        192
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoZAI",
+      "provider": "ZAI",
+      "sourcePage": "https://chat.z.ai/",
+      "sourceURL": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+      "sourceSHA256": "07a45e8e35b0b631ed2c68cd1cb041f9721b1ceeb0bd0e34f1459b0304a741c7",
+      "file": "ProviderLogoZAI.imageset/logo.png",
+      "sha256": "d5919324631ce98bcb8097d7cf066ce3bb7759a27f33f129b051176ab5fa3890",
+      "sourceDimensions": [
+        30,
+        30
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoMiniMax",
+      "provider": "MiniMax",
+      "sourcePage": "https://platform.minimax.io/docs",
+      "sourceURL": "https://platform.minimax.io/docs/_mintlify/favicons/minimax-cac98058/-WSO_KEoennf5XoM/_generated/favicon/android-chrome-192x192.png",
+      "sourceSHA256": "0aae2ffc825290a09480fc96764af962158fef670a7e8059c25b5413f0354489",
+      "file": "ProviderLogoMiniMax.imageset/logo.png",
+      "sha256": "bf538ade68ebf64b6c8e538b4cc36ab3bf064ce108096c55c4ded545ad70423b",
+      "sourceDimensions": [
+        192,
+        192
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoAI21",
+      "provider": "AI21",
+      "sourcePage": "https://docs.ai21.com/home",
+      "sourceURL": "https://mintcdn.com/ai21-demo/ae4eOvPS_ZOlDCYT/images/AI21_Logo_black.png",
+      "sourceSHA256": "26fdd476f860cdec810d933431af4ae76d07561c292df4d00cda022a78c6a2a3",
+      "file": "ProviderLogoAI21.imageset/logo.png",
+      "sha256": "5cb2f2e6a0d406379169300f368411597b8721503d874195f33217e9eb82ff44",
+      "sourceDimensions": [
+        3402,
+        1149
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoGroq",
+      "provider": "Groq",
+      "sourcePage": "https://groq.com/",
+      "sourceURL": "https://groq.com/favicon.svg",
+      "sourceSHA256": "62f86752be058119931605a9b068496dc931ccb3d8210614ea373f11fdeef6a1",
+      "file": "ProviderLogoGroq.imageset/logo.png",
+      "sha256": "29ba394d09ece4f7736d5b39ff7e99d93eb7c42bd27b5e127d012cd5d988dd07",
+      "sourceDimensions": [
+        33,
+        33
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoTogetherAI",
+      "provider": "TogetherAI",
+      "sourcePage": "https://www.together.ai/",
+      "sourceURL": "https://cdn.prod.website-files.com/69654e88dce9154b5f1206dd/69a59cff65ed0f267dd2fbe8_touchicon.png",
+      "sourceSHA256": "b4755d2c1d2ac7c67ff2002ae2d237db5a9c6c592606d64625991e5a7cf8568f",
+      "file": "ProviderLogoTogetherAI.imageset/logo.png",
+      "sha256": "fbc3cbf32cb115f853dd693a9b1c00de0792e99e611a5956ca2af8a01c3d8db5",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoFireworksAI",
+      "provider": "FireworksAI",
+      "sourcePage": "https://fireworks.ai/",
+      "sourceURL": "https://fireworks.ai/icon0.svg?e3d99deadffb6216",
+      "sourceSHA256": "86b7f4b33ca48c5617f10e2cef5aaa7096c5e798090ceb2d0c21b01273660c76",
+      "file": "ProviderLogoFireworksAI.imageset/logo.png",
+      "sha256": "13be3b97181fb57079e5a5b34b3ff69a059d1df3d1f53cc8248ad2318beae08d",
+      "sourceDimensions": [
+        32,
+        32
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoCerebras",
+      "provider": "Cerebras",
+      "sourcePage": "https://www.cerebras.ai/",
+      "sourceURL": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
+      "sourceSHA256": "820ee5e5acfbb89fc3ca5044c59acc417fea89cf19dd74ae9a289c11e2f05e4c",
+      "file": "ProviderLogoCerebras.imageset/logo.png",
+      "sha256": "c573ecf3b11d9be09607dffbc4dd9b66df4490203e086851d517c99c22f9ebdd",
+      "sourceDimensions": [
+        512,
+        512
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoSambaNova",
+      "provider": "SambaNova",
+      "sourcePage": "https://sambanova.ai/",
+      "sourceURL": "https://sambanova.ai/hubfs/sambanova-favicon.png",
+      "sourceSHA256": "2621eabab0945bc71c1cb51ba034e2350ed19ac6fee2beaae88bdcf1cd1c4c84",
+      "file": "ProviderLogoSambaNova.imageset/logo.png",
+      "sha256": "74cffbcb9743bc598b82402f889bb3169d05e1c77ba9ceb78312759722f3985a",
+      "sourceDimensions": [
+        579,
+        523
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoNVIDIANIM",
+      "provider": "NVIDIANIM",
+      "sourcePage": "https://www.nvidia.com/tr-tr/",
+      "sourceURL": "https://www.nvidia.com/",
+      "sourceSHA256": "ec888ad05124132b86038285c54c07be638037a988b07cdc0c265fd222f9932e",
+      "file": "ProviderLogoNVIDIANIM.imageset/logo.png",
+      "sha256": "6349063e1db76bc5483496ee47967cd828c417be4eb8bb10e7ded3b521600a38",
+      "sourceDimensions": [
+        30,
+        20
+      ],
+      "adaptation": "Published eye-mark path with its original transform and green fill; standalone SVG viewport"
+    },
+    {
+      "asset": "ProviderLogoNebius",
+      "provider": "Nebius",
+      "sourcePage": "https://nebius.com/",
+      "sourceURL": "https://nebius.com/favicon/favicon.svg",
+      "sourceSHA256": "8cabc8f8f18ff81132097e27598b6d2002baa33e13c5404ea1e54eba4c6e5fd4",
+      "file": "ProviderLogoNebius.imageset/logo.png",
+      "sha256": "4e4794cf4c1d956260501aa69b07eaee62dac2d42887d1fc78484c8a8d964972",
+      "sourceDimensions": [
+        96,
+        96
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoHyperbolic",
+      "provider": "Hyperbolic",
+      "sourcePage": "https://www.hyperbolic.ai/",
+      "sourceURL": "https://www.hyperbolic.ai/favicon-light.ico",
+      "sourceSHA256": "0fae38c41ab3927bcb0ab338aa7d0ec115bfcf16cf96d7e62684be59fa364958",
+      "file": "ProviderLogoHyperbolic.imageset/logo.png",
+      "sha256": "2e1c5e42eed1e5bce0c9f88a2fe31bba2f223c6914d11045438f7cc3b2ae7e50",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Largest ICO frame to RGBA PNG"
+    },
+    {
+      "asset": "ProviderLogoBaseten",
+      "provider": "Baseten",
+      "sourcePage": "https://www.baseten.co/",
+      "sourceURL": "https://www.baseten.co/apple-icon.png",
+      "sourceSHA256": "62eb91839c4ee20644791dd0c732d9a18943672d6fe12077d4983b09600577e3",
+      "file": "ProviderLogoBaseten.imageset/logo.png",
+      "sha256": "75dc72270d349cb301185aa058aaa06fb048ab75e1cf16f2cfbcf58d558a3890",
+      "sourceDimensions": [
+        180,
+        180
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoScaleway",
+      "provider": "Scaleway",
+      "sourcePage": "https://www.scaleway.com/en/",
+      "sourceURL": "https://www.scaleway.com/favicon/website/favicon.svg",
+      "sourceSHA256": "51c7ffa592c55e6801f218d9a5ee7072cffb716438e2d09702f50cc582a25f3b",
+      "file": "ProviderLogoScaleway.imageset/logo.png",
+      "sha256": "2520e20797ebe649b503e5c6b285cd77f2027319992803bd2d88944870e37d03",
+      "sourceDimensions": [
+        16,
+        16
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoDigitalOcean",
+      "provider": "DigitalOcean",
+      "sourcePage": "https://www.digitalocean.com/",
+      "sourceURL": "https://www.digitalocean.com/_do-www-marketing/9c340121/_next/static/media/favicon.91372345.svg",
+      "sourceSHA256": "3c70e37aff2456ab3976163ac49b2ec0db36b95ea0f919413b5bab51ee69ac9e",
+      "file": "ProviderLogoDigitalOcean.imageset/logo.png",
+      "sha256": "68467b7a1492804882820abc80d712e4f250c79ca2c5f7fe0a2bd2b186305df7",
+      "sourceDimensions": [
+        32,
+        32
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoFeatherlessAI",
+      "provider": "FeatherlessAI",
+      "sourcePage": "https://featherless.ai/",
+      "sourceURL": "https://cdn.prod.website-files.com/6979c6c70c21b50639123793/699d5e193679f912ae1777e1_Frame%202147256585.png",
+      "sourceSHA256": "9bd420f0f57e2d41be7dc31b1059ef058d5930a708f24922bab85807bb6dc251",
+      "file": "ProviderLogoFeatherlessAI.imageset/logo.png",
+      "sha256": "c4e436f730d6d2b9198978e08c403ec8fc0e11e5ba893ed89f301e0d5dd3a06e",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoChutes",
+      "provider": "Chutes",
+      "sourcePage": "https://chutes.ai/",
+      "sourceURL": "https://chutes.ai/favicon.png",
+      "sourceSHA256": "1ec9ffad11af70374baba4588c03938309a16130a12f91c635f8ff29d76bf165",
+      "file": "ProviderLogoChutes.imageset/logo.png",
+      "sha256": "db65c5eead5a718534d50360f0ab294ddd51e1577c8262e8da5b0273ac66399f",
+      "sourceDimensions": [
+        512,
+        512
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoSiliconFlow",
+      "provider": "SiliconFlow",
+      "sourcePage": "https://www.siliconflow.com/",
+      "sourceURL": "https://framerusercontent.com/images/bFE5gkPwrI76ftGXfAEDMfKyC9Q.png",
+      "sourceSHA256": "de24dbe378ddc893071841e6a2c0c213108ccec0e98bb4a8042428accc847224",
+      "file": "ProviderLogoSiliconFlow.imageset/logo.png",
+      "sha256": "007d4d9c3516b9617e48647126b93a41aee320061e1a5dc3a7c0e10b4a94eb66",
+      "sourceDimensions": [
+        180,
+        180
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoPerplexity",
+      "provider": "Perplexity",
+      "sourcePage": "https://docs.perplexity.ai/docs/getting-started/overview",
+      "sourceURL": "https://docs.perplexity.ai/mintlify-assets/_mintlify/favicons/perplexity/rSPP83rcZL_iw-xo/_generated/favicon/android-chrome-192x192.png",
+      "sourceSHA256": "97d8e57726298a7af87446aa79888562d8cbeb16757c2b10eaf90499cec8c9c3",
+      "file": "ProviderLogoPerplexity.imageset/logo.png",
+      "sha256": "f428545f82223497c0982429baea310ff2ff20b94f6e8c845775a3ebfb5ca54c",
+      "sourceDimensions": [
+        192,
+        192
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoHuggingFace",
+      "provider": "HuggingFace",
+      "sourcePage": "https://huggingface.co/",
+      "sourceURL": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "sourceSHA256": "3613c73f07ccae19118bfe6d2f8cd127183d08cf99468a708e090953e116ed0a",
+      "file": "ProviderLogoHuggingFace.imageset/logo.png",
+      "sha256": "31afeebc7feb192c25589ba11492cea39a23fd6ad8df14e8b6d6e5589dea5dee",
+      "sourceDimensions": [
+        95,
+        88
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoAIMLAPI",
+      "provider": "AIMLAPI",
+      "sourcePage": "https://aimlapi.com/",
+      "sourceURL": "https://cdn.prod.website-files.com/65b8f36fa600366bc7cf9a67/6882319cfc66d25ec955be54_123.png",
+      "sourceSHA256": "721266ac3f973496e4e7f0a2a2a5be9140d556b69c307858bdbdc836aa8d50a0",
+      "file": "ProviderLogoAIMLAPI.imageset/logo.png",
+      "sha256": "1af8c89c5a985d68ecb32c336a5b25d4a8a55f101014e6334bc25ca8abcd74b3",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoMicrosoftFoundry",
+      "provider": "MicrosoftFoundry",
+      "sourcePage": "https://ai.azure.com/",
+      "sourceURL": "https://ai.azure.com/favicon.ico",
+      "sourceSHA256": "4b527edd0ee4711383501bae4bd3b919fe1330215551df4951e45685fef72fdf",
+      "file": "ProviderLogoMicrosoftFoundry.imageset/logo.png",
+      "sha256": "011db068a289c8880ea759f96b548f5e8f58cfdc18e3f146067d8c478cb0f09a",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Largest ICO frame to RGBA PNG"
+    },
+    {
+      "asset": "ProviderLogoAmazonBedrock",
+      "provider": "AmazonBedrock",
+      "sourcePage": "https://aws.amazon.com/bedrock/",
+      "sourceURL": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png",
+      "sourceSHA256": "f80d3ec6c5b2adee55267ecfcf2fc4131aa8551a546b7a1971b5e465c05c2403",
+      "file": "ProviderLogoAmazonBedrock.imageset/logo.png",
+      "sha256": "bb76004d063a9819592b8ef555334b11de7ef2b25177e2e04e87a74c0abcbab5",
+      "sourceDimensions": [
+        144,
+        144
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoDeepInfra",
+      "provider": "DeepInfra",
+      "sourcePage": "https://deepinfra.com/",
+      "sourceURL": "https://deepinfra.com/fav-192.png",
+      "sourceSHA256": "04c6da8033fd9c0c2455787f0ad64ff16aaccb71df14ecaf4b38c59facdd1116",
+      "file": "ProviderLogoDeepInfra.imageset/logo.png",
+      "sha256": "41aa1bd1fa4cb5c5417e61ce6454b0c0df0b19e0a16927978f450374c464e600",
+      "sourceDimensions": [
+        192,
+        192
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoVercelAI",
+      "provider": "VercelAI",
+      "sourcePage": "https://vercel.com/",
+      "sourceURL": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png",
+      "sourceSHA256": "004f0e08cdbab6da3f70ae43ebc8353b12320c68e1162337718febcac3c1ee75",
+      "file": "ProviderLogoVercelAI.imageset/logo.png",
+      "sha256": "95959a73b5c0bc580a1f1a9d2992e88bee9ff79402430873cf62825e520d8d3d",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoNovitaAI",
+      "provider": "NovitaAI",
+      "sourcePage": "https://novita.ai/",
+      "sourceURL": "https://novita.ai/logo/logo_small.svg",
+      "sourceSHA256": "21f50cd74ca927d57102f255f234791d8f8008837362a9b32c5f32688f01df06",
+      "file": "ProviderLogoNovitaAI.imageset/logo.png",
+      "sha256": "f31eceeab6683d08564ed8590da6a281bd342dd4772ba3ef3f673e54115b3fa3",
+      "sourceDimensions": [
+        24,
+        15
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoTencentTokenHub",
+      "provider": "TencentTokenHub",
+      "sourcePage": "https://www.tencentcloud.com/products/tokenhub",
+      "sourceURL": "https://static.cloudcachetci.com/qcloud/ui/event/2026/lmp/img/product-icon-1.svg",
+      "sourceSHA256": "86b18d315bc0005f052c10b9bc06aeef762e41960999f4934426fc61654977c6",
+      "file": "ProviderLogoTencentTokenHub.imageset/logo.png",
+      "sha256": "6819b6bd0f2f3305d4b10f70413c82d1bb3ba270fd71fc7577d1581e7ab20b97",
+      "sourceDimensions": [
+        32,
+        32
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoBaiduQianfan",
+      "provider": "BaiduQianfan",
+      "sourcePage": "https://cloud.baidu.com/product-s/qianfan_home",
+      "sourceURL": "https://bce.bdstatic.com/img/favicon.ico",
+      "sourceSHA256": "38cc162afabad330b02199760aabfa6242310ccd7353e26eb0846b0c4769ccbf",
+      "file": "ProviderLogoBaiduQianfan.imageset/logo.png",
+      "sha256": "cb3ebb2022ad4c0721aefc39f36b9fd3d74d0c241e445f8478ad96cd67377109",
+      "sourceDimensions": [
+        128,
+        128
+      ],
+      "adaptation": "Largest ICO frame to RGBA PNG"
+    },
+    {
+      "asset": "ProviderLogoPoe",
+      "provider": "Poe",
+      "sourcePage": "https://creator.poe.com/docs",
+      "sourceURL": "https://creator.poe.com/img/favicon.svg",
+      "sourceSHA256": "9d5afd61c22930329b81fb1c533b0ad215724aa1494f373a4ba5799ea5f0e65f",
+      "file": "ProviderLogoPoe.imageset/logo.png",
+      "sha256": "29d95f5d6f38ca6d6ba3f2e898af759218b32d58e1b0e6294945310d1b7b6615",
+      "sourceDimensions": [
+        256,
+        256
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoVoyageAI",
+      "provider": "VoyageAI",
+      "sourcePage": "https://www.voyageai.com/",
+      "sourceURL": "https://www.voyageai.com/icon.svg",
+      "sourceSHA256": "dd27eee6d8329528f1fba7b86e0b4bf57389d081ce53a4e1d76bef036d1499ff",
+      "file": "ProviderLogoVoyageAI.imageset/logo.png",
+      "sha256": "fb2759e8d5f6bca6182dcd804815bc537b69f0463fbcdd2497ae40e71166121c",
+      "sourceDimensions": [
+        150,
+        157
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoJinaAI",
+      "provider": "JinaAI",
+      "sourcePage": "https://jina.ai/",
+      "sourceURL": "https://jina.ai/icons/favicon-128x128.png",
+      "sourceSHA256": "1fc7fa5210f845fa4efa32dfe1f800063009919ac6a066df3825b80196baa316",
+      "file": "ProviderLogoJinaAI.imageset/logo.png",
+      "sha256": "71639f73444a9f03b39d03293f980012660967a71a8d5fcf88a0a7a47f7ee354",
+      "sourceDimensions": [
+        128,
+        128
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoOllama",
+      "provider": "Ollama",
+      "sourcePage": "https://docs.ollama.com/",
+      "sourceURL": "https://mintcdn.com/ollama-9269c548/XefrxzvUktkk84RL/images/logo.png",
+      "sourceSHA256": "656dedf1acfdc29cda6efd4f4d09173c671b260aae0f92a1f9e40b30a44f22c7",
+      "file": "ProviderLogoOllama.imageset/logo.png",
+      "sha256": "c2c1b069ccbb01e58c993e267b34bc3cf232081c9f54634c969ffc479d9404e5",
+      "sourceDimensions": [
+        128,
+        128
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoLMStudio",
+      "provider": "LMStudio",
+      "sourcePage": "https://lmstudio.ai/",
+      "sourceURL": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
+      "sourceSHA256": "e79ff2ac0fece5c0a76fcb8b20a29226794d11824ee7c7a2f521dcde0f88e12b",
+      "file": "ProviderLogoLMStudio.imageset/logo.png",
+      "sha256": "08305fec02e7e450e53c1d04c014fb80e6ddfeed434d28227202840e7a8beb98",
+      "sourceDimensions": [
+        192,
+        192
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoLocalAI",
+      "provider": "LocalAI",
+      "sourcePage": "https://localai.io/",
+      "sourceURL": "https://localai.io/img/logo-mark.png",
+      "sourceSHA256": "ad78f1dc3c085c96813cb758ee3ee4f1cffd66fcac24fb6bba7d215c73bb07f8",
+      "file": "ProviderLogoLocalAI.imageset/logo.png",
+      "sha256": "7e19fdc8841cf9bcc10db5d3e56f668696c31d2bcfc94918c84cc0aa6cecd670",
+      "sourceDimensions": [
+        240,
+        163
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoVLLM",
+      "provider": "VLLM",
+      "sourcePage": "https://vllm.ai/",
+      "sourceURL": "https://vllm.ai/vLLM-Logo.svg",
+      "sourceSHA256": "12a0812e247cef4b31160e0d0267142ffe491491537f3e275d8bc645b61eb1a8",
+      "file": "ProviderLogoVLLM.imageset/logo.png",
+      "sha256": "c1b39c96f20b9b7842ebf18c39b3373ad39ea42194a65f18b5a0d7a62ac3b0f4",
+      "sourceDimensions": [
+        96,
+        96
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoSGLang",
+      "provider": "SGLang",
+      "sourcePage": "https://docs.sglang.ai/",
+      "sourceURL": "https://mintcdn.com/lmsysorg/iZdDMbLWP1BLEIzC/logo/logo.png",
+      "sourceSHA256": "4af0b4cbf4fe9479c1fc3675e025f2752b67bd9a7c15a0003af11110c6ee4165",
+      "file": "ProviderLogoSGLang.imageset/logo.png",
+      "sha256": "f1706f71ce68b4fe13d5a1e7ccf2da37e631a125c0fcc41a6ff29e6c728b6e6f",
+      "sourceDimensions": [
+        2392,
+        728
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoLlamaCpp",
+      "provider": "LlamaCpp",
+      "sourcePage": "https://raw.githubusercontent.com/ggml-org/llama.brand/master/README.md",
+      "sourceURL": "https://raw.githubusercontent.com/ggml-org/llama.brand/master/icon/icon-light.svg",
+      "sourceSHA256": "ce48c0f8e98aa4099b6f04a65b76bc32bc00c8fa39d58f15da9b73905f1918f1",
+      "file": "ProviderLogoLlamaCpp.imageset/logo.png",
+      "sha256": "68dfd8f4521c6dc9cf1f49b10fb503e88706c6793bcf89bd593ccd72fbd14408",
+      "sourceDimensions": [
+        600,
+        600
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoJan",
+      "provider": "Jan",
+      "sourcePage": "https://www.jan.ai/",
+      "sourceURL": "https://www.jan.ai/_next/static/media/logo-jan.db83c5f0.svg",
+      "sourceSHA256": "848da72ddb86680db1f30e6e2b6d9584413e0170a67732f0107d167ae3995828",
+      "file": "ProviderLogoJan.imageset/logo.png",
+      "sha256": "ee642bd13fcc457e2cfa797cd9ce4d1f1d1486579f7545576916d90b7914194f",
+      "sourceDimensions": [
+        1763,
+        1763
+      ],
+      "adaptation": "Original artwork; proportional PNG conversion with transparent square padding"
+    },
+    {
+      "asset": "ProviderLogoOpenRouter",
+      "provider": "OpenRouter",
+      "sourcePage": "https://github.com/OpenRouterTeam/sign-in-with-openrouter/blob/main/public/openrouter-logo.svg",
+      "sourceURL": "https://github.com/OpenRouterTeam/sign-in-with-openrouter/blob/main/public/openrouter-logo.svg",
+      "file": "ProviderLogoOpenRouter.imageset/openrouter-light.svg",
+      "sha256": "c4943d4ec59dba038e3f806ba29f23e5978861199c8d99a921d8d75d16c7a9a2",
+      "adaptation": "Existing official light/dark variant retained"
+    },
+    {
+      "asset": "ProviderLogoOpenRouter",
+      "provider": "OpenRouter",
+      "sourcePage": "https://github.com/OpenRouterTeam/sign-in-with-openrouter/blob/main/public/openrouter-logo.svg",
+      "sourceURL": "https://github.com/OpenRouterTeam/sign-in-with-openrouter/blob/main/public/openrouter-logo.svg",
+      "file": "ProviderLogoOpenRouter.imageset/openrouter-dark.svg",
+      "sha256": "403c734d0af7434db28b3febc0331038208c1deafe50df2410ab6b9f93ee5333",
+      "adaptation": "Existing official light/dark variant retained"
+    },
+    {
+      "asset": "ProviderLogoTinfoil",
+      "provider": "Tinfoil",
+      "sourcePage": "https://tinfoil.sh/brand",
+      "sourceURL": "https://tinfoil.sh/brand",
+      "file": "ProviderLogoTinfoil.imageset/tinfoil-light.svg",
+      "sha256": "e1bfd14b8a5f1f313be2dc2956d27079aa37ddd33549a23bf298a7a3da8ad62d",
+      "adaptation": "Existing official light/dark variant retained"
+    },
+    {
+      "asset": "ProviderLogoTinfoil",
+      "provider": "Tinfoil",
+      "sourcePage": "https://tinfoil.sh/brand",
+      "sourceURL": "https://tinfoil.sh/brand",
+      "file": "ProviderLogoTinfoil.imageset/tinfoil-dark.svg",
+      "sha256": "fc2bd6f435b93730e6613d3e265a73f7b28451a836af703bd73ec54e4950aabe",
+      "adaptation": "Existing official light/dark variant retained"
+    }
+  ]
+}

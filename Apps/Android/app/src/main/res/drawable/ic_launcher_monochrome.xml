@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon (Android 13+) silhouette of the brand mark, traced from turing_mark.png and placed on
+     the same 108dp canvas as ic_launcher_foreground (18dp inset): the bar, the stem, the shading flare
+     under the bar and the page-curl at the foot of the stem. Only the alpha channel is used. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="108dp"
+  android:height="108dp"
+  android:viewportWidth="108"
+  android:viewportHeight="108">
+  <path
+    android:fillColor="#FFFFFFFF"
+    android:pathData="M31.5,33 H76.4 V43 H69.9 C64.2,43.5 61.6,45 60.5,46.7 V64.7 C60.5,69 57.6,73 50.3,74.5 H47.4 V46.7 C46.3,45 43.6,43.5 37.8,43 H31.5 Z" />
+</vector>

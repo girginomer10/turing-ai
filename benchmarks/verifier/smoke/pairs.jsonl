@@ -1,0 +1,54 @@
+{"id": "s01", "lang": "tr", "premise": "Sokakta iki yavru kedi buldum, ne yapmalıyım?", "hypothesis": "Kullanıcının iki kedisi var.", "expected": "neutral"}
+{"id": "s02", "lang": "tr", "premise": "Artık bir kedim var, adı Pamuk.", "hypothesis": "Kullanıcının bir kedisi var.", "expected": "entailment"}
+{"id": "s03", "lang": "tr", "premise": "Kız kardeşim Berlin'de çalışıyor.", "hypothesis": "Kullanıcı Berlin'de çalışıyor.", "expected": "neutral"}
+{"id": "s04", "lang": "tr", "premise": "Kız kardeşim Berlin'de çalışıyor.", "hypothesis": "Kullanıcının kız kardeşi Berlin'de çalışıyor.", "expected": "entailment"}
+{"id": "s05", "lang": "tr", "premise": "Seneye Paris'e taşınmayı düşünüyorum.", "hypothesis": "Kullanıcı Paris'te yaşıyor.", "expected": "neutral"}
+{"id": "s06", "lang": "tr", "premise": "Seneye Paris'e taşınmayı düşünüyorum.", "hypothesis": "Kullanıcı seneye Paris'e taşınmayı planlıyor.", "expected": "entailment"}
+{"id": "s07", "lang": "tr", "premise": "Geçen yıl Lyon'da yaşıyordum, şimdi İzmir'deyim.", "hypothesis": "Kullanıcı şu anda Lyon'da yaşıyor.", "expected": "contradiction"}
+{"id": "s08", "lang": "tr", "premise": "Geçen yıl Lyon'da yaşıyordum, şimdi İzmir'deyim.", "hypothesis": "Kullanıcı şu anda İzmir'de yaşıyor.", "expected": "entailment"}
+{"id": "s09", "lang": "tr", "premise": "Artık kahve içmiyorum, bıraktım.", "hypothesis": "Kullanıcı her gün kahve içer.", "expected": "contradiction"}
+{"id": "s10", "lang": "tr", "premise": "Artık kahve içmiyorum, bıraktım.", "hypothesis": "Kullanıcı kahveyi bıraktı.", "expected": "entailment"}
+{"id": "s11", "lang": "tr", "premise": "Annem doktor, babam öğretmen.", "hypothesis": "Kullanıcı doktor.", "expected": "neutral"}
+{"id": "s12", "lang": "tr", "premise": "Annem doktor, babam öğretmen.", "hypothesis": "Kullanıcının annesi doktor.", "expected": "entailment"}
+{"id": "s13", "lang": "tr", "premise": "Vejetaryen değilim ama kırmızı et yemiyorum.", "hypothesis": "Kullanıcı vejetaryen.", "expected": "contradiction"}
+{"id": "s14", "lang": "tr", "premise": "Vejetaryen değilim ama kırmızı et yemiyorum.", "hypothesis": "Kullanıcı kırmızı et yemiyor.", "expected": "entailment"}
+{"id": "s15", "lang": "tr", "premise": "Haftaya İstanbul'a uçuyorum, bilet aldım.", "hypothesis": "Kullanıcı İstanbul'da yaşıyor.", "expected": "neutral"}
+{"id": "s16", "lang": "tr", "premise": "Haftaya İstanbul'a uçuyorum, bilet aldım.", "hypothesis": "Kullanıcı haftaya İstanbul'a gidecek.", "expected": "entailment"}
+{"id": "s17", "lang": "tr", "premise": "Erkek kardeşim yok, iki ablam var.", "hypothesis": "Kullanıcının bir erkek kardeşi var.", "expected": "contradiction"}
+{"id": "s18", "lang": "tr", "premise": "Erkek kardeşim yok, iki ablam var.", "hypothesis": "Kullanıcının iki ablası var.", "expected": "entailment"}
+{"id": "s19", "lang": "tr", "premise": "Eşim Ankara'da bir bankada çalışıyor.", "hypothesis": "Kullanıcı bir bankada çalışıyor.", "expected": "neutral"}
+{"id": "s20", "lang": "tr", "premise": "Üç yıldır Berlin'de yaşıyorum.", "hypothesis": "Kullanıcı Berlin'de yaşıyor.", "expected": "entailment"}
+{"id": "s21", "lang": "tr", "premise": "Üç yıldır Berlin'de yaşıyorum.", "hypothesis": "Kullanıcı Berlin'de doğdu.", "expected": "neutral"}
+{"id": "s22", "lang": "tr", "premise": "Köpeğimiz geçen ay öldü, çok üzgünüz.", "hypothesis": "Kullanıcının bir köpeği var.", "expected": "contradiction"}
+{"id": "s23", "lang": "tr", "premise": "Pazartesi işe başlıyorum, yeni şirket Kadıköy'de.", "hypothesis": "Kullanıcı Kadıköy'de yaşıyor.", "expected": "neutral"}
+{"id": "s24", "lang": "tr", "premise": "Pazartesi işe başlıyorum, yeni şirket Kadıköy'de.", "hypothesis": "Kullanıcının yeni işi Kadıköy'de.", "expected": "entailment"}
+{"id": "s25", "lang": "tr", "premise": "Sigarayı iki ay önce bıraktım.", "hypothesis": "Kullanıcı sigara içiyor.", "expected": "contradiction"}
+{"id": "e01", "lang": "en", "premise": "I found two kittens on the street, what should I do?", "hypothesis": "The user owns two cats.", "expected": "neutral"}
+{"id": "e02", "lang": "en", "premise": "I now have a cat, her name is Pamuk.", "hypothesis": "The user owns a cat.", "expected": "entailment"}
+{"id": "e03", "lang": "en", "premise": "My sister works in Berlin.", "hypothesis": "The user works in Berlin.", "expected": "neutral"}
+{"id": "e04", "lang": "en", "premise": "My sister works in Berlin.", "hypothesis": "The user's sister works in Berlin.", "expected": "entailment"}
+{"id": "e05", "lang": "en", "premise": "I'm thinking about moving to Paris next year.", "hypothesis": "The user lives in Paris.", "expected": "neutral"}
+{"id": "e06", "lang": "en", "premise": "I'm thinking about moving to Paris next year.", "hypothesis": "The user is considering a move to Paris next year.", "expected": "entailment"}
+{"id": "e07", "lang": "en", "premise": "Last year I lived in Lyon; now I'm in Izmir.", "hypothesis": "The user currently lives in Lyon.", "expected": "contradiction"}
+{"id": "e08", "lang": "en", "premise": "Last year I lived in Lyon; now I'm in Izmir.", "hypothesis": "The user currently lives in Izmir.", "expected": "entailment"}
+{"id": "e09", "lang": "en", "premise": "I don't drink coffee anymore, I quit.", "hypothesis": "The user drinks coffee every day.", "expected": "contradiction"}
+{"id": "e10", "lang": "en", "premise": "I don't drink coffee anymore, I quit.", "hypothesis": "The user quit coffee.", "expected": "entailment"}
+{"id": "e11", "lang": "en", "premise": "My mother is a doctor and my father is a teacher.", "hypothesis": "The user is a doctor.", "expected": "neutral"}
+{"id": "e12", "lang": "en", "premise": "My mother is a doctor and my father is a teacher.", "hypothesis": "The user's mother is a doctor.", "expected": "entailment"}
+{"id": "e13", "lang": "en", "premise": "I'm not vegetarian, but I don't eat red meat.", "hypothesis": "The user is vegetarian.", "expected": "contradiction"}
+{"id": "e14", "lang": "en", "premise": "I'm not vegetarian, but I don't eat red meat.", "hypothesis": "The user does not eat red meat.", "expected": "entailment"}
+{"id": "e15", "lang": "en", "premise": "I'm flying to Istanbul next week, got the ticket.", "hypothesis": "The user lives in Istanbul.", "expected": "neutral"}
+{"id": "e16", "lang": "en", "premise": "I'm flying to Istanbul next week, got the ticket.", "hypothesis": "The user will travel to Istanbul next week.", "expected": "entailment"}
+{"id": "e17", "lang": "en", "premise": "I don't have a brother, I have two older sisters.", "hypothesis": "The user has a brother.", "expected": "contradiction"}
+{"id": "e18", "lang": "en", "premise": "I don't have a brother, I have two older sisters.", "hypothesis": "The user has two older sisters.", "expected": "entailment"}
+{"id": "e19", "lang": "en", "premise": "My wife works at a bank in Ankara.", "hypothesis": "The user works at a bank.", "expected": "neutral"}
+{"id": "e20", "lang": "en", "premise": "I've lived in Berlin for three years.", "hypothesis": "The user lives in Berlin.", "expected": "entailment"}
+{"id": "e21", "lang": "en", "premise": "I've lived in Berlin for three years.", "hypothesis": "The user was born in Berlin.", "expected": "neutral"}
+{"id": "e22", "lang": "en", "premise": "Our dog died last month, we're devastated.", "hypothesis": "The user has a dog.", "expected": "contradiction"}
+{"id": "e23", "lang": "en", "premise": "I start my new job on Monday; the company is in Kadıköy.", "hypothesis": "The user lives in Kadıköy.", "expected": "neutral"}
+{"id": "e24", "lang": "en", "premise": "I start my new job on Monday; the company is in Kadıköy.", "hypothesis": "The user's new job is in Kadıköy.", "expected": "entailment"}
+{"id": "e25", "lang": "en", "premise": "I quit smoking two months ago.", "hypothesis": "The user smokes.", "expected": "contradiction"}
+{"id": "m01", "lang": "mixed", "premise": "Bu arada I moved to Berlin last month, iş için.", "hypothesis": "Kullanıcı Berlin'de yaşıyor.", "expected": "entailment"}
+{"id": "m02", "lang": "mixed", "premise": "Bu arada I moved to Berlin last month, iş için.", "hypothesis": "The user plans to move to Berlin.", "expected": "neutral"}
+{"id": "m03", "lang": "mixed", "premise": "Roommate'im vegan, ben değilim.", "hypothesis": "The user is vegan.", "expected": "contradiction"}
+{"id": "m04", "lang": "mixed", "premise": "Roommate'im vegan, ben değilim.", "hypothesis": "Kullanıcının ev arkadaşı vegan.", "expected": "entailment"}

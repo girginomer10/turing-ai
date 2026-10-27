@@ -1,0 +1,1225 @@
+{
+ "persona": "p4",
+ "summary": "A Turkish freelance illustrator living in Lisbon with a rescue dog, a co-working desk, surf habits and a mix of Nordic and German clients; mostly English with Turkish and a few Portuguese words.",
+ "items": [
+  {
+   "id": "p4-m001",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Work",
+   "text": "The user is a freelance illustrator based in Lisbon; most of the income comes from children's picture books and concept art for indie games.",
+   "age_days": 800,
+   "confidence": 0.92,
+   "importance": 0.85,
+   "container": "p4-c001"
+  },
+  {
+   "id": "p4-m002",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Co-working desk",
+   "text": "The user rents a hot desk at Casa Pátio, a co-working space in Cais do Sodré, and goes there Monday to Thursday; Fridays are for working from home.",
+   "age_days": 420,
+   "confidence": 0.88,
+   "importance": 0.6,
+   "container": "p4-c002"
+  },
+  {
+   "id": "p4-m003",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Dog Pastel",
+   "text": "The user has a rescue dog named Pastel, a four-year-old mixed breed of about 14 kg who is afraid of thunder.",
+   "age_days": 650,
+   "confidence": 0.93,
+   "importance": 0.8,
+   "container": "p4-c003"
+  },
+  {
+   "id": "p4-m004",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Pastel's vet",
+   "text": "Pastel's vet is Dr. Marta Figueiredo at a small clinic in Alvalade.",
+   "age_days": 600,
+   "confidence": 0.85,
+   "importance": 0.45,
+   "container": "p4-c004"
+  },
+  {
+   "id": "p4-m005",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Client Nordlys",
+   "text": "Nordlys Forlag, a Copenhagen publisher, is the user's most regular client; the current job is a picture book series about a fox called Rufus, with art director Mette.",
+   "age_days": 300,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p4-c005"
+  },
+  {
+   "id": "p4-m006",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Client Pixelwolf",
+   "text": "Pixelwolf Games in Berlin hires the user for character concept art at an hourly rate of €55; the producer there is Jonas.",
+   "age_days": 340,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p4-c006"
+  },
+  {
+   "id": "p4-m007",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Client Mercado Verde",
+   "text": "The user designs packaging illustrations for Mercado Verde, a Lisbon café chain, on a fixed project fee; Rita Soares is the art director there.",
+   "age_days": 120,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p4-c007"
+  },
+  {
+   "id": "p4-m008",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Vergi düzeni",
+   "text": "Kullanıcı Portekiz'de recibos verdes (serbest meslek makbuzu) kesiyor; vergi işlerini muhasebeci Sofia Matos üç ayda bir takip ediyor.",
+   "age_days": 500,
+   "confidence": 0.88,
+   "importance": 0.65,
+   "container": "p4-c008"
+  },
+  {
+   "id": "p4-m009",
+   "kind": "topic",
+   "lang": "mixed",
+   "title": "Para transferi",
+   "text": "The user receives client payments in a Wise account and moves the money every Friday to a Millennium BCP conta à ordem to cover daily expenses.",
+   "age_days": 450,
+   "confidence": 0.8,
+   "importance": 0.45,
+   "container": "p4-c009"
+  },
+  {
+   "id": "p4-m010",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Surfing habits",
+   "text": "The user surfs a 6'4 fish and usually goes to Ericeira on Sundays when the swell is under two metres; the wetsuit is a 4/3 mm.",
+   "age_days": 380,
+   "confidence": 0.88,
+   "importance": 0.55,
+   "container": "p4-c010"
+  },
+  {
+   "id": "p4-m011",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Annesi",
+   "text": "Kullanıcının annesi Eskişehir'de yaşıyor ve her pazar akşamı görüntülü arıyor; doğum günü 28 Eylül.",
+   "age_days": 700,
+   "confidence": 0.92,
+   "importance": 0.8,
+   "container": "p4-c011"
+  },
+  {
+   "id": "p4-m012",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kardeşi Can",
+   "text": "Kullanıcının kardeşi Can İstanbul'da yazılım mühendisi olarak çalışıyor; doğum günü 12 Nisan.",
+   "age_days": 690,
+   "confidence": 0.92,
+   "importance": 0.7,
+   "container": "p4-c012"
+  },
+  {
+   "id": "p4-m013",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Partner Inês",
+   "text": "The user's partner Inês is an architect in Lisbon; her birthday is on 19 June.",
+   "age_days": 560,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p4-c013"
+  },
+  {
+   "id": "p4-m014",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Daire ve kira",
+   "text": "Kullanıcı Arroios'ta kiralık bir dairede oturuyor; kira ayda 1.050 euro ve her ayın 1'inde ev sahibi Bay Menezes'in hesabına yatıyor.",
+   "age_days": 610,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p4-c014"
+  },
+  {
+   "id": "p4-m015",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Portekizce kursu",
+   "text": "Kullanıcı çarşamba akşamları Anjos'ta A2 seviyesinde Portekizce kursuna gidiyor; hocasının adı Teresa.",
+   "age_days": 40,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p4-c015"
+  },
+  {
+   "id": "p4-m016",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Ceramics class",
+   "text": "On Thursday evenings the user attends a wheel-throwing ceramics class at a studio in Graça; the teacher is Vasco.",
+   "age_days": 200,
+   "confidence": 0.82,
+   "importance": 0.35,
+   "container": "p4-c016"
+  },
+  {
+   "id": "p4-m017",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Çizim ekipmanı",
+   "text": "Kullanıcı eskizleri iPad Pro ve Procreate ile yapıyor; temiz çizimleri evdeki Wacom Cintiq 16 üzerinde bitiriyor.",
+   "age_days": 520,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p4-c017"
+  },
+  {
+   "id": "p4-m018",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Acil durum fonu",
+   "text": "Kullanıcı altı aylık gideri karşılayacak yaklaşık 9.000 euroluk bir acil durum fonu biriktirmeyi hedefliyor; şu an elinde yaklaşık 5.500 euro var.",
+   "age_days": 150,
+   "confidence": 0.8,
+   "importance": 0.7,
+   "container": "p4-c018"
+  },
+  {
+   "id": "p4-m019",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Oturma izni",
+   "text": "Kullanıcının Portekiz oturma izni Mart 2028'de bitiyor; yenileme için AIMA'dan randevu almak gerekecek.",
+   "age_days": 330,
+   "confidence": 0.85,
+   "importance": 0.65,
+   "container": "p4-c019"
+  },
+  {
+   "id": "p4-m020",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Surf buddy Duarte",
+   "text": "Duarte, the user's surf buddy, lives in Ericeira and lets the user crash in his spare room after dawn sessions.",
+   "age_days": 270,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p4-c020"
+  },
+  {
+   "id": "p4-m021",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Pastel's food",
+   "text": "Pastel eats grain-free salmon kibble from a pet shop in Arroios; a 12 kg bag lasts about five weeks.",
+   "age_days": 240,
+   "confidence": 0.82,
+   "importance": 0.3,
+   "container": "p4-c021"
+  },
+  {
+   "id": "p4-m022",
+   "kind": "topic",
+   "lang": "mixed",
+   "title": "Health plan",
+   "text": "The user's health insurance is a Médis plan costing €48 a month, which covers consultas at partner clinics.",
+   "age_days": 410,
+   "confidence": 0.85,
+   "importance": 0.45,
+   "container": "p4-c022"
+  },
+  {
+   "id": "p4-m023",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Coffee habit",
+   "text": "The user drinks two flat whites a day and usually buys them at Copenhagen Coffee Lab near the co-working space.",
+   "age_days": 210,
+   "confidence": 0.75,
+   "importance": 0.2,
+   "container": "p4-c023"
+  },
+  {
+   "id": "p4-m024",
+   "kind": "event",
+   "lang": "en",
+   "title": "Nordlys deadline",
+   "text": "On 19 October the user said the final twelve spreads for the Nordlys fox book are due on 6 November and that the €4,560 invoice will go out the same day.",
+   "age_days": 4,
+   "confidence": 0.88,
+   "importance": null,
+   "container": "p4-c024"
+  },
+  {
+   "id": "p4-m025",
+   "kind": "event",
+   "lang": "en",
+   "title": "Pixelwolf unpaid",
+   "text": "On 16 October the user said Pixelwolf still had not paid invoice 2026-037 (€1,980), which fell due on 10 October, and that they would chase Jonas on Monday.",
+   "age_days": 7,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c025"
+  },
+  {
+   "id": "p4-m026",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Mercado Verde onayı",
+   "text": "12 Ekim'de kullanıcı, Mercado Verde'nin ambalaj eskizlerini onayladığını ve 900 euroluk ikinci taksiti 15 Kasım'da ödeyeceklerini söyledi.",
+   "age_days": 11,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c026"
+  },
+  {
+   "id": "p4-m027",
+   "kind": "event",
+   "lang": "en",
+   "title": "Bologna book fair",
+   "text": "On 21 October the user said they registered as a visitor for the Bologna Children's Book Fair on 13-16 April and want to book a cheap flight before Christmas.",
+   "age_days": 2,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c027"
+  },
+  {
+   "id": "p4-m028",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Pastel aşı randevusu",
+   "text": "21 Ekim'de kullanıcı, Pastel'in yıllık aşı randevusunun 9 Kasım Pazartesi sabahı 09:30'da olduğunu söyledi.",
+   "age_days": 2,
+   "confidence": 0.88,
+   "importance": null,
+   "container": "p4-c028"
+  },
+  {
+   "id": "p4-m029",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Diş temizliği",
+   "text": "14 Ekim'de kullanıcı, kendi diş temizliği randevusunun 4 Kasım Çarşamba günü 16:00'da Areeiro'daki klinikte olduğunu söyledi.",
+   "age_days": 9,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c029"
+  },
+  {
+   "id": "p4-m030",
+   "kind": "event",
+   "lang": "en",
+   "title": "Ericeira weekend",
+   "text": "On 8 October the user said they would drive to Ericeira on 7-8 November to surf with Duarte, if the forecast holds.",
+   "age_days": 15,
+   "confidence": 0.7,
+   "importance": null,
+   "container": "p4-c030"
+  },
+  {
+   "id": "p4-m031",
+   "kind": "event",
+   "lang": "en",
+   "title": "Sagres trip",
+   "text": "On 20 October the user said they booked a van for a Sagres surf trip from 27 to 30 November, splitting the €240 cost with two friends.",
+   "age_days": 3,
+   "confidence": 0.88,
+   "importance": null,
+   "container": "p4-c031"
+  },
+  {
+   "id": "p4-m032",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Can'ın ziyareti",
+   "text": "17 Ekim'de kullanıcı, kardeşi Can'ın 12 Aralık Cumartesi günü İstanbul'dan Lizbon'a gelip altı gün kalacağını söyledi.",
+   "age_days": 6,
+   "confidence": 0.88,
+   "importance": null,
+   "container": "p4-c032"
+  },
+  {
+   "id": "p4-m033",
+   "kind": "event",
+   "lang": "tr",
+   "title": "İstanbul uçuşu",
+   "text": "10 Ekim'de kullanıcı, kendi İstanbul uçuşunu 23 Aralık sabahı 06:40'a aldığını, dönüşün 4 Ocak'ta olduğunu söyledi.",
+   "age_days": 13,
+   "confidence": 0.9,
+   "importance": null,
+   "container": "p4-c033"
+  },
+  {
+   "id": "p4-m034",
+   "kind": "event",
+   "lang": "en",
+   "title": "Co-working renewal",
+   "text": "On 22 October the user said the Casa Pátio membership renews on 1 November and the hot desk price rises from €160 to €175.",
+   "age_days": 1,
+   "confidence": 0.88,
+   "importance": null,
+   "container": "p4-c034"
+  },
+  {
+   "id": "p4-m035",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Çeyrek vergi beyanı",
+   "text": "13 Ekim'de kullanıcı, 3. çeyrek vergi beyanının 15 Kasım'a kadar verilmesi gerektiğini, muhasebeci Sofia'nın faturaları 5 Kasım'a kadar istediğini söyledi.",
+   "age_days": 10,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c035"
+  },
+  {
+   "id": "p4-m036",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Tesisatçı randevusu",
+   "text": "18 Ekim'de kullanıcı, ev sahibinin banyodaki sızıntı için 26 Ekim Pazartesi 14:00-17:00 arasında bir tesisatçı göndereceğini söyledi.",
+   "age_days": 5,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p4-c036"
+  },
+  {
+   "id": "p4-m037",
+   "kind": "message",
+   "lang": "en",
+   "title": "Pixelwolf reminder",
+   "text": "can you help me draft a polite but firm reminder to Pixelwolf? the payment is a week late and Jonas keeps saying finance is looking into it",
+   "age_days": 7,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c037"
+  },
+  {
+   "id": "p4-m038",
+   "kind": "message",
+   "lang": "en",
+   "title": "Late fee thought",
+   "text": "I'd rather not charge the late fee tbh, contract says 5% after 14 days. keep the tone friendly",
+   "age_days": 7,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c037"
+  },
+  {
+   "id": "p4-m039",
+   "kind": "message",
+   "lang": "en",
+   "title": "Next batch",
+   "text": "and add that I'm happy to start the next batch of sprites as soon as it clears",
+   "age_days": 7,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c037"
+  },
+  {
+   "id": "p4-m040",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Park kavgası",
+   "text": "Pastel bugün parkta başka bir köpekle hırlaştı ama sahibi 'it's fine' dedi. yine de biraz tedirgin oldum",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c038"
+  },
+  {
+   "id": "p4-m041",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Yağmurluk bedeni",
+   "text": "Pastel için kış yağmurluğu lazım, 14 kilo, hangi beden alayım? medium mu large mı",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c038"
+  },
+  {
+   "id": "p4-m042",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Pet sitter",
+   "text": "found a pet sitter, Beatriz, 15 euro a night, she'll keep Pastel while I'm in Istanbul over Christmas. çok rahatladım",
+   "age_days": 24,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c038"
+  },
+  {
+   "id": "p4-m043",
+   "kind": "message",
+   "lang": "en",
+   "title": "Sunday swell",
+   "text": "swell for Sunday in Ericeira looks like 1.8m at 12 seconds with offshore wind early. very tempted",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c039"
+  },
+  {
+   "id": "p4-m044",
+   "kind": "message",
+   "lang": "en",
+   "title": "Step-up board",
+   "text": "my 6'4 fish feels floaty on bigger days, maybe I should get a 6'8 step-up from the shaper in Peniche",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c039"
+  },
+  {
+   "id": "p4-m045",
+   "kind": "message",
+   "lang": "en",
+   "title": "Wetsuit budget",
+   "text": "wetsuit zip broke again, the 4/3 is six years old. budget around 250 euros for a new one",
+   "age_days": 32,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c039"
+  },
+  {
+   "id": "p4-m046",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Annemle konuşma",
+   "text": "annemle konuştum, Aralık'ta gelmemi çok istiyor. mercimek köftesi hazırlayacakmış bile",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c040"
+  },
+  {
+   "id": "p4-m047",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Can gezi planı",
+   "text": "Can için Lizbon gezisi planı çıkarır mısın? Sintra ve Belém olsun, 6 günün 2'sinde ben çalışmak zorundayım",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c040"
+  },
+  {
+   "id": "p4-m048",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Pastel de nata",
+   "text": "Can her seferinde Manteigaria'ya gitmek istiyor ama bu sefer pastel de nata için başka bir yer bulalım",
+   "age_days": 13,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c040"
+  },
+  {
+   "id": "p4-m049",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Çeyrek geliri",
+   "text": "bu çeyrekte toplam 7.4k fatura kesmişim, geçen çeyrek 9.1k idi. need more game work",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c041"
+  },
+  {
+   "id": "p4-m050",
+   "kind": "message",
+   "lang": "tr",
+   "title": "KDV rejimi",
+   "text": "KDV muafiyeti rejimine geçsem mi yoksa normal mi devam etsem? Sofia Ocak'tan önce karar ver dedi",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c041"
+  },
+  {
+   "id": "p4-m051",
+   "kind": "message",
+   "lang": "en",
+   "title": "Series extension",
+   "text": "Nordlys wants to extend the fox series to 6 books if the first two sell well. nothing signed yet",
+   "age_days": 44,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c041"
+  },
+  {
+   "id": "p4-m052",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Klima",
+   "text": "cowork'te klima çok soğuk, I'm wearing a hoodie in October lol",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c042"
+  },
+  {
+   "id": "p4-m053",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Desk değişimi",
+   "text": "pencere kenarındaki desk'i yeni gelen biri almış, now I'm stuck at the corner one next to the printer",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c042"
+  },
+  {
+   "id": "p4-m054",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Kartı unuttum",
+   "text": "kartımı evde unutmuşum, Marco at reception let me in anyway",
+   "age_days": 10,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c042"
+  },
+  {
+   "id": "p4-m055",
+   "kind": "message",
+   "lang": "en",
+   "title": "Leak is back",
+   "text": "the bathroom leak is back. Mr Menezes promised a plumber but it's been two weeks",
+   "age_days": 22,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c043"
+  },
+  {
+   "id": "p4-m056",
+   "kind": "message",
+   "lang": "en",
+   "title": "Lease renewal",
+   "text": "thinking of asking him to renew the lease for two more years if he keeps the rent frozen",
+   "age_days": 22,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c043"
+  },
+  {
+   "id": "p4-m057",
+   "kind": "message",
+   "lang": "en",
+   "title": "Procreate lag",
+   "text": "Procreate gets laggy on big canvases, around 6000px with 40 layers. any tricks?",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c044"
+  },
+  {
+   "id": "p4-m058",
+   "kind": "message",
+   "lang": "en",
+   "title": "Gouache look",
+   "text": "I'm doing the fox in a gouache style but with digital grain, Mette seems to like the test page",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c044"
+  },
+  {
+   "id": "p4-m059",
+   "kind": "message",
+   "lang": "en",
+   "title": "Cafe palette",
+   "text": "palette for the Mercado Verde packaging: olive, terracotta, cream and maybe a mustard accent",
+   "age_days": 59,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c044"
+  },
+  {
+   "id": "p4-m060",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Ser ve estar",
+   "text": "Portekizce derste bugün 'ser' ile 'estar' farkını işledik, hâlâ karıştırıyorum",
+   "age_days": 8,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c045"
+  },
+  {
+   "id": "p4-m061",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Sınav korkusu",
+   "text": "sınav 21 Kasım'da, konuşma kısmı en çok korktuğum yer",
+   "age_days": 8,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c045"
+  },
+  {
+   "id": "p4-m062",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nordlys agreement - fees",
+   "text": "Illustration Agreement with Nordlys Forlag, Clause 3 - Fees: The Publisher pays €380 for each completed full-page spread, which makes €4,560 for the twelve spreads of Book One. Invoices are payable within 30 days of receipt.",
+   "age_days": 310,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c046"
+  },
+  {
+   "id": "p4-m063",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nordlys agreement - revisions",
+   "text": "Clause 5 - Revisions: Up to two rounds of revisions per spread are included in the fee. Further revisions are billed at €45 per hour. The Publisher must give written feedback within five working days of each delivery.",
+   "age_days": 310,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c046"
+  },
+  {
+   "id": "p4-m064",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nordlys agreement - rights",
+   "text": "Clause 8 - Rights: The Illustrator retains copyright, and the Publisher receives an exclusive licence to print and distribute the books in Denmark, Norway and Sweden for five years. Original artwork remains the property of the Illustrator.",
+   "age_days": 310,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c046"
+  },
+  {
+   "id": "p4-m065",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nordlys agreement - termination",
+   "text": "Clause 11 - Termination: Either party may terminate with 14 days' written notice. Work delivered up to that date is paid pro rata, and a kill fee of 20 percent of the remaining balance is due.",
+   "age_days": 310,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c046"
+  },
+  {
+   "id": "p4-m066",
+   "kind": "document",
+   "lang": "en",
+   "title": "Casa Pátio terms - access",
+   "text": "Casa Pátio Membership Terms: Hot desk members may use the space Monday to Saturday, 08:00 to 21:00. Fixed-desk members have 24/7 access with a key card. The monthly fee for a hot desk is charged on the first of each month.",
+   "age_days": 415,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c047"
+  },
+  {
+   "id": "p4-m067",
+   "kind": "document",
+   "lang": "en",
+   "title": "Casa Pátio terms - meeting rooms",
+   "text": "Meeting rooms can be booked up to 14 days in advance; members receive four free hours per month and extra hours cost €12. Cancellations less than 24 hours before the booking are charged in full.",
+   "age_days": 415,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c047"
+  },
+  {
+   "id": "p4-m068",
+   "kind": "document",
+   "lang": "en",
+   "title": "Casa Pátio terms - guests and dogs",
+   "text": "Guests are allowed with prior notice at reception, and each member may bring a guest up to three times a month. Dogs are permitted in the courtyard but not in the open-plan area.",
+   "age_days": 415,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c047"
+  },
+  {
+   "id": "p4-m069",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Portekizce kursu - program",
+   "text": "A2 Portekizce Kursu Haftalık Program: Dersler çarşamba akşamları 19:00-21:00 arasında Anjos'taki dil okulunda yapılır. Toplam 40 saatlik eğitim 10 hafta sürer.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c048"
+  },
+  {
+   "id": "p4-m070",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Portekizce kursu - ücret",
+   "text": "Ücret ve ödeme: Kurs bedeli 320 euro olup iki taksitte ödenir. İlk taksit kayıtta, ikincisi beşinci haftada alınır. Telafi dersi hakkı en fazla iki derstir.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c048"
+  },
+  {
+   "id": "p4-m071",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Portekizce kursu - sınav",
+   "text": "Sınav: Dönem sonunda yazılı, dinleme ve konuşma bölümlerinden oluşan 2,5 saatlik bir sınav yapılır. Başarılı olanlara A2 düzeyini gösteren okul sertifikası verilir.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p4-c048"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p4-q001",
+   "type": "direct",
+   "lang": "en",
+   "text": "What surfboard do I ride and which beach do I go to on Sundays?",
+   "gold": [
+    "p4-m010"
+   ],
+   "note": "6'4 fish, Ericeira; messages c1/c2 give fragments only."
+  },
+  {
+   "id": "p4-q002",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Annemin doğum günü ne zaman?",
+   "gold": [
+    "p4-m011"
+   ],
+   "note": "28 Eylül; brother and partner birthdays are near-duplicates."
+  },
+  {
+   "id": "p4-q003",
+   "type": "direct",
+   "lang": "en",
+   "text": "How many revision rounds are included in the Nordlys contract?",
+   "gold": [
+    "p4-m063"
+   ],
+   "note": "Two rounds per spread."
+  },
+  {
+   "id": "p4-q004",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Portekizce kursu kaç euro?",
+   "gold": [
+    "p4-m070"
+   ],
+   "note": "320 euro in two instalments."
+  },
+  {
+   "id": "p4-q005",
+   "type": "direct",
+   "lang": "en",
+   "text": "How many times a month can I bring a guest to the coworking space?",
+   "gold": [
+    "p4-m068"
+   ],
+   "note": "Up to three times a month."
+  },
+  {
+   "id": "p4-q006",
+   "type": "direct",
+   "lang": "en",
+   "text": "What hourly rate do I charge Pixelwolf?",
+   "gold": [
+    "p4-m006"
+   ],
+   "note": "€55 per hour."
+  },
+  {
+   "id": "p4-q007",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Kirayı ayın kaçında ödüyorum?",
+   "gold": [
+    "p4-m014"
+   ],
+   "note": "On the 1st of every month."
+  },
+  {
+   "id": "p4-q008",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Who signs off on my drawings for the Danish storybook client?",
+   "gold": [
+    "p4-m005"
+   ],
+   "note": "Art director Mette at Nordlys Forlag; h2 only says she likes a test page."
+  },
+  {
+   "id": "p4-q009",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Which animal doctor looks after my pup?",
+   "gold": [
+    "p4-m004"
+   ],
+   "note": "Dr. Marta Figueiredo in Alvalade."
+  },
+  {
+   "id": "p4-q010",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "If I back out of a boardroom reservation at short notice, do I still pay?",
+   "gold": [
+    "p4-m067"
+   ],
+   "note": "Cancellations under 24 hours are charged in full."
+  },
+  {
+   "id": "p4-q011",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What do I get paid if the Danish publisher pulls the plug on the project halfway?",
+   "gold": [
+    "p4-m065"
+   ],
+   "note": "Pro rata for delivered work plus a 20 percent kill fee."
+  },
+  {
+   "id": "p4-q012",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Do I keep ownership of the artwork I make for the Danish book deal?",
+   "gold": [
+    "p4-m064"
+   ],
+   "note": "Illustrator retains copyright and originals."
+  },
+  {
+   "id": "p4-q013",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Where am I heading early next month to ride waves with my friend?",
+   "gold": [
+    "p4-m030"
+   ],
+   "note": "Ericeira 7-8 November with Duarte; Sagres trip is late November with two other friends."
+  },
+  {
+   "id": "p4-q014",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How many weeks does a sack of my pup's dinner last?",
+   "gold": [
+    "p4-m021"
+   ],
+   "note": "A 12 kg bag lasts about five weeks."
+  },
+  {
+   "id": "p4-q015",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Taslakları hangi cihazda çiziyorum, son hâlini nerede bitiriyorum?",
+   "gold": [
+    "p4-m017"
+   ],
+   "note": "iPad Pro + Procreate, finishing on Wacom Cintiq 16."
+  },
+  {
+   "id": "p4-q016",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Kriz anı için kenara ne kadar para koymak istiyorum, şimdiye kadar ne kadar topladım?",
+   "gold": [
+    "p4-m018"
+   ],
+   "note": "Goal about 9.000 euro, currently about 5.500."
+  },
+  {
+   "id": "p4-q017",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Yabancı olarak ülkede kalma belgem ne zaman bitiyor?",
+   "gold": [
+    "p4-m019"
+   ],
+   "note": "Residence permit ends March 2028."
+  },
+  {
+   "id": "p4-q018",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Teknisyen evime ne zaman gelecek?",
+   "gold": [
+    "p4-m036"
+   ],
+   "note": "Plumber on Monday 26 October between 14:00 and 17:00; g1 only says one was promised."
+  },
+  {
+   "id": "p4-q019",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Aileden biri ziyaretime ne zaman iniyor ve ne kadar sürecek?",
+   "gold": [
+    "p4-m032"
+   ],
+   "note": "Can arrives 12 December and stays six days."
+  },
+  {
+   "id": "p4-q020",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Haftada hangi günler ortak çalışma alanına gidiyorum?",
+   "gold": [
+    "p4-m002"
+   ],
+   "note": "English topic: Monday to Thursday."
+  },
+  {
+   "id": "p4-q021",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Köpeğimin korktuğu şey nedir ve kaç yaşında?",
+   "gold": [
+    "p4-m003"
+   ],
+   "note": "English topic: four years old, afraid of thunder."
+  },
+  {
+   "id": "p4-q022",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Lizbon'daki kafe zincirinin ambalaj işinde muhatabım kim?",
+   "gold": [
+    "p4-m007"
+   ],
+   "note": "English topic: Rita Soares, art director at Mercado Verde."
+  },
+  {
+   "id": "p4-q023",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Çocuk kitapları fuarı için ne yapmıştım, hangi tarihte?",
+   "gold": [
+    "p4-m027"
+   ],
+   "note": "English event: visitor registration for Bologna fair, 13-16 April."
+  },
+  {
+   "id": "p4-q024",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Dalgadan sonra yorgun düştüğümde hangi arkadaşımın boş odası var?",
+   "gold": [
+    "p4-m020"
+   ],
+   "note": "English topic: Duarte's spare room in Ericeira."
+  },
+  {
+   "id": "p4-q025",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What's the name of my language teacher?",
+   "gold": [
+    "p4-m015"
+   ],
+   "note": "Turkish topic: Teresa; the course document chunks do not name the teacher."
+  },
+  {
+   "id": "p4-q026",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "When is my teeth cleaning appointment?",
+   "gold": [
+    "p4-m029"
+   ],
+   "note": "Turkish event: 4 November 16:00."
+  },
+  {
+   "id": "p4-q027",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "When does my flight home for the holidays leave?",
+   "gold": [
+    "p4-m033"
+   ],
+   "note": "Turkish event: 23 December 06:40."
+  },
+  {
+   "id": "p4-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What's the deadline for my quarterly tax paperwork?",
+   "gold": [
+    "p4-m035"
+   ],
+   "note": "Turkish event: 15 November."
+  },
+  {
+   "id": "p4-q029",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What did the café chain decide about my sketches, and when do they pay the next part?",
+   "gold": [
+    "p4-m026"
+   ],
+   "note": "Turkish event: approved, second instalment of 900 euro on 15 November."
+  },
+  {
+   "id": "p4-q030",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Inês'in doğum günü ne zaman?",
+   "gold": [
+    "p4-m013"
+   ],
+   "note": "English topic; distractors: mother's and brother's birthday topics."
+  },
+  {
+   "id": "p4-q031",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Kardeşimin doğum günü hangi tarihte?",
+   "gold": [
+    "p4-m012"
+   ],
+   "note": "Distractors: mother's birthday and partner's birthday."
+  },
+  {
+   "id": "p4-q032",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Sagres gezisi hangi tarihlerde?",
+   "gold": [
+    "p4-m031"
+   ],
+   "note": "Distractor: Ericeira weekend event."
+  },
+  {
+   "id": "p4-q033",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Pastel'in aşısı için veterinere ne zaman gidiyorum?",
+   "gold": [
+    "p4-m028"
+   ],
+   "note": "Distractor: the user's own dentist appointment."
+  },
+  {
+   "id": "p4-q034",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "When is my own dentist visit and at what time?",
+   "gold": [
+    "p4-m029"
+   ],
+   "note": "Distractor: Pastel's vet appointment."
+  },
+  {
+   "id": "p4-q035",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Ödenmemiş Pixelwolf faturası kaç euro?",
+   "gold": [
+    "p4-m025"
+   ],
+   "note": "€1,980; distractor is the €4,560 Nordlys invoice."
+  },
+  {
+   "id": "p4-q036",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "On what day is the Nordlys invoice going out?",
+   "gold": [
+    "p4-m024"
+   ],
+   "note": "6 November; distractor is the Pixelwolf invoice event."
+  },
+  {
+   "id": "p4-q037",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Perşembe akşamları hangi kursa gidiyorum?",
+   "gold": [
+    "p4-m016"
+   ],
+   "note": "Ceramics on Thursday; the Portuguese course is on Wednesday."
+  },
+  {
+   "id": "p4-q038",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Can Lizbon'a hangi tarihte geliyor?",
+   "gold": [
+    "p4-m032"
+   ],
+   "note": "Distractor: the user's own Istanbul flight event."
+  },
+  {
+   "id": "p4-q039",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the name of the shaper in Peniche?",
+   "gold": [],
+   "note": "Message c2 mentions a shaper but never names one."
+  },
+  {
+   "id": "p4-q040",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Pastel'in son aşısına ne kadar ödemiştim?",
+   "gold": [],
+   "note": "Appointment stored, no cost."
+  },
+  {
+   "id": "p4-q041",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Casa Pátio'daki dolap numaram kaç?",
+   "gold": [],
+   "note": "Co-working details stored, no locker."
+  },
+  {
+   "id": "p4-q042",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Duarte'nin evi Ericeira'da kaç odalı?",
+   "gold": [],
+   "note": "Spare room mentioned, no size."
+  },
+  {
+   "id": "p4-q043",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "Which airline am I flying with to Istanbul?",
+   "gold": [],
+   "note": "Flight date/time stored, no airline."
+  },
+  {
+   "id": "p4-q044",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Pixelwolf ile sözleşmem ne zaman bitiyor?",
+   "gold": [],
+   "note": "Hourly rate stored, no contract end date."
+  },
+  {
+   "id": "p4-q045",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Seramik kursunun aylık ücreti kaç euro?",
+   "gold": [],
+   "note": "Class day and teacher stored, no price."
+  }
+ ]
+}

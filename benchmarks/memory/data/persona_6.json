@@ -1,0 +1,1203 @@
+{
+  "persona": "p6",
+  "summary": "Startup founder in London (English-dominant, Turkish with family): Series A fundraising, product launch, co-founder, frequent flights, planning a wedding with an Edinburgh-born fiancee.",
+  "items": [
+    {
+      "id": "p6-m001",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Company",
+      "text": "The user is the founder and CEO of Tidemark, a London startup that automates freight invoice reconciliation for mid-sized logistics firms.",
+      "age_days": 780,
+      "confidence": 0.93,
+      "importance": 0.9,
+      "container": "p6-c001"
+    },
+    {
+      "id": "p6-m002",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Co-founder",
+      "text": "The user's co-founder and CTO is Dan Okafor; they met at a hackathon in 2021 and Dan holds 45% of the founders' equity.",
+      "age_days": 770,
+      "confidence": 0.9,
+      "importance": 0.8,
+      "container": "p6-c002"
+    },
+    {
+      "id": "p6-m003",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Seed round",
+      "text": "Tidemark closed a £1.8m seed round in March 2025, led by Marlowe Ventures.",
+      "age_days": 600,
+      "confidence": 0.9,
+      "importance": 0.7,
+      "container": "p6-c003"
+    },
+    {
+      "id": "p6-m004",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Series A target",
+      "text": "The user is raising a Series A of about £6m and hopes to close it by the end of January 2027.",
+      "age_days": 60,
+      "confidence": 0.88,
+      "importance": 0.9,
+      "container": "p6-c004"
+    },
+    {
+      "id": "p6-m005",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Northfold contact",
+      "text": "Priya Raman at Northfold Partners is the leading Series A candidate; she likes a short written update every Friday.",
+      "age_days": 55,
+      "confidence": 0.85,
+      "importance": 0.7,
+      "container": "p6-c005"
+    },
+    {
+      "id": "p6-m006",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Cedar & Quay contact",
+      "text": "Tom Hesketh at Cedar & Quay is a second Series A candidate; he asked for a customer concentration breakdown before meeting.",
+      "age_days": 54,
+      "confidence": 0.85,
+      "importance": 0.7,
+      "container": "p6-c006"
+    },
+    {
+      "id": "p6-m007",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Runway",
+      "text": "Tidemark has roughly eleven months of runway at its current burn of about £92k a month.",
+      "age_days": 45,
+      "confidence": 0.82,
+      "importance": 0.8,
+      "container": "p6-c007"
+    },
+    {
+      "id": "p6-m008",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Team size",
+      "text": "Tidemark has 14 employees; Marcus Bell joined as head of sales in September.",
+      "age_days": 40,
+      "confidence": 0.85,
+      "importance": 0.55,
+      "container": "p6-c008"
+    },
+    {
+      "id": "p6-m009",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Co-working desks",
+      "text": "The team rents hot desks at a co-working space near Old Street, and the contract renews in January.",
+      "age_days": 100,
+      "confidence": 0.8,
+      "importance": 0.45,
+      "container": "p6-c009"
+    },
+    {
+      "id": "p6-m010",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Hackney flat",
+      "text": "The user rents a one-bedroom flat in Hackney for £2,350 a month; the lease runs until August 2027.",
+      "age_days": 420,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p6-c010"
+    },
+    {
+      "id": "p6-m011",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Clara",
+      "text": "The user is engaged to Clara, a veterinary nurse originally from Edinburgh.",
+      "age_days": 400,
+      "confidence": 0.92,
+      "importance": 0.85,
+      "container": "p6-c011"
+    },
+    {
+      "id": "p6-m012",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Wedding plan",
+      "text": "The wedding is planned for 12 June 2027 at Hawthorne Barn in Oxfordshire with about 90 guests.",
+      "age_days": 70,
+      "confidence": 0.9,
+      "importance": 0.85,
+      "container": "p6-c012"
+    },
+    {
+      "id": "p6-m013",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "İstanbul kınası",
+      "text": "Kullanıcı düğünden sonra ailesi için İstanbul'da küçük bir kına gecesi yapmayı planlıyor; tarih Temmuz'un ilk haftası.",
+      "age_days": 65,
+      "confidence": 0.78,
+      "importance": 0.6,
+      "container": "p6-c013"
+    },
+    {
+      "id": "p6-m014",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Annesi",
+      "text": "Kullanıcının annesi Nermin İstanbul'un Kadıköy semtinde yaşıyor ve her pazar akşamı görüntülü arıyor.",
+      "age_days": 650,
+      "confidence": 0.92,
+      "importance": 0.7,
+      "container": "p6-c014"
+    },
+    {
+      "id": "p6-m015",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Kız kardeşi",
+      "text": "Kullanıcının kız kardeşi Selin Berlin'de fizik doktorası yapıyor ve tezini savunmaya hazırlanıyor.",
+      "age_days": 330,
+      "confidence": 0.88,
+      "importance": 0.6,
+      "container": "p6-c015"
+    },
+    {
+      "id": "p6-m016",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Babası",
+      "text": "Kullanıcının babası Cengiz emekli bir gemi makinesi mühendisi; Datça'da yaşıyor ve her çarşamba akşamı görüntülü arıyor.",
+      "age_days": 640,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p6-c016"
+    },
+    {
+      "id": "p6-m017",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Köpek Mango",
+      "text": "Kullanıcı ve Clara'nın Mango adında beş yaşında kurtarılmış bir greyhound'u var; ikisi de seyahatteyken köpeğe bakacak biri gerekiyor.",
+      "age_days": 260,
+      "confidence": 0.88,
+      "importance": 0.6,
+      "container": "p6-c017"
+    },
+    {
+      "id": "p6-m018",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Tırmanış",
+      "text": "Kullanıcı haftada iki kez Hackney Wick'teki The Climbing Hangar'da boulder yapıyor ve şu an V5 problemlerini deniyor.",
+      "age_days": 150,
+      "confidence": 0.82,
+      "importance": 0.4,
+      "container": "p6-c018"
+    },
+    {
+      "id": "p6-m019",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Frequent flyer",
+      "text": "The user flies between London and New York roughly every six weeks and holds British Airways Silver status.",
+      "age_days": 300,
+      "confidence": 0.86,
+      "importance": 0.45,
+      "container": "p6-c019"
+    },
+    {
+      "id": "p6-m020",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Seat habits",
+      "text": "The user always books an aisle seat and prefers the first flight of the day, so day trips to Berlin end by the evening.",
+      "age_days": 150,
+      "confidence": 0.75,
+      "importance": 0.3,
+      "container": "p6-c020"
+    },
+    {
+      "id": "p6-m021",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Besin alerjisi",
+      "text": "Kullanıcının hafif bir kabuklu deniz ürünü alerjisi var; düğün menüsünde bu önemli.",
+      "age_days": 90,
+      "confidence": 0.8,
+      "importance": 0.5,
+      "container": "p6-c021"
+    },
+    {
+      "id": "p6-m022",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Wedding budget",
+      "text": "The couple's total wedding budget is £38,000, of which the user has set aside £25,000 from personal savings.",
+      "age_days": 62,
+      "confidence": 0.8,
+      "importance": 0.7,
+      "container": "p6-c022"
+    },
+    {
+      "id": "p6-m023",
+      "kind": "event",
+      "lang": "en",
+      "title": "Northfold pitch",
+      "text": "On 14 October the user said the Series A pitch at Northfold Partners is on Tuesday 3 November at 10:00 at their office in Mayfair.",
+      "age_days": 9,
+      "confidence": 0.9,
+      "importance": 0.9,
+      "container": "p6-c023"
+    },
+    {
+      "id": "p6-m024",
+      "kind": "event",
+      "lang": "en",
+      "title": "Cedar & Quay meeting",
+      "text": "On 16 October the user said the partner meeting with Cedar & Quay is on Thursday 5 November at 14:30 by video call.",
+      "age_days": 7,
+      "confidence": 0.9,
+      "importance": 0.8,
+      "container": "p6-c024"
+    },
+    {
+      "id": "p6-m025",
+      "kind": "event",
+      "lang": "en",
+      "title": "Launch date",
+      "text": "On 19 October the user confirmed that the Tidemark 3.0 launch is set for Tuesday 17 November, with the press embargo lifting at 08:00.",
+      "age_days": 4,
+      "confidence": 0.9,
+      "importance": 0.85,
+      "container": "p6-c025"
+    },
+    {
+      "id": "p6-m026",
+      "kind": "event",
+      "lang": "en",
+      "title": "New York flight",
+      "text": "On 8 October the user booked a flight to New York leaving Heathrow on Sunday 22 November at 11:20, returning on Thursday 26 November.",
+      "age_days": 15,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p6-c026"
+    },
+    {
+      "id": "p6-m027",
+      "kind": "event",
+      "lang": "en",
+      "title": "Berlin flight",
+      "text": "On 12 October the user booked an early flight to Berlin for Monday 9 November at 06:45 for a customer workshop, returning the same evening.",
+      "age_days": 11,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p6-c027"
+    },
+    {
+      "id": "p6-m028",
+      "kind": "event",
+      "lang": "en",
+      "title": "Menu tasting",
+      "text": "On 20 October the user said the menu tasting at Hawthorne Barn is on Saturday 14 November at 12:30.",
+      "age_days": 3,
+      "confidence": 0.88,
+      "importance": 0.6,
+      "container": "p6-c028"
+    },
+    {
+      "id": "p6-m029",
+      "kind": "event",
+      "lang": "en",
+      "title": "Photographer call",
+      "text": "On 21 October the user said they have a call with the wedding photographer Lena Voss on Wednesday 28 October at 18:00.",
+      "age_days": 2,
+      "confidence": 0.85,
+      "importance": 0.5,
+      "container": "p6-c029"
+    },
+    {
+      "id": "p6-m030",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Annesinin ziyareti",
+      "text": "22 Ekim'de kullanıcı annesinin 6 Kasım Cuma günü İstanbul'dan Londra'ya geleceğini ve 13 Kasım'a kadar kalacağını söyledi.",
+      "age_days": 1,
+      "confidence": 0.88,
+      "importance": 0.7,
+      "container": "p6-c030"
+    },
+    {
+      "id": "p6-m031",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Mango aşısı",
+      "text": "30 Eylül'de kullanıcı Mango'nun aşı randevusunun 29 Ekim Perşembe sabahı 09.00'da olduğunu söyledi.",
+      "age_days": 23,
+      "confidence": 0.85,
+      "importance": 0.4,
+      "container": "p6-c031"
+    },
+    {
+      "id": "p6-m032",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Ev sahibi araması",
+      "text": "17 Ekim'de kullanıcı ev sahibinin 2 Kasım Pazartesi günü arayıp Hackney'deki kira sözleşmesinin Ağustos 2027'den sonra uzatılmasını konuşacağını söyledi.",
+      "age_days": 6,
+      "confidence": 0.82,
+      "importance": 0.5,
+      "container": "p6-c032"
+    },
+    {
+      "id": "p6-m033",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Selin'in savunması",
+      "text": "25 Eylül'de kullanıcı Selin'in tez savunmasının 12 Aralık Cumartesi günü Berlin'de olacağını söyledi.",
+      "age_days": 28,
+      "confidence": 0.85,
+      "importance": 0.6,
+      "container": "p6-c033"
+    },
+    {
+      "id": "p6-m034",
+      "kind": "event",
+      "lang": "en",
+      "title": "Suit fitting",
+      "text": "On 18 October the user said the suit fitting at Penrose & Hale is on Saturday 21 November at 11:00.",
+      "age_days": 5,
+      "confidence": 0.85,
+      "importance": 0.5,
+      "container": "p6-c034"
+    },
+    {
+      "id": "p6-m035",
+      "kind": "message",
+      "lang": "en",
+      "title": "Northfold data",
+      "text": "Northfold want cohort retention by month, not by quarter. Dan is pulling the numbers tonight so I can drop them in Priya's folder.",
+      "age_days": 13,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c035"
+    },
+    {
+      "id": "p6-m036",
+      "kind": "message",
+      "lang": "en",
+      "title": "Investment committee",
+      "text": "Priya said their investment committee meets on Mondays, so if the pitch goes well we'd hear back on 9 November at the earliest.",
+      "age_days": 13,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c035"
+    },
+    {
+      "id": "p6-m037",
+      "kind": "message",
+      "lang": "en",
+      "title": "Valuation floor",
+      "text": "Honestly the real fight will be valuation. If anyone offers less than £24m post-money I think we push back, even if it slows things down.",
+      "age_days": 12,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c035"
+    },
+    {
+      "id": "p6-m038",
+      "kind": "message",
+      "lang": "en",
+      "title": "Bank-feed matching",
+      "text": "Tidemark 3.0 has the new bank-feed matching, and Marcus reckons it closes two enterprise deals if we ship on time.",
+      "age_days": 6,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c036"
+    },
+    {
+      "id": "p6-m039",
+      "kind": "message",
+      "lang": "en",
+      "title": "Scope argument",
+      "text": "Dan wants to cut multi-currency export from 3.0 and ship it in 3.1. I disagree, three customers asked for it this month.",
+      "age_days": 6,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c036"
+    },
+    {
+      "id": "p6-m040",
+      "kind": "message",
+      "lang": "en",
+      "title": "Press plan",
+      "text": "Sofia at the PR agency has a list of 40 journalists and wants me free for an interview on launch morning, before 10.",
+      "age_days": 5,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c036"
+    },
+    {
+      "id": "p6-m041",
+      "kind": "message",
+      "lang": "en",
+      "title": "Venue deposit",
+      "text": "Hawthorne Barn wants the deposit settled before December to hold the date. Clara would like to see Elmstead Manor first though.",
+      "age_days": 72,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c037"
+    },
+    {
+      "id": "p6-m042",
+      "kind": "message",
+      "lang": "en",
+      "title": "Other venue quote",
+      "text": "Elmstead Manor quoted £6,500 for the same Saturday, marquee hire included. Hawthorne doesn't include a marquee.",
+      "age_days": 70,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c037"
+    },
+    {
+      "id": "p6-m043",
+      "kind": "message",
+      "lang": "en",
+      "title": "Catering needs",
+      "text": "The caterer needs dietary requirements by mid-January. Reminder to self: Clara's mum is vegan, and I should flag my shellfish thing.",
+      "age_days": 68,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c037"
+    },
+    {
+      "id": "p6-m044",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Anneye mesaj",
+      "text": "Anne, haziranda Londra'ya gelmeyi unutma. Biletleri erken alırsak çok daha ucuz olur. Teyzem de gelebilir mi?",
+      "age_days": 41,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c038"
+    },
+    {
+      "id": "p6-m045",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Kına ve izin",
+      "text": "Annem kınadan sonra herkesin bir hafta İstanbul'da kalmasını istiyor ama ben o kadar izin alamam, en fazla dört gün.",
+      "age_days": 40,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c038"
+    },
+    {
+      "id": "p6-m046",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Datça planı",
+      "text": "Selin'e söyledim, düğünden sonra Temmuz ortasında hep birlikte Datça'ya gidelim dedi. Babam zaten orada, evi hazırlar.",
+      "age_days": 40,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c038"
+    },
+    {
+      "id": "p6-m047",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Babanın takımı",
+      "text": "Babam düğün için takım elbise diktirecekmiş, ölçüsünü Muğla'daki terziye vermiş. Ne kadar heyecanlı, inanamıyorum.",
+      "age_days": 38,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c038"
+    },
+    {
+      "id": "p6-m048",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Gecikmeli uçuş",
+      "text": "BA delayed again, 2 saattir T5'teyim. Upgrade denied, ama en azından lounge'a girebildim.",
+      "age_days": 26,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c039"
+    },
+    {
+      "id": "p6-m049",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "NY booking",
+      "text": "NY için booking yaptım: koridor koltuk 24C, SoHo'da 4 gece, gecesi 289 dolar. Pahalı mı? Neyse, investor yemeği orada.",
+      "age_days": 25,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c039"
+    },
+    {
+      "id": "p6-m050",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Berlin sabahı",
+      "text": "Berlin sabahı için taksiyi 04:30'a ayarladım, alarm kuruyorum. Please don't let me oversleep.",
+      "age_days": 10,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c039"
+    },
+    {
+      "id": "p6-m051",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Ev sahibi teklifi",
+      "text": "Ev sahibi Eylülden itibaren kirayı 2.500 sterline çıkarmak istiyor. Ben 2.400 diye karşı teklif yapacağım.",
+      "age_days": 35,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c040"
+    },
+    {
+      "id": "p6-m052",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Kombi tamircisi",
+      "text": "Kombi tamircisi perşembe 8 ile 12 arası gelecek, Clara evden çalışsın. Bisikleti koridordan çekmeyi unutma.",
+      "age_days": 34,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c040"
+    },
+    {
+      "id": "p6-m053",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Mango kanepe",
+      "text": "Mango yine kanepenin köşesini kemirmiş, bu ay üçüncü kez.",
+      "age_days": 33,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c040"
+    },
+    {
+      "id": "p6-m054",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Uyku ve spor",
+      "text": "Pitch deck yüzünden bu hafta iki kez bouldering'i kaçırdım. Uyku da 5 saate düşmüş durumda.",
+      "age_days": 20,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c041"
+    },
+    {
+      "id": "p6-m055",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Yeni ayakkabı",
+      "text": "Yeni climbing shoes aldım, La Sportiva Solution, 42.5 numara. Çok dar ama açılır diyorlar.",
+      "age_days": 19,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c041"
+    },
+    {
+      "id": "p6-m056",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Kahve",
+      "text": "Bu hafta kahveyi bırakıyorum dedim ama bugün üç flat white içtim, başarısız.",
+      "age_days": 18,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c041"
+    },
+    {
+      "id": "p6-m057",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Hallam Freight",
+      "text": "Marcus Cuma günü Hallam Freight'ı kapattı, yıllık 48k pound. En iyi satış haftamız.",
+      "age_days": 15,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c042"
+    },
+    {
+      "id": "p6-m058",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Backend adayı",
+      "text": "Yarın senior backend mühendisi adayıyla görüşüyorum. Dan beğendi ama salary band 85-95k, onu doğrulamam lazım.",
+      "age_days": 14,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c042"
+    },
+    {
+      "id": "p6-m059",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Ofis sorusu",
+      "text": "Co-working sözleşmesi yaklaşıyor, daha büyük bir ofis bakmaya değer mi yoksa hybrid mi devam edelim?",
+      "age_days": 13,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c042"
+    },
+    {
+      "id": "p6-m060",
+      "kind": "document",
+      "lang": "en",
+      "title": "Tenancy term and rent",
+      "text": "Assured Shorthold Tenancy Agreement, Flat 3, 41 Cassland Mews, Hackney. The tenancy runs for 24 months from 1 September 2025 to 31 August 2027 at a rent of £2,350 per calendar month, payable in advance on the first of each month by standing order.",
+      "age_days": 420,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c043"
+    },
+    {
+      "id": "p6-m061",
+      "kind": "document",
+      "lang": "en",
+      "title": "Tenancy deposit and notice",
+      "text": "The tenant has paid a deposit of £2,710, protected in a government-approved scheme within 30 days. Either party may end the tenancy after the fixed term by giving two months' written notice.",
+      "age_days": 420,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c043"
+    },
+    {
+      "id": "p6-m062",
+      "kind": "document",
+      "lang": "en",
+      "title": "Tenancy pets and guests",
+      "text": "The tenant shall not keep pets without the landlord's prior written consent, which may not be unreasonably withheld. Overnight guests staying more than 21 consecutive days require the landlord's approval.",
+      "age_days": 420,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c043"
+    },
+    {
+      "id": "p6-m063",
+      "kind": "document",
+      "lang": "en",
+      "title": "Northfold indicative terms",
+      "text": "Northfold Partners, indicative terms (email, 9 October). Proposed investment of £6.0m for new shares at a pre-money valuation of £17.5m, which implies a post-money valuation of £23.5m. The round would be led by Northfold.",
+      "age_days": 14,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c044"
+    },
+    {
+      "id": "p6-m064",
+      "kind": "document",
+      "lang": "en",
+      "title": "Northfold other proposals",
+      "text": "Further proposals: a 10% unallocated option pool created before the round, one board seat for Northfold, and 45 days of exclusivity from signature of the term sheet.",
+      "age_days": 14,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c044"
+    },
+    {
+      "id": "p6-m065",
+      "kind": "document",
+      "lang": "en",
+      "title": "Cedar & Quay indicative terms",
+      "text": "Cedar & Quay, indicative terms (call notes, 13 October). Proposed investment of £5.5m at a pre-money valuation of £19.5m, implying £25.0m post-money. Cedar & Quay would take roughly 22% of the company.",
+      "age_days": 10,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c045"
+    },
+    {
+      "id": "p6-m066",
+      "kind": "document",
+      "lang": "en",
+      "title": "Cedar & Quay other points",
+      "text": "Other points discussed: a 12% option pool, a board observer seat rather than a full board seat, and 30 days of exclusivity once the term sheet is signed.",
+      "age_days": 10,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c045"
+    },
+    {
+      "id": "p6-m067",
+      "kind": "document",
+      "lang": "en",
+      "title": "Venue hire basics",
+      "text": "Hawthorne Barn, Venue Hire Agreement. Exclusive hire of the barn and grounds on Saturday 12 June 2027 from 14:00 to 00:00, for up to 110 guests. Bridal accommodation is available the night before.",
+      "age_days": 66,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c046"
+    },
+    {
+      "id": "p6-m068",
+      "kind": "document",
+      "lang": "en",
+      "title": "Venue payments",
+      "text": "Payment: a non-refundable deposit of £4,000 is due on signing and by 1 December 2026 at the latest. The balance of £9,500 is due 60 days before the event, on 13 April 2027.",
+      "age_days": 66,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c046"
+    },
+    {
+      "id": "p6-m069",
+      "kind": "document",
+      "lang": "en",
+      "title": "Venue house rules",
+      "text": "House rules: amplified music must end by 23:30, no confetti or sparklers indoors, and all catering must be supplied by the venue's in-house team. Final guest numbers are required 21 days before the event.",
+      "age_days": 66,
+      "confidence": null,
+      "importance": null,
+      "container": "p6-c046"
+    }
+  ],
+  "queries": [
+    {
+      "id": "p6-q001",
+      "type": "direct",
+      "lang": "en",
+      "text": "When is the Tidemark 3.0 launch?",
+      "gold": [
+        "p6-m025"
+      ],
+      "note": "Launch event: Tuesday 17 November."
+    },
+    {
+      "id": "p6-q002",
+      "type": "direct",
+      "lang": "en",
+      "text": "When do final guest numbers have to be given to Hawthorne Barn?",
+      "gold": [
+        "p6-m069"
+      ],
+      "note": "Venue house rules: 21 days before the event."
+    },
+    {
+      "id": "p6-q003",
+      "type": "direct",
+      "lang": "en",
+      "text": "How long is our runway at the current burn?",
+      "gold": [
+        "p6-m007"
+      ],
+      "note": "About eleven months."
+    },
+    {
+      "id": "p6-q004",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Annem Kasım'da Londra'ya hangi gün geliyor?",
+      "gold": [
+        "p6-m030"
+      ],
+      "note": "Arrives Friday 6 Kasım; D1 only mentions a June visit."
+    },
+    {
+      "id": "p6-q005",
+      "type": "direct",
+      "lang": "en",
+      "text": "What frequent flyer status do I hold?",
+      "gold": [
+        "p6-m019"
+      ],
+      "note": "British Airways Silver."
+    },
+    {
+      "id": "p6-q006",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Mango'nun aşı randevusu ne zaman?",
+      "gold": [
+        "p6-m031"
+      ],
+      "note": "29 Ekim Perşembe 09.00."
+    },
+    {
+      "id": "p6-q007",
+      "type": "direct",
+      "lang": "en",
+      "text": "What is the notice period in my Hackney tenancy agreement?",
+      "gold": [
+        "p6-m061"
+      ],
+      "note": "Two months' written notice after the fixed term."
+    },
+    {
+      "id": "p6-q008",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "Who built the product with me and where did our paths first cross?",
+      "gold": [
+        "p6-m002"
+      ],
+      "note": "Dan Okafor, met at a hackathon."
+    },
+    {
+      "id": "p6-q009",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "What funding target are we aiming for and when does it need to wrap up?",
+      "gold": [
+        "p6-m004"
+      ],
+      "note": "About £6m by end of January 2027."
+    },
+    {
+      "id": "p6-q010",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "At what company price tag would I refuse an offer?",
+      "gold": [
+        "p6-m037"
+      ],
+      "note": "Push back under £24m post-money."
+    },
+    {
+      "id": "p6-q011",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "How big is the team right now?",
+      "gold": [
+        "p6-m008"
+      ],
+      "note": "14 employees."
+    },
+    {
+      "id": "p6-q012",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "At what hour does my one-day trip to Germany take off?",
+      "gold": [
+        "p6-m027"
+      ],
+      "note": "Berlin flight 06:45 on Monday 9 November."
+    },
+    {
+      "id": "p6-q013",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "What did the rival wedding location charge, and what did that cover?",
+      "gold": [
+        "p6-m042"
+      ],
+      "note": "Elmstead Manor £6,500 including marquee hire."
+    },
+    {
+      "id": "p6-q014",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Tırmanış idmanına ne sıklıkla gidiyorum, hangi seviyedeyim?",
+      "gold": [
+        "p6-m018"
+      ],
+      "note": "Twice a week, V5 problems."
+    },
+    {
+      "id": "p6-q015",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Akrabalar için ayrı bir tören düşünüyor muyum, hangi aya denk geliyor?",
+      "gold": [
+        "p6-m013"
+      ],
+      "note": "Kına night in Istanbul, first week of July."
+    },
+    {
+      "id": "p6-q016",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "What does my fiancée do for work and where is she from?",
+      "gold": [
+        "p6-m011"
+      ],
+      "note": "Clara, veterinary nurse from Edinburgh."
+    },
+    {
+      "id": "p6-q017",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "Am I allowed to have a visitor staying for a month?",
+      "gold": [
+        "p6-m062"
+      ],
+      "note": "Guests over 21 consecutive nights need landlord approval."
+    },
+    {
+      "id": "p6-q018",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "Who am I speaking to about wedding pictures and when?",
+      "gold": [
+        "p6-m029"
+      ],
+      "note": "Photographer Lena Voss, Wednesday 28 October 18:00."
+    },
+    {
+      "id": "p6-q019",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Yeni kira bedeli için pazarlıkta hangi rakamı önereceğim?",
+      "gold": [
+        "p6-m051"
+      ],
+      "note": "Counter-offer of 2.400 sterlin."
+    },
+    {
+      "id": "p6-q020",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Northfold'daki yatırımcıya ne sıklıkla bilgi vermem gerekiyor?",
+      "gold": [
+        "p6-m005"
+      ],
+      "note": "Priya wants a short written update every Friday (English topic)."
+    },
+    {
+      "id": "p6-q021",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Ofis kontratım ne zaman yenileniyor?",
+      "gold": [
+        "p6-m009"
+      ],
+      "note": "Co-working contract renews in January (English topic)."
+    },
+    {
+      "id": "p6-q022",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "New York uçuşum hangi gün kalkıyor ve ne zaman dönüyorum?",
+      "gold": [
+        "p6-m026"
+      ],
+      "note": "Sunday 22 Nov out, Thursday 26 Nov back (English event)."
+    },
+    {
+      "id": "p6-q023",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Dan sürümden hangi özelliği çıkarmak istiyor?",
+      "gold": [
+        "p6-m039"
+      ],
+      "note": "Multi-currency export (English message)."
+    },
+    {
+      "id": "p6-q024",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Mekanın alabileceği en yüksek konuk sayısı kaç?",
+      "gold": [
+        "p6-m067"
+      ],
+      "note": "Up to 110 guests (English document); T12 is the expected count, not capacity."
+    },
+    {
+      "id": "p6-q025",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "Which day does my mother usually call me on video?",
+      "gold": [
+        "p6-m014"
+      ],
+      "note": "Sunday evening (Turkish topic); father calls on Wednesday."
+    },
+    {
+      "id": "p6-q026",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "What is my sister studying and in which city?",
+      "gold": [
+        "p6-m015"
+      ],
+      "note": "Physics doctorate in Berlin (Turkish topic)."
+    },
+    {
+      "id": "p6-q027",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "When is my sister's thesis defence?",
+      "gold": [
+        "p6-m033"
+      ],
+      "note": "12 Aralık Saturday in Berlin (Turkish event)."
+    },
+    {
+      "id": "p6-q028",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "When is the boiler technician visiting?",
+      "gold": [
+        "p6-m052"
+      ],
+      "note": "Thursday between 8 and 12 (Turkish message)."
+    },
+    {
+      "id": "p6-q029",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "What is the landlord planning to ring me about early next month?",
+      "gold": [
+        "p6-m032"
+      ],
+      "note": "Lease extension beyond August 2027, on Monday 2 Kasım (Turkish event)."
+    },
+    {
+      "id": "p6-q030",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "What time is the meeting with Cedar & Quay?",
+      "gold": [
+        "p6-m024"
+      ],
+      "note": "14:30 on 5 November; Northfold pitch (E1) is at 10:00."
+    },
+    {
+      "id": "p6-q031",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "What pre-money valuation did Northfold suggest?",
+      "gold": [
+        "p6-m063"
+      ],
+      "note": "£17.5m; Cedar & Quay indicated £19.5m."
+    },
+    {
+      "id": "p6-q032",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "How long is the exclusivity period in Cedar & Quay's proposal?",
+      "gold": [
+        "p6-m066"
+      ],
+      "note": "30 days; Northfold asked for 45."
+    },
+    {
+      "id": "p6-q033",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "When is my suit fitting?",
+      "gold": [
+        "p6-m034"
+      ],
+      "note": "Saturday 21 November 11:00; menu tasting is a different appointment."
+    },
+    {
+      "id": "p6-q034",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "When is the menu tasting at the barn?",
+      "gold": [
+        "p6-m028"
+      ],
+      "note": "Saturday 14 November 12:30; suit fitting is 21 November."
+    },
+    {
+      "id": "p6-q035",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "What option pool is Northfold asking for?",
+      "gold": [
+        "p6-m064"
+      ],
+      "note": "10%; Cedar & Quay proposed 12%."
+    },
+    {
+      "id": "p6-q036",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Babam hangi akşam beni görüntülü arıyor?",
+      "gold": [
+        "p6-m016"
+      ],
+      "note": "Çarşamba; mother calls on Sunday."
+    },
+    {
+      "id": "p6-q037",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "What did Tom Hesketh ask me for before the meeting?",
+      "gold": [
+        "p6-m006"
+      ],
+      "note": "Customer concentration breakdown; Priya's ask is different."
+    },
+    {
+      "id": "p6-q038",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "How much is Cedar & Quay offering to invest?",
+      "gold": [
+        "p6-m065"
+      ],
+      "note": "£5.5m; Northfold proposed £6.0m."
+    },
+    {
+      "id": "p6-q039",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "Which journalist is doing the launch-morning interview?",
+      "gold": [],
+      "note": "Press plan mentions 40 journalists and an interview slot, no name."
+    },
+    {
+      "id": "p6-q040",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "What is the name of the florist for the wedding?",
+      "gold": [],
+      "note": "Wedding vendors (photographer, caterer) exist, no florist."
+    },
+    {
+      "id": "p6-q041",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "Who is going to be my best man?",
+      "gold": [],
+      "note": "Wedding plans exist, no best man."
+    },
+    {
+      "id": "p6-q042",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "Annemin uçak bileti kaça mal oldu?",
+      "gold": [],
+      "note": "Mother's visit is stored, no ticket price."
+    },
+    {
+      "id": "p6-q043",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "What ownership stake did Marlowe Ventures take in the seed round?",
+      "gold": [],
+      "note": "Seed round and lead are stored, no stake."
+    },
+    {
+      "id": "p6-q044",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "Clara'nın doğum günü ne zaman?",
+      "gold": [],
+      "note": "Clara is stored with job and origin, no birthday."
+    },
+    {
+      "id": "p6-q045",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "Which hotel am I staying at in Berlin?",
+      "gold": [],
+      "note": "Berlin flight stored; only a New York hotel is mentioned."
+    }
+  ]
+}

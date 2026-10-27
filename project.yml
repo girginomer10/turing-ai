@@ -1,0 +1,263 @@
+name: Mosaic
+
+options:
+  bundleIdPrefix: com.omergirgin
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "17.0"
+    macOS: "14.0"
+  xcodeVersion: "26.0"
+
+settings:
+  base:
+    # No Apple Team ID is checked in. Compile checks run with CODE_SIGNING_ALLOWED=NO; to run on
+    # a device or archive, pass DEVELOPMENT_TEAM=<team id> to xcodebuild or pick a team in Xcode.
+    CURRENT_PROJECT_VERSION: 27
+    MARKETING_VERSION: 0.1.0
+    SWIFT_VERSION: 6.0
+    SWIFT_STRICT_CONCURRENCY: complete
+    VERSIONING_SYSTEM: apple-generic
+    TURING_GOOGLE_IOS_CLIENT_ID: "986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq.apps.googleusercontent.com"
+    TURING_GOOGLE_IOS_CALLBACK_SCHEME: "com.googleusercontent.apps.986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq"
+    TURING_GOOGLE_MACOS_CLIENT_ID: "986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t.apps.googleusercontent.com"
+    TURING_GOOGLE_MACOS_CALLBACK_SCHEME: "com.googleusercontent.apps.986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t"
+
+packages:
+  TuringVoice:
+    path: Packages/TuringVoice
+  MosaicCore:
+    path: Packages/MosaicCore
+
+targets:
+  Mosaic-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: Apps/iOS
+      - path: Brand/ProviderLogos.xcassets
+    dependencies:
+      - target: Turing-Watch
+        embed: true
+      - target: Turing-Share
+        embed: true
+      - package: MosaicCore
+    entitlements:
+      path: Apps/iOS/Mosaic-iOS.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.omergirgin.mosaic
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.omergirgin.mosaic
+        com.apple.developer.icloud-services:
+          - CloudKit
+    info:
+      path: Apps/iOS/Info.plist
+      properties:
+        TuringGoogleClientID: $(TURING_GOOGLE_IOS_CLIENT_ID)
+        CFBundleURLTypes:
+          - CFBundleURLName: Google sign-in
+            CFBundleURLSchemes:
+              - $(TURING_GOOGLE_IOS_CALLBACK_SCHEME)
+          - CFBundleURLName: Connected accounts
+            CFBundleURLSchemes:
+              - com.omergirgin.turing
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: Turing AI
+        CFBundleName: Turing AI
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.productivity
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        NSCalendarsFullAccessUsageDescription: Turing AI reads calendar events when you enable Apple Calendar in a chat, and creates events only after you review the request.
+        NSRemindersFullAccessUsageDescription: Turing AI reads reminders when you enable Apple Reminders in a chat, and creates or completes reminders only after you review the request.
+        NSContactsUsageDescription: Turing AI finds permitted contacts when you enable Apple Contacts in a chat, and creates contacts only after you review the request.
+        NSLocalNetworkUsageDescription: Turing AI connects to local AI providers only when you add one.
+        NSMicrophoneUsageDescription: Turing AI uses the microphone while live transcription is active to turn your speech into draft text.
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: com.omergirgin.mosaic.backup
+            UTTypeDescription: Turing AI Portable Backup
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - mosaicbackup
+              public.mime-type: application/vnd.mosaic.backup+json
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omergirgin.mosaic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+
+  Turing-Watch:
+    type: application
+    platform: watchOS
+    deploymentTarget: "10.0"
+    sources:
+      - path: Apps/Watch
+    dependencies:
+      - package: TuringVoice
+    info:
+      path: Apps/Watch/Info.plist
+      properties:
+        CFBundleDisplayName: Turing AI
+        CFBundleName: Turing AI
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        WKApplication: true
+        WKCompanionAppBundleIdentifier: com.omergirgin.mosaic
+        WKRunsIndependentlyOfCompanionApp: true
+        ITSAppUsesNonExemptEncryption: false
+        NSMicrophoneUsageDescription: Turing AI uses your microphone when you start a voice conversation or record a message.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omergirgin.mosaic.watchkitapp
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+
+  Turing-Share:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Apps/ShareExtension
+      - path: Apps/iOS/Assets.xcassets
+      - path: Apps/iOS/PrivacyInfo.xcprivacy
+      - path: Packages/MosaicCore/Sources/MosaicCore/Persistence/SharedInbox.swift
+    entitlements:
+      path: Apps/ShareExtension/Turing-Share.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.omergirgin.mosaic
+    info:
+      path: Apps/ShareExtension/Info.plist
+      properties:
+        CFBundleDisplayName: Turing AI
+        CFBundleName: Turing AI
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShareViewController
+          NSExtensionAttributes:
+            NSExtensionJavaScriptPreprocessingFile: SharePreprocessor
+            NSExtensionActivationRule:
+              NSExtensionActivationSupportsText: true
+              NSExtensionActivationSupportsImageWithMaxCount: 4
+              NSExtensionActivationSupportsFileWithMaxCount: 4
+              NSExtensionActivationSupportsWebURLWithMaxCount: 1
+              NSExtensionActivationSupportsWebPageWithMaxCount: 1
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omergirgin.mosaic.share
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+
+  Mosaic-macOS:
+    type: application
+    platform: macOS
+    sources:
+      - path: Apps/macOS
+      - path: Brand/ProviderLogos.xcassets
+    dependencies:
+      - package: MosaicCore
+    entitlements:
+      path: Apps/macOS/Mosaic-macOS.entitlements
+      properties:
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.omergirgin.mosaic
+        com.apple.developer.icloud-services:
+          - CloudKit
+        com.apple.security.app-sandbox: true
+        com.apple.security.device.audio-input: true
+        com.apple.security.personal-information.calendars: true
+        com.apple.security.personal-information.addressbook: true
+        com.apple.security.network.client: true
+        com.apple.security.files.user-selected.read-write: true
+    info:
+      path: Apps/macOS/Info.plist
+      properties:
+        TuringGoogleClientID: $(TURING_GOOGLE_MACOS_CLIENT_ID)
+        CFBundleURLTypes:
+          - CFBundleURLName: Google sign-in
+            CFBundleURLSchemes:
+              - $(TURING_GOOGLE_MACOS_CALLBACK_SCHEME)
+          - CFBundleURLName: Connected accounts
+            CFBundleURLSchemes:
+              - com.omergirgin.turing
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: Turing AI
+        CFBundleName: Turing AI
+        LSApplicationCategoryType: public.app-category.productivity
+        LSMultipleInstancesProhibited: true
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        NSHumanReadableCopyright: Copyright © 2026. All rights reserved.
+        NSCalendarsFullAccessUsageDescription: Turing AI reads calendar events when you enable Apple Calendar in a chat, and creates events only after you review the request.
+        NSRemindersFullAccessUsageDescription: Turing AI reads reminders when you enable Apple Reminders in a chat, and creates or completes reminders only after you review the request.
+        NSContactsUsageDescription: Turing AI finds permitted contacts when you enable Apple Contacts in a chat, and creates contacts only after you review the request.
+        NSLocalNetworkUsageDescription: Turing AI connects to local AI providers only when you add one.
+        NSMicrophoneUsageDescription: Turing AI uses the microphone while live transcription is active to turn your speech into draft text.
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: com.omergirgin.mosaic.backup
+            UTTypeDescription: Turing AI Portable Backup
+            UTTypeConformsTo:
+              - public.data
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - mosaicbackup
+              public.mime-type: application/vnd.mosaic.backup+json
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omergirgin.mosaic.macos
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: YES
+        GENERATE_INFOPLIST_FILE: NO
+
+schemes:
+  Turing-Watch:
+    build:
+      targets:
+        Turing-Watch: all
+    run:
+      config: Debug
+  Mosaic-iOS:
+    build:
+      targets:
+        Mosaic-iOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  Mosaic-macOS:
+    build:
+      targets:
+        Mosaic-macOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release

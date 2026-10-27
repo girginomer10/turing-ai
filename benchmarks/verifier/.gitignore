@@ -1,0 +1,7 @@
+# raw intermediate outputs, LLM pre-annotations (hidden from annotators), converted models
+work/
+Validate/.build/
+
+# regenerable model outputs (about 10 MB) and bytecode
+data/extractions.*.jsonl
+__pycache__/

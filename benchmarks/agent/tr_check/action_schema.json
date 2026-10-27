@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ControllerAction",
+  "description": "One action of the memory-research controller.",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "action": {"const": "search"},
+        "query": {"type": "string", "minLength": 1, "maxLength": 200}
+      },
+      "required": ["action", "query"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {"const": "expand"},
+        "source": {"type": "string", "minLength": 1, "maxLength": 64}
+      },
+      "required": ["action", "source"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {"const": "select"},
+        "ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1, "maxLength": 64},
+          "minItems": 1,
+          "maxItems": 8
+        }
+      },
+      "required": ["action", "ids"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "action": {"const": "stop"}
+      },
+      "required": ["action"],
+      "additionalProperties": false
+    }
+  ]
+}

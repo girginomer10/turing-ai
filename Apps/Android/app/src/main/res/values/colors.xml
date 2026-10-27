@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Must match TuringLightColors.background so the window never flashes before Compose draws. -->
+  <color name="turing_window_background">#FFF9F9FF</color>
+  <color name="turing_brand">#FF426B9E</color>
+  <!-- Near-black sampled from the launcher mark (turing_mark.png); backs the adaptive launcher icon. -->
+  <color name="ic_launcher_background">#FF050A1B</color>
+</resources>

@@ -1,0 +1,39 @@
+.DS_Store
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.ipa
+*.dSYM.zip
+*.dSYM
+.env
+
+# Local-only working notes
+.ai/
+
+# Android / Gradle / JetBrains (module-level rules live in Apps/Android/.gitignore)
+.gradle/
+.kotlin/
+.idea/
+*.iml
+*.hprof
+local.properties
+.cxx/
+
+# Retrieval benchmark: downloaded data and generated scores are reproducible
+benchmarks/retrieval/work/
+benchmarks/retrieval/data/
+
+# Memory benchmark: generated scores and blind-annotator inputs are reproducible
+benchmarks/memory/work/
+
+# Spend ledger for hosted API runs
+benchmarks/.spend.json
+benchmarks/.spend.json.lock
+benchmarks/.spend.json.tmp
+
+# Memory agent: generated worlds, traces and model outputs are reproducible
+benchmarks/agent/work/
+__pycache__/

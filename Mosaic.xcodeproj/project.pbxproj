@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D61A3ABAEEC7D712199D54 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DB8D8699BD3F34907C27F4B4 /* PrivacyInfo.xcprivacy */; };
+		03F954B02BA148FA62AD6924 /* Turing-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 12F6F25B7C0F210ABF6456A8 /* Turing-Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A9D6BE4BFBC37CC8683B5F2 /* TuringWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EA17EB1ACE3E61E79A933 /* TuringWatchApp.swift */; };
+		258664E7450BBB94803C3516 /* WatchConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795C866A77264F4CE4900DC /* WatchConnection.swift */; };
+		2ADF674FF11A245F39C384C2 /* MosaicMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EA3AE80D41EF046603604 /* MosaicMacApp.swift */; };
+		2DC5760A50CE379F8E46AAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7597D8B3E0999E0381FDB4D2 /* Assets.xcassets */; };
+		303D4D604AC146173E5CF9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F9032CCFEBCC6C59D5BE1E /* Assets.xcassets */; };
+		382C5C14B93594C9505F1B29 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4043DD7C497303422D461C50 /* PrivacyInfo.xcprivacy */; };
+		387DF363CF1356A38BDD4EF7 /* MosaicIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797E6BFE7D2C20DF6994E7D /* MosaicIOSApp.swift */; };
+		4001F5B23217B6CE1A0CE9D8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E6F128D201A5C4A2D56E939 /* PrivacyInfo.xcprivacy */; };
+		40B2EECA9A42741C23873951 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DB8D8699BD3F34907C27F4B4 /* PrivacyInfo.xcprivacy */; };
+		468B2B6522C3CD106544E1F5 /* ProviderLogos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5123CE5DC570895B30AD130 /* ProviderLogos.xcassets */; };
+		5F052177945983D595254257 /* TuringVoice in Frameworks */ = {isa = PBXBuildFile; productRef = B96AD422AA002F47E4CFE8F7 /* TuringVoice */; };
+		60D04532B8CDA603A2D63CB7 /* SharedInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64EEBEEA5F6AA6F8EE1DE9D /* SharedInbox.swift */; };
+		65147B1501A28E52D50912F7 /* SharePreprocessor.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F3765740F89BAF487FCBBD7 /* SharePreprocessor.js */; };
+		A269A1E776439A1FDEE0F33F /* MosaicCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9190E38FE1EB830D761DDD55 /* MosaicCore */; };
+		A5BCC5BAFD3EF175EF582434 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC225B137ED16ACE399605 /* ShareViewController.swift */; };
+		ABD5CF8F5F9A64C92824F611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E87BFFFA0B863E5540C763 /* Assets.xcassets */; };
+		AFA610969696ABC907DB3630 /* MosaicCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4560F0156224CECCF2BF16FE /* MosaicCore */; };
+		B28514E75E821D71B3D374CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7597D8B3E0999E0381FDB4D2 /* Assets.xcassets */; };
+		B9CE9BDD2E494256327A801A /* ProviderLogos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5123CE5DC570895B30AD130 /* ProviderLogos.xcassets */; };
+		CB3A39586EB42ECEFA53DE0C /* WatchAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B7B18D83C177DBCA509EA /* WatchAudio.swift */; };
+		EFB2A51BC574B847EEB9E154 /* Turing-Share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5AC569841681CC45E97F12B8 /* Turing-Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0649D5C52657A0E656BF3F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB5A8D7D5E9600E23EAA04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCC1A59EDB5CDA836FF550C;
+			remoteInfo = "Turing-Watch";
+		};
+		8A1EEED88D15197A0592908A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB5A8D7D5E9600E23EAA04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084C80D2CDBB2085EDAA196E;
+			remoteInfo = "Turing-Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DA4F3963732757F98EC3E19 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03F954B02BA148FA62AD6924 /* Turing-Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D77D3A5352B0406D911B1F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFB2A51BC574B847EEB9E154 /* Turing-Share.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12F6F25B7C0F210ABF6456A8 /* Turing-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turing-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D8FC0943E98245E901CFD3 /* Mosaic-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Mosaic-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E87BFFFA0B863E5540C763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B5187B1F3715760EC1CF85 /* Mosaic-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mosaic-iOS.entitlements"; sourceTree = "<group>"; };
+		3ECACCA21C4A5A3F37118AB3 /* Mosaic-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mosaic-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4043DD7C497303422D461C50 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4502EC466C7A993E117FC1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4D3B7B18D83C177DBCA509EA /* WatchAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAudio.swift; sourceTree = "<group>"; };
+		5AC569841681CC45E97F12B8 /* Turing-Share.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = "Turing-Share.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6073DA90CB52B9817852556E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		63E9B03843927D928447BCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F3765740F89BAF487FCBBD7 /* SharePreprocessor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SharePreprocessor.js; sourceTree = "<group>"; };
+		7597D8B3E0999E0381FDB4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77D22B9F5E7864E175467711 /* Mosaic-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mosaic-macOS.entitlements"; sourceTree = "<group>"; };
+		7E6F128D201A5C4A2D56E939 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		84EC225B137ED16ACE399605 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		ADD949A15CB06440658F7182 /* MosaicCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MosaicCore; path = Packages/MosaicCore; sourceTree = SOURCE_ROOT; };
+		B795C866A77264F4CE4900DC /* WatchConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnection.swift; sourceTree = "<group>"; };
+		BC08752C265750F73A88C210 /* TuringVoice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TuringVoice; path = Packages/TuringVoice; sourceTree = SOURCE_ROOT; };
+		D184C611B33227901BD2FE2C /* Turing-Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Turing-Share.entitlements"; sourceTree = "<group>"; };
+		D1F9032CCFEBCC6C59D5BE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D49F8EF1935F7298EDA5382C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D64EEBEEA5F6AA6F8EE1DE9D /* SharedInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedInbox.swift; sourceTree = "<group>"; };
+		D797E6BFE7D2C20DF6994E7D /* MosaicIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicIOSApp.swift; sourceTree = "<group>"; };
+		DA8EA3AE80D41EF046603604 /* MosaicMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicMacApp.swift; sourceTree = "<group>"; };
+		DB8D8699BD3F34907C27F4B4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DF6EA17EB1ACE3E61E79A933 /* TuringWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringWatchApp.swift; sourceTree = "<group>"; };
+		E5123CE5DC570895B30AD130 /* ProviderLogos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ProviderLogos.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA8A295224EF22F14F0B857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A269A1E776439A1FDEE0F33F /* MosaicCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1300D4BCB3439A83183B162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA610969696ABC907DB3630 /* MosaicCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA395ACE5586EB1FFB2C4E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F052177945983D595254257 /* TuringVoice in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1002BF061743A4E49BC0C339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D8FC0943E98245E901CFD3 /* Mosaic-iOS.app */,
+				3ECACCA21C4A5A3F37118AB3 /* Mosaic-macOS.app */,
+				5AC569841681CC45E97F12B8 /* Turing-Share.appex */,
+				12F6F25B7C0F210ABF6456A8 /* Turing-Watch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E4A4B820DFC953F51C599B4 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				D64EEBEEA5F6AA6F8EE1DE9D /* SharedInbox.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		656457F3936324760760164B /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4502EC466C7A993E117FC1F5 /* Info.plist */,
+				6F3765740F89BAF487FCBBD7 /* SharePreprocessor.js */,
+				84EC225B137ED16ACE399605 /* ShareViewController.swift */,
+				D184C611B33227901BD2FE2C /* Turing-Share.entitlements */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		86A01292DC2D88735D612FB2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				ADD949A15CB06440658F7182 /* MosaicCore */,
+				BC08752C265750F73A88C210 /* TuringVoice */,
+				AD6D18B43A5CC8190547E7E8 /* MosaicCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		86C08C9734ADB9B376DE39F9 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				17E87BFFFA0B863E5540C763 /* Assets.xcassets */,
+				6073DA90CB52B9817852556E /* Info.plist */,
+				7E6F128D201A5C4A2D56E939 /* PrivacyInfo.xcprivacy */,
+				DF6EA17EB1ACE3E61E79A933 /* TuringWatchApp.swift */,
+				4D3B7B18D83C177DBCA509EA /* WatchAudio.swift */,
+				B795C866A77264F4CE4900DC /* WatchConnection.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		8C4130872F5920B73E25A1F2 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				9DD633BFD01D93E92C7D8B31 /* iOS */,
+				A679823AEEABB304AF22A481 /* macOS */,
+				656457F3936324760760164B /* ShareExtension */,
+				86C08C9734ADB9B376DE39F9 /* Watch */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		93EAD1979F5C8A4751D47B27 = {
+			isa = PBXGroup;
+			children = (
+				8C4130872F5920B73E25A1F2 /* Apps */,
+				9799427C28D0F30A7813275E /* Brand */,
+				86A01292DC2D88735D612FB2 /* Packages */,
+				1002BF061743A4E49BC0C339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9799427C28D0F30A7813275E /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				E5123CE5DC570895B30AD130 /* ProviderLogos.xcassets */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		9D8E338F3E961B2FA5755E9E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB182413C528DF4B926749F /* MosaicCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DD633BFD01D93E92C7D8B31 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7597D8B3E0999E0381FDB4D2 /* Assets.xcassets */,
+				D49F8EF1935F7298EDA5382C /* Info.plist */,
+				37B5187B1F3715760EC1CF85 /* Mosaic-iOS.entitlements */,
+				D797E6BFE7D2C20DF6994E7D /* MosaicIOSApp.swift */,
+				DB8D8699BD3F34907C27F4B4 /* PrivacyInfo.xcprivacy */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A679823AEEABB304AF22A481 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9032CCFEBCC6C59D5BE1E /* Assets.xcassets */,
+				63E9B03843927D928447BCA9 /* Info.plist */,
+				77D22B9F5E7864E175467711 /* Mosaic-macOS.entitlements */,
+				DA8EA3AE80D41EF046603604 /* MosaicMacApp.swift */,
+				4043DD7C497303422D461C50 /* PrivacyInfo.xcprivacy */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD6D18B43A5CC8190547E7E8 /* MosaicCore */ = {
+			isa = PBXGroup;
+			children = (
+				9D8E338F3E961B2FA5755E9E /* Sources */,
+			);
+			path = MosaicCore;
+			sourceTree = "<group>";
+		};
+		BAB182413C528DF4B926749F /* MosaicCore */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A4B820DFC953F51C599B4 /* Persistence */,
+			);
+			path = MosaicCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084C80D2CDBB2085EDAA196E /* Turing-Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAA14C295B174E9B8DD19A6 /* Build configuration list for PBXNativeTarget "Turing-Share" */;
+			buildPhases = (
+				8CB8D4B553039B5D41360FC9 /* Sources */,
+				2A0BE6ACA009567D1543A84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turing-Share";
+			packageProductDependencies = (
+			);
+			productName = "Turing-Share";
+			productReference = 5AC569841681CC45E97F12B8 /* Turing-Share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3842EADCD360D40980EBCE8E /* Mosaic-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797BB73E6D7E0A7A05D9D8D8 /* Build configuration list for PBXNativeTarget "Mosaic-macOS" */;
+			buildPhases = (
+				CCDCB446F834C6D50CB21F92 /* Sources */,
+				0E64861E2B86941193F130F6 /* Resources */,
+				C1300D4BCB3439A83183B162 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mosaic-macOS";
+			packageProductDependencies = (
+				4560F0156224CECCF2BF16FE /* MosaicCore */,
+			);
+			productName = "Mosaic-macOS";
+			productReference = 3ECACCA21C4A5A3F37118AB3 /* Mosaic-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCC1A59EDB5CDA836FF550C /* Turing-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975A7769CD70EED80CA0EB5F /* Build configuration list for PBXNativeTarget "Turing-Watch" */;
+			buildPhases = (
+				8E5E47689B5313B62FAF89AA /* Sources */,
+				8FB1F922CBD73A065BAD645E /* Resources */,
+				FA395ACE5586EB1FFB2C4E1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turing-Watch";
+			packageProductDependencies = (
+				B96AD422AA002F47E4CFE8F7 /* TuringVoice */,
+			);
+			productName = "Turing-Watch";
+			productReference = 12F6F25B7C0F210ABF6456A8 /* Turing-Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714BB22B01428CC250F48E4D /* Mosaic-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7B22C2639387AD137FBB39 /* Build configuration list for PBXNativeTarget "Mosaic-iOS" */;
+			buildPhases = (
+				251683744BC42F53C43293EE /* Sources */,
+				13997E7C1CCDB118422528EE /* Resources */,
+				5EA8A295224EF22F14F0B857 /* Frameworks */,
+				18D77D3A5352B0406D911B1F /* Embed Foundation Extensions */,
+				0DA4F3963732757F98EC3E19 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D333B68B5D224CFC6D596D /* PBXTargetDependency */,
+				3A1AA3E40E4D0C52A69D7DA3 /* PBXTargetDependency */,
+			);
+			name = "Mosaic-iOS";
+			packageProductDependencies = (
+				9190E38FE1EB830D761DDD55 /* MosaicCore */,
+			);
+			productName = "Mosaic-iOS";
+			productReference = 17D8FC0943E98245E901CFD3 /* Mosaic-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB5A8D7D5E9600E23EAA04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					084C80D2CDBB2085EDAA196E = {
+						ProvisioningStyle = Automatic;
+					};
+					3842EADCD360D40980EBCE8E = {
+						ProvisioningStyle = Automatic;
+					};
+					4BCC1A59EDB5CDA836FF550C = {
+						ProvisioningStyle = Automatic;
+					};
+					714BB22B01428CC250F48E4D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14EB83E4F6A2A6C086643429 /* Build configuration list for PBXProject "Mosaic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 93EAD1979F5C8A4751D47B27;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				831FAAB50FFA14F0E425F09B /* XCLocalSwiftPackageReference "Packages/MosaicCore" */,
+				CC0AD246671DEBACAC963D13 /* XCLocalSwiftPackageReference "Packages/TuringVoice" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1002BF061743A4E49BC0C339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714BB22B01428CC250F48E4D /* Mosaic-iOS */,
+				4BCC1A59EDB5CDA836FF550C /* Turing-Watch */,
+				084C80D2CDBB2085EDAA196E /* Turing-Share */,
+				3842EADCD360D40980EBCE8E /* Mosaic-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E64861E2B86941193F130F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303D4D604AC146173E5CF9A8 /* Assets.xcassets in Resources */,
+				382C5C14B93594C9505F1B29 /* PrivacyInfo.xcprivacy in Resources */,
+				B9CE9BDD2E494256327A801A /* ProviderLogos.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13997E7C1CCDB118422528EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28514E75E821D71B3D374CE /* Assets.xcassets in Resources */,
+				40B2EECA9A42741C23873951 /* PrivacyInfo.xcprivacy in Resources */,
+				468B2B6522C3CD106544E1F5 /* ProviderLogos.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0BE6ACA009567D1543A84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC5760A50CE379F8E46AAB8 /* Assets.xcassets in Resources */,
+				01D61A3ABAEEC7D712199D54 /* PrivacyInfo.xcprivacy in Resources */,
+				65147B1501A28E52D50912F7 /* SharePreprocessor.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB1F922CBD73A065BAD645E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD5CF8F5F9A64C92824F611 /* Assets.xcassets in Resources */,
+				4001F5B23217B6CE1A0CE9D8 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251683744BC42F53C43293EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387DF363CF1356A38BDD4EF7 /* MosaicIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB8D4B553039B5D41360FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BCC5BAFD3EF175EF582434 /* ShareViewController.swift in Sources */,
+				60D04532B8CDA603A2D63CB7 /* SharedInbox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5E47689B5313B62FAF89AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9D6BE4BFBC37CC8683B5F2 /* TuringWatchApp.swift in Sources */,
+				CB3A39586EB42ECEFA53DE0C /* WatchAudio.swift in Sources */,
+				258664E7450BBB94803C3516 /* WatchConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDCB446F834C6D50CB21F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADF674FF11A245F39C384C2 /* MosaicMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1AA3E40E4D0C52A69D7DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084C80D2CDBB2085EDAA196E /* Turing-Share */;
+			targetProxy = 8A1EEED88D15197A0592908A /* PBXContainerItemProxy */;
+		};
+		64D333B68B5D224CFC6D596D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCC1A59EDB5CDA836FF550C /* Turing-Watch */;
+			targetProxy = 0649D5C52657A0E656BF3F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E0A59F1BA5433E1D96F8E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apps/macOS/Mosaic-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.macos;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5768CC178F26CEA521607368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 27;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TURING_GOOGLE_IOS_CALLBACK_SCHEME = "com.googleusercontent.apps.986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq";
+				TURING_GOOGLE_IOS_CLIENT_ID = "986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq.apps.googleusercontent.com";
+				TURING_GOOGLE_MACOS_CALLBACK_SCHEME = "com.googleusercontent.apps.986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t";
+				TURING_GOOGLE_MACOS_CLIENT_ID = "986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t.apps.googleusercontent.com";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		64DBB7E0D4FB2C7AF326961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6860BE2E028563BE757CB606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Apps/ShareExtension/Turing-Share.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A5A2DE47512D2BA55506A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 27;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TURING_GOOGLE_IOS_CALLBACK_SCHEME = "com.googleusercontent.apps.986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq";
+				TURING_GOOGLE_IOS_CLIENT_ID = "986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq.apps.googleusercontent.com";
+				TURING_GOOGLE_MACOS_CALLBACK_SCHEME = "com.googleusercontent.apps.986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t";
+				TURING_GOOGLE_MACOS_CLIENT_ID = "986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t.apps.googleusercontent.com";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		AF18922478216CF31F6F79C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apps/iOS/Mosaic-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C344064FC434DCD8DE53FFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C5EF8E040E84B82ACADA9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apps/macOS/Mosaic-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.macos;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D19D871C6CF33458ABF34D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Apps/iOS/Mosaic-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E71B401380682D3A55717DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Apps/ShareExtension/Turing-Share.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/ShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14EB83E4F6A2A6C086643429 /* Build configuration list for PBXProject "Mosaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5A2DE47512D2BA55506A7 /* Debug */,
+				5768CC178F26CEA521607368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		797BB73E6D7E0A7A05D9D8D8 /* Build configuration list for PBXNativeTarget "Mosaic-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0A59F1BA5433E1D96F8E72 /* Debug */,
+				C5EF8E040E84B82ACADA9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		975A7769CD70EED80CA0EB5F /* Build configuration list for PBXNativeTarget "Turing-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DBB7E0D4FB2C7AF326961D /* Debug */,
+				C344064FC434DCD8DE53FFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCAA14C295B174E9B8DD19A6 /* Build configuration list for PBXNativeTarget "Turing-Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6860BE2E028563BE757CB606 /* Debug */,
+				E71B401380682D3A55717DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD7B22C2639387AD137FBB39 /* Build configuration list for PBXNativeTarget "Mosaic-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19D871C6CF33458ABF34D03 /* Debug */,
+				AF18922478216CF31F6F79C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		831FAAB50FFA14F0E425F09B /* XCLocalSwiftPackageReference "Packages/MosaicCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/MosaicCore;
+		};
+		CC0AD246671DEBACAC963D13 /* XCLocalSwiftPackageReference "Packages/TuringVoice" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TuringVoice;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4560F0156224CECCF2BF16FE /* MosaicCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MosaicCore;
+		};
+		9190E38FE1EB830D761DDD55 /* MosaicCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MosaicCore;
+		};
+		B96AD422AA002F47E4CFE8F7 /* TuringVoice */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TuringVoice;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CFB5A8D7D5E9600E23EAA04E /* Project object */;
+}

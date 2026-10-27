@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Turing AI</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Turing AI</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Google sign-in</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(TURING_GOOGLE_IOS_CALLBACK_SCHEME)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Connected accounts</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.omergirgin.turing</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Turing AI reads calendar events when you enable Apple Calendar in a chat, and creates events only after you review the request.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Turing AI finds permitted contacts when you enable Apple Contacts in a chat, and creates contacts only after you review the request.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Turing AI connects to local AI providers only when you add one.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Turing AI uses the microphone while live transcription is active to turn your speech into draft text.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Turing AI reads reminders when you enable Apple Reminders in a chat, and creates or completes reminders only after you review the request.</string>
+	<key>TuringGoogleClientID</key>
+	<string>$(TURING_GOOGLE_IOS_CLIENT_ID)</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Turing AI Portable Backup</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.omergirgin.mosaic.backup</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mosaicbackup</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/vnd.mosaic.backup+json</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

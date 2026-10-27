@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tinfoil mark, dark-appearance variant. Converted 1:1 from Brand/ProviderLogos.xcassets (single-path SVG). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+  <path
+      android:fillColor="#FFFFFFFF"
+      android:pathData="M955.4,718.23l-674.69,205.77L6.34,708.97,268.9,35.01l686.5,683.22ZM164.94,665.52l143.05,112.11,397.97-121.37-387.26-385.41-153.76,394.66Z" />
+</vector>

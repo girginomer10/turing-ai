@@ -1,0 +1,1203 @@
+{
+  "persona": "p5",
+  "summary": "Physics teacher at a high school in Ankara (Turkish-dominant): exam schedules, grading, marathon training, parents' village house, a used car, family in Izmir and Eskisehir.",
+  "items": [
+    {
+      "id": "p5-m001",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Okul ve branş",
+      "text": "Kullanıcı Ankara'daki Ayrancı Anadolu Lisesi'nde fizik öğretmeni olarak çalışıyor; okulda on birinci yılı.",
+      "age_days": 640,
+      "confidence": 0.92,
+      "importance": 0.8,
+      "container": "p5-c001"
+    },
+    {
+      "id": "p5-m002",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Sınıf rehberliği",
+      "text": "Kullanıcı bu yıl 10-C sınıfının rehber öğretmeni; rehberlik saati salı günü son derse denk geliyor.",
+      "age_days": 150,
+      "confidence": 0.85,
+      "importance": 0.6,
+      "container": "p5-c002"
+    },
+    {
+      "id": "p5-m003",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Eşi",
+      "text": "Kullanıcının eşi Gülay, Çankaya'da bir eczanede eczacı olarak çalışıyor.",
+      "age_days": 700,
+      "confidence": 0.93,
+      "importance": 0.7,
+      "container": "p5-c003"
+    },
+    {
+      "id": "p5-m004",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Çocuklar",
+      "text": "Kullanıcının iki çocuğu var: sekiz yaşındaki kızı Defne ve on beş yaşındaki oğlu Emre.",
+      "age_days": 520,
+      "confidence": 0.92,
+      "importance": 0.85,
+      "container": "p5-c004"
+    },
+    {
+      "id": "p5-m005",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Maraton hedefi",
+      "text": "Kullanıcı kasımdaki İstanbul Maratonu'na hazırlanıyor ve 4 saatin altında, yaklaşık 3:55'lik bir süreyle bitirmeyi hedefliyor.",
+      "age_days": 85,
+      "confidence": 0.88,
+      "importance": 0.85,
+      "container": "p5-c005"
+    },
+    {
+      "id": "p5-m006",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Pazar koşuları",
+      "text": "Kullanıcı pazar sabahlarında Gölbaşı'ndaki Mogan Gölü çevresinde uzun koşusunu yapıyor; haftalık toplam mesafesi yaklaşık 55 km.",
+      "age_days": 110,
+      "confidence": 0.82,
+      "importance": 0.6,
+      "container": "p5-c006"
+    },
+    {
+      "id": "p5-m007",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Asfalt ayakkabısı",
+      "text": "Kullanıcı asfalt koşularında Brooks Ghost giyiyor ve bu ayakkabıyı yaklaşık 700 km sonra değiştiriyor.",
+      "age_days": 200,
+      "confidence": 0.8,
+      "importance": 0.35,
+      "container": "p5-c007"
+    },
+    {
+      "id": "p5-m008",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Patika ayakkabısı",
+      "text": "Kullanıcı hafta sonları köy yollarında ve patikada Salomon Speedcross ile koşuyor; bu ayakkabıyı yaklaşık 450 km sonra emekliye ayırıyor.",
+      "age_days": 180,
+      "confidence": 0.8,
+      "importance": 0.35,
+      "container": "p5-c008"
+    },
+    {
+      "id": "p5-m009",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Köydeki ev",
+      "text": "Kullanıcının anne babası Ankara'nın Nallıhan ilçesine bağlı Karaağıl köyündeki evde yaşıyor; kullanıcı ayda bir hafta sonu onları ziyaret ediyor.",
+      "age_days": 760,
+      "confidence": 0.9,
+      "importance": 0.75,
+      "container": "p5-c009"
+    },
+    {
+      "id": "p5-m010",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Babası",
+      "text": "Kullanıcının babası Hasan Bey köy evinin bahçesinde kayısı ve ceviz ağaçlarıyla ilgileniyor.",
+      "age_days": 400,
+      "confidence": 0.85,
+      "importance": 0.5,
+      "container": "p5-c010"
+    },
+    {
+      "id": "p5-m011",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Annesi",
+      "text": "Kullanıcının annesi Fadime Hanım kış aylarını Ankara'da, kullanıcının evinde geçiriyor.",
+      "age_days": 330,
+      "confidence": 0.84,
+      "importance": 0.55,
+      "container": "p5-c011"
+    },
+    {
+      "id": "p5-m012",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Kullanıcının arabası",
+      "text": "Kullanıcının aracı 2015 model Fiat Egea 1.3 dizel; arabayı geçen Mart'ta ikinci elden aldı.",
+      "age_days": 230,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p5-c012"
+    },
+    {
+      "id": "p5-m013",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Eşinin arabası",
+      "text": "Kullanıcının eşi Gülay günlük işleri için 2019 model, benzinli bir Dacia Sandero kullanıyor.",
+      "age_days": 410,
+      "confidence": 0.88,
+      "importance": 0.45,
+      "container": "p5-c013"
+    },
+    {
+      "id": "p5-m014",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Notlandırma tarzı",
+      "text": "Kullanıcı yazılı sınavlarda çözüm adımlarına göre kısmi puan veriyor; birimi yazılmayan cevaptan 1 puan kırıyor.",
+      "age_days": 560,
+      "confidence": 0.8,
+      "importance": 0.6,
+      "container": "p5-c014"
+    },
+    {
+      "id": "p5-m015",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Laboratuvar eksiği",
+      "text": "Okulun fizik laboratuvarında osiloskop bulunmuyor; kullanıcı bunun için müdür yardımcısı Ferhat Bey'le görüşüyor.",
+      "age_days": 95,
+      "confidence": 0.75,
+      "importance": 0.55,
+      "container": "p5-c015"
+    },
+    {
+      "id": "p5-m016",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Kedi Tarçın",
+      "text": "Kullanıcının dört yaşında bir tekir kedisi var, adı Tarçın; yıllık aşısı her Nisan'da yaptırılıyor.",
+      "age_days": 470,
+      "confidence": 0.9,
+      "importance": 0.5,
+      "container": "p5-c016"
+    },
+    {
+      "id": "p5-m017",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Kız kardeşi Burcu",
+      "text": "Kullanıcının kız kardeşi Burcu İzmir'de mimar olarak çalışıyor ve küçük oğlu Kaan'la yaşıyor; doğum günü 14 Ocak.",
+      "age_days": 610,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p5-c017"
+    },
+    {
+      "id": "p5-m018",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Erkek kardeşi Murat",
+      "text": "Kullanıcının erkek kardeşi Murat Eskişehir'de yazılım geliştirici olarak çalışıyor; doğum günü 3 Mart.",
+      "age_days": 600,
+      "confidence": 0.9,
+      "importance": 0.6,
+      "container": "p5-c018"
+    },
+    {
+      "id": "p5-m019",
+      "kind": "topic",
+      "lang": "tr",
+      "title": "Çatı birikimi",
+      "text": "Kullanıcı ek ders gelirini köy evinin çatı onarımı için ayrı bir hesapta biriktiriyor.",
+      "age_days": 60,
+      "confidence": 0.72,
+      "importance": 0.5,
+      "container": "p5-c019"
+    },
+    {
+      "id": "p5-m020",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Pre-race dinner",
+      "text": "The user likes to eat bulgur pilaf with boiled chicken for dinner the night before a long race.",
+      "age_days": 140,
+      "confidence": 0.7,
+      "importance": 0.3,
+      "container": "p5-c020"
+    },
+    {
+      "id": "p5-m021",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Baglama lessons",
+      "text": "The user takes baglama lessons every Thursday evening at a music course in Kızılay and has been playing for about two years.",
+      "age_days": 300,
+      "confidence": 0.85,
+      "importance": 0.45,
+      "container": "p5-c021"
+    },
+    {
+      "id": "p5-m022",
+      "kind": "topic",
+      "lang": "en",
+      "title": "Running podcast",
+      "text": "The user listens to a weekly podcast called 'Laboratuvar Notları' about teaching physics, usually during Saturday morning easy runs.",
+      "age_days": 220,
+      "confidence": 0.7,
+      "importance": 0.3,
+      "container": "p5-c022"
+    },
+    {
+      "id": "p5-m023",
+      "kind": "event",
+      "lang": "tr",
+      "title": "11-B yazılısı",
+      "text": "12 Ekim'de kullanıcı, 11-B sınıfının mekanik yazılısının 4 Kasım Çarşamba günü ikinci ders saatinde yapılacağını söyledi.",
+      "age_days": 11,
+      "confidence": 0.85,
+      "importance": 0.7,
+      "container": "p5-c023"
+    },
+    {
+      "id": "p5-m024",
+      "kind": "event",
+      "lang": "tr",
+      "title": "10-C yazılısı",
+      "text": "12 Ekim'de kullanıcı ayrıca 10-C sınıfının yazılısını 9 Kasım Pazartesi gününe koyduğunu belirtti.",
+      "age_days": 11,
+      "confidence": 0.85,
+      "importance": 0.7,
+      "container": "p5-c024"
+    },
+    {
+      "id": "p5-m025",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Veli toplantısı",
+      "text": "20 Ekim'de kullanıcı, veli toplantısının 12 Kasım Perşembe günü saat 18.00'de okulun konferans salonunda yapılacağını anlattı.",
+      "age_days": 3,
+      "confidence": 0.9,
+      "importance": 0.7,
+      "container": "p5-c025"
+    },
+    {
+      "id": "p5-m026",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Kış lastiği randevusu",
+      "text": "15 Ekim'de kullanıcı Egea'ya kış lastiği taktırmak için Ostim'deki bir lastikçiden 29 Ekim Perşembe sabahına randevu aldığını söyledi.",
+      "age_days": 8,
+      "confidence": 0.88,
+      "importance": 0.5,
+      "container": "p5-c026"
+    },
+    {
+      "id": "p5-m027",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Sandero muayenesi",
+      "text": "18 Ekim'de kullanıcı, eşinin Sandero'su için araç muayenesinin 5 Kasım Perşembe günü yapılacağını söyledi.",
+      "age_days": 5,
+      "confidence": 0.85,
+      "importance": 0.5,
+      "container": "p5-c027"
+    },
+    {
+      "id": "p5-m028",
+      "kind": "event",
+      "lang": "tr",
+      "title": "32 km koşu",
+      "text": "18 Ekim'de kullanıcı 32 km'lik son uzun koşusunu 3 saat 5 dakikada tamamladığını anlattı.",
+      "age_days": 5,
+      "confidence": 0.8,
+      "importance": 0.5,
+      "container": "p5-c028"
+    },
+    {
+      "id": "p5-m029",
+      "kind": "event",
+      "lang": "tr",
+      "title": "25 km koşu",
+      "text": "28 Eylül'de kullanıcı 25 km'lik koşuyu 2 saat 28 dakikada bitirdiğini, sağ ayak bileğinde hafif bir sızı hissettiğini söyledi.",
+      "age_days": 25,
+      "confidence": 0.78,
+      "importance": 0.4,
+      "container": "p5-c029"
+    },
+    {
+      "id": "p5-m030",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Diş hekimi",
+      "text": "7 Ekim'de kullanıcı diş hekimi randevusunun 26 Ekim Pazartesi saat 14.30'da olduğunu söyledi.",
+      "age_days": 16,
+      "confidence": 0.85,
+      "importance": 0.4,
+      "container": "p5-c030"
+    },
+    {
+      "id": "p5-m031",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Defne ortodonti",
+      "text": "14 Ekim'de kullanıcı, Defne'nin ortodonti kontrolünün 2 Kasım Pazartesi saat 16.00'da olduğunu söyledi.",
+      "age_days": 9,
+      "confidence": 0.86,
+      "importance": 0.5,
+      "container": "p5-c031"
+    },
+    {
+      "id": "p5-m032",
+      "kind": "event",
+      "lang": "tr",
+      "title": "Ceviz hasadı",
+      "text": "13 Ekim'de kullanıcı 24 Ekim Cumartesi günü köye gidip babasına ceviz toplamada yardım edeceğini söyledi.",
+      "age_days": 10,
+      "confidence": 0.8,
+      "importance": 0.4,
+      "container": "p5-c032"
+    },
+    {
+      "id": "p5-m033",
+      "kind": "event",
+      "lang": "en",
+      "title": "Department meeting",
+      "text": "On 17 October the user said the physics department meeting is on Wednesday 28 October at 15:30 in the lab, with the yearly plan revision on the agenda.",
+      "age_days": 6,
+      "confidence": 0.82,
+      "importance": 0.45,
+      "container": "p5-c033"
+    },
+    {
+      "id": "p5-m034",
+      "kind": "event",
+      "lang": "en",
+      "title": "Istanbul flights",
+      "text": "On 11 October the user said they booked a flight from Ankara to Istanbul for Friday 6 November at 18:20 and a return flight for Sunday 8 November at 21:40.",
+      "age_days": 12,
+      "confidence": 0.9,
+      "importance": 0.7,
+      "container": "p5-c034"
+    },
+    {
+      "id": "p5-m035",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Vektör toplamı",
+      "text": "11-B'nin kağıtlarını okurken sıkıldım valla, yarısı vektör toplamında aynı yerde takılmış. Pazartesi tahtada baştan çözeceğim.",
+      "age_days": 18,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c035"
+    },
+    {
+      "id": "p5-m036",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Bütünleme soruları",
+      "text": "Nuray hoca bütünleme exam'ını ortak hazırlayalım diyor ama ben kendiminkini yazmak istiyorum, yoksa hep aynı tip çıkıyor.",
+      "age_days": 18,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c035"
+    },
+    {
+      "id": "p5-m037",
+      "kind": "message",
+      "lang": "tr",
+      "title": "e-Okul hatırlatma",
+      "text": "Bu arada e-Okul'a not girişi için son gün 20 Kasım'mış, takvime yazayım da unutmayayım.",
+      "age_days": 17,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c035"
+    },
+    {
+      "id": "p5-m038",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Long run sonrası",
+      "text": "Long run bitti, 32 km. İlk 20'de pace'i tuttum ama 27'den sonra bacaklar gitti, yine de bitirdim. Taper'a başlasam mı sence?",
+      "age_days": 5,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c036"
+    },
+    {
+      "id": "p5-m039",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Jel stratejisi",
+      "text": "Gel stratejisi: her 40 dakikada bir tane aldım, stomach sorun çıkarmadı. Yarışta da birebir aynısını yapacağım.",
+      "age_days": 5,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c036"
+    },
+    {
+      "id": "p5-m040",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Yarış sabahı",
+      "text": "Yarış sabahı kahvaltısı: yulaf ezmesi ve muz, start'tan 3 saat önce. Bunu bir yere not edelim.",
+      "age_days": 5,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c036"
+    },
+    {
+      "id": "p5-m041",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Ceviz ve babam",
+      "text": "Babam yine merdivene çıkıp ceviz silkelemiş, çok kızdım. Giderken uzun bir branda ve ip alacağım ki yerden toplasın.",
+      "age_days": 30,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c037"
+    },
+    {
+      "id": "p5-m042",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Çatı teklifi 1",
+      "text": "Köy evinin çatısı akıtıyor. Cemal usta kiremit değişimi için 38 bin lira dedi, bana fazla geldi.",
+      "age_days": 28,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c037"
+    },
+    {
+      "id": "p5-m043",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Çatı teklifi 2",
+      "text": "Başka usta bulmam lazım. Tanıdığın tanıdığı 31 bin demişti ama malzeme dahil mi bilmiyorum, sorayım.",
+      "age_days": 27,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c037"
+    },
+    {
+      "id": "p5-m044",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Lastik sibobu",
+      "text": "Egea'nın sağ ön lastiği yine havasını kaçırıyor. Lastikçi sibobu değiştirmek lazım dedi, 900 lira.",
+      "age_days": 14,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c038"
+    },
+    {
+      "id": "p5-m045",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Sandero kararı",
+      "text": "Eşim Sandero'yu satıp hibrit bir şeye geçelim diyor ama ben şimdilik idare edelim diyorum.",
+      "age_days": 14,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c038"
+    },
+    {
+      "id": "p5-m046",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Tire randevusu",
+      "text": "Tire appointment için okula biraz geç gireceğim, Ferhat Bey'e haber vereyim de ilk derse başka biri baksın.",
+      "age_days": 13,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c038"
+    },
+    {
+      "id": "p5-m047",
+      "kind": "message",
+      "lang": "en",
+      "title": "Defne's school play",
+      "text": "Defne's school play is on the 19th of November and she's playing the moon. I still have to find some silver fabric for the costume.",
+      "age_days": 40,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c039"
+    },
+    {
+      "id": "p5-m048",
+      "kind": "message",
+      "lang": "en",
+      "title": "Emre's school plans",
+      "text": "Emre keeps saying he wants to transfer to a science high school next year. I think half of it is because his friends are applying.",
+      "age_days": 39,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c039"
+    },
+    {
+      "id": "p5-m049",
+      "kind": "message",
+      "lang": "en",
+      "title": "Emre's tournament",
+      "text": "Emre's basketball tournament is on the 21st of November in Sincan. I promised to drive him and two teammates.",
+      "age_days": 38,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c039"
+    },
+    {
+      "id": "p5-m050",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Kaan'ın doğum günü",
+      "text": "Burcu aradı, Kaan'ın ikinci doğum günü için 19 Aralık Cumartesi İzmir'e gelmemizi istiyor. Uçak mı otobüs mü bakmam lazım.",
+      "age_days": 22,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c040"
+    },
+    {
+      "id": "p5-m051",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Murat'ın taşınması",
+      "text": "Murat da 26 Aralık'ta Eskişehir'deki yeni evinde taşınma yemeği yapacakmış. İki hafta üst üste yolculuk, hmm.",
+      "age_days": 21,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c040"
+    },
+    {
+      "id": "p5-m052",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Kaan hediye",
+      "text": "Kaan'a ahşap tren seti mi alsam yoksa big Lego box mı? Burcu 'ses çıkaran bir şey olmasın' dedi.",
+      "age_days": 20,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c040"
+    },
+    {
+      "id": "p5-m053",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Lab bütçesi",
+      "text": "Ferhat Bey bu yıl lab için en fazla 12 bin lira ayırabileceğini söyledi. Beklediğimin çeyreği.",
+      "age_days": 50,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c041"
+    },
+    {
+      "id": "p5-m054",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Arduino fikri",
+      "text": "Ben de Arduino kitleriyle experiment tasarlayayım dedim. On kit yaklaşık 8 bin tutuyor, sensörler dahil.",
+      "age_days": 49,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c041"
+    },
+    {
+      "id": "p5-m055",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Sarkaç deneyi",
+      "text": "Salı günü 10-C ile sarkaç deneyini yapacağız ama kronometreler yarım yarım çalışıyor, plan B olarak telefon timer'ı kullandırırım.",
+      "age_days": 48,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c041"
+    },
+    {
+      "id": "p5-m056",
+      "kind": "message",
+      "lang": "mixed",
+      "title": "Kedi sabahı",
+      "text": "Tarçın bu sabah yine 5'te mama için suratıma çıktı, uykum yarım kaldı, my alarm is useless.",
+      "age_days": 12,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c042"
+    },
+    {
+      "id": "p5-m057",
+      "kind": "message",
+      "lang": "en",
+      "title": "Baglama piece",
+      "text": "My baglama teacher gave me a new piece, a Teke Zeybeği. My fingers are definitely not ready.",
+      "age_days": 60,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c042"
+    },
+    {
+      "id": "p5-m058",
+      "kind": "message",
+      "lang": "tr",
+      "title": "Gülay yorgun",
+      "text": "Gülay akşam geç geldi, bu hafta çok yoğunmuş. Yemeği ben yaptım, makarna çıktı yine.",
+      "age_days": 35,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c042"
+    },
+    {
+      "id": "p5-m059",
+      "kind": "message",
+      "lang": "en",
+      "title": "First cold week",
+      "text": "It suddenly got cold in Ankara this week, I was looking for my gloves on the morning run. Time to turn the heating on at night too.",
+      "age_days": 10,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c042"
+    },
+    {
+      "id": "p5-m060",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Egea kasko özeti",
+      "text": "Güvenhan Sigorta Kasko Poliçesi Özeti. Sigortalı araç: 2015 model Fiat Egea 1.3 dizel. Poliçe başlangıç tarihi 15 Mart 2026, bitiş tarihi 15 Mart 2027. Yıllık prim 14.500 TL olup dört taksitle ödenir.",
+      "age_days": 220,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c043"
+    },
+    {
+      "id": "p5-m061",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Egea kasko teminatlar",
+      "text": "Teminatlar: çarpma, çarpılma, devrilme, yangın ve hırsızlık. Hasar durumunda sigortalı, hasar bedelinin %2'sini muafiyet olarak öder. Poliçe sahibi hasarı en geç 15 gün içinde şirkete bildirmekle yükümlüdür.",
+      "age_days": 220,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c043"
+    },
+    {
+      "id": "p5-m062",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Egea ek hizmetler",
+      "text": "Ek hizmetler: 24 saat çekici ve yol yardım, kaza halinde en fazla 5 gün yedek araç. Onarım yetkili servislerde yapılırsa orijinal parça garantisi sağlanır.",
+      "age_days": 220,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c043"
+    },
+    {
+      "id": "p5-m063",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Sandero kasko özeti",
+      "text": "Güvenhan Sigorta Kasko Poliçesi Özeti. Sigortalı araç: 2019 model Dacia Sandero 1.0. Poliçe başlangıç tarihi 2 Haziran 2026, bitiş tarihi 2 Haziran 2027. Yıllık prim 11.200 TL olup peşin ödenmiştir.",
+      "age_days": 140,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c044"
+    },
+    {
+      "id": "p5-m064",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Sandero kasko teminatlar",
+      "text": "Teminatlar: çarpma, çarpılma, devrilme, yangın ve hırsızlık. Hasar durumunda sigortalı, hasar bedelinin %3'ünü muafiyet olarak öder. 24 saat çekici hizmeti vardır; yedek araç hakkı bulunmamaktadır.",
+      "age_days": 140,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c044"
+    },
+    {
+      "id": "p5-m065",
+      "kind": "document",
+      "lang": "en",
+      "title": "Marathon kit collection",
+      "text": "Istanbul Marathon Participant Guide. Race kit collection takes place at the Yenikapı Fair Hall on Friday 6 November (12:00-20:00) and Saturday 7 November (10:00-19:00). Bring a photo ID and your printed registration confirmation; kits cannot be collected on race morning.",
+      "age_days": 70,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c045"
+    },
+    {
+      "id": "p5-m066",
+      "kind": "document",
+      "lang": "en",
+      "title": "Marathon start procedure",
+      "text": "Waves A and B start at 08:30 and wave C at 08:50. Corral gates close 15 minutes before each wave. Baggage drop trucks are located in the start village and close at 08:00.",
+      "age_days": 70,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c045"
+    },
+    {
+      "id": "p5-m067",
+      "kind": "document",
+      "lang": "en",
+      "title": "Marathon course rules",
+      "text": "The course closes 6 hours and 30 minutes after the start of the last wave. Runners slower than this pace will be asked to move to the sidewalk. Aid stations are placed every 5 km, with gel points at km 25 and km 35.",
+      "age_days": 70,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c045"
+    },
+    {
+      "id": "p5-m068",
+      "kind": "document",
+      "lang": "tr",
+      "title": "10. sınıf yıllık plan",
+      "text": "10. Sınıf Fizik Yıllık Planı. Birinci dönem ünite sırası: Basınç ve kaldırma kuvveti (7 hafta), Dalgalar (5 hafta), Elektrostatik (4 hafta). Her ünitede en az bir ders saati laboratuvar etkinliğine ayrılır.",
+      "age_days": 400,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c046"
+    },
+    {
+      "id": "p5-m069",
+      "kind": "document",
+      "lang": "tr",
+      "title": "Ölçme değerlendirme",
+      "text": "Ölçme ve değerlendirme: Her dönem iki yazılı sınav ve bir performans notu verilir. Yazılı sınavlar dönem notunun %70'ini, performans notu %30'unu oluşturur.",
+      "age_days": 400,
+      "confidence": null,
+      "importance": null,
+      "container": "p5-c046"
+    }
+  ],
+  "queries": [
+    {
+      "id": "p5-q001",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Pazar sabahları uzun koşuyu nerede yapıyorum?",
+      "gold": [
+        "p5-m006"
+      ],
+      "note": "Only the Sunday long-run topic names the Mogan Lake location."
+    },
+    {
+      "id": "p5-q002",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Köy evim Nallıhan'a bağlı hangi köyde?",
+      "gold": [
+        "p5-m009"
+      ],
+      "note": "Karaağıl köyü is only stated in the village-house topic."
+    },
+    {
+      "id": "p5-q003",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Veli toplantısı hangi gün saat kaçta?",
+      "gold": [
+        "p5-m025"
+      ],
+      "note": "Parent-teacher meeting event gives day and hour."
+    },
+    {
+      "id": "p5-q004",
+      "type": "direct",
+      "lang": "en",
+      "text": "What is the cutoff time for the marathon course?",
+      "gold": [
+        "p5-m067"
+      ],
+      "note": "Race guide course-rules chunk: 6 h 30 min."
+    },
+    {
+      "id": "p5-q005",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Kedimin adı ne, aşısı ne zaman?",
+      "gold": [
+        "p5-m016"
+      ],
+      "note": "Cat topic has name Tarçın and April vaccination; message ha only has the name."
+    },
+    {
+      "id": "p5-q006",
+      "type": "direct",
+      "lang": "en",
+      "text": "Which day are my baglama lessons?",
+      "gold": [
+        "p5-m021"
+      ],
+      "note": "Thursday evening is only in the baglama topic."
+    },
+    {
+      "id": "p5-q007",
+      "type": "direct",
+      "lang": "tr",
+      "text": "Egea'nın kış lastiği randevusu ne zaman?",
+      "gold": [
+        "p5-m026"
+      ],
+      "note": "Event gives 29 Ekim Perşembe morning; message d1 has no date."
+    },
+    {
+      "id": "p5-q008",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Kaç yıldır aynı okulda ders veriyorum?",
+      "gold": [
+        "p5-m001"
+      ],
+      "note": "Eleventh year at Ayrancı Anadolu Lisesi."
+    },
+    {
+      "id": "p5-q009",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Sonucu tutmayan ama yolu doğru olan öğrenciye puan konusunda nasıl yaklaşıyorum?",
+      "gold": [
+        "p5-m014"
+      ],
+      "note": "Partial credit by solution steps."
+    },
+    {
+      "id": "p5-q010",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "İstanbul'daki 42 kilometrelik koşuda kronometrede görmeyi umduğum rakam nedir?",
+      "gold": [
+        "p5-m005"
+      ],
+      "note": "Target about 3:55, under four hours (the course cutoff in the guide is a different fact)."
+    },
+    {
+      "id": "p5-q011",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Kendi otomobilimin üretim yılı ve yakıt cinsi neydi?",
+      "gold": [
+        "p5-m012"
+      ],
+      "note": "User's own car (Egea 2015 diesel), not the wife's Sandero."
+    },
+    {
+      "id": "p5-q012",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Soğuk mevsimde annem bizde mi, köyde mi oluyor?",
+      "gold": [
+        "p5-m011"
+      ],
+      "note": "Mother spends winter months at the user's Ankara home."
+    },
+    {
+      "id": "p5-q013",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Dönem puanlarını sisteme yüklemek için son tarih ne?",
+      "gold": [
+        "p5-m037"
+      ],
+      "note": "e-Okul grade entry deadline 20 Kasım."
+    },
+    {
+      "id": "p5-q014",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Eylül'ün son haftasındaki idman sırasında vücudumun neresi rahatsız etmişti?",
+      "gold": [
+        "p5-m029"
+      ],
+      "note": "Right ankle slight pain on the 28 Sep run."
+    },
+    {
+      "id": "p5-q015",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Tekerlekteki küçük parçanın değişimi bana kaça mal olacakmış?",
+      "gold": [
+        "p5-m044"
+      ],
+      "note": "Valve replacement quoted at 900 lira."
+    },
+    {
+      "id": "p5-q016",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Deney odamızda hangi ölçüm cihazı yok?",
+      "gold": [
+        "p5-m015"
+      ],
+      "note": "No oscilloscope in the physics lab."
+    },
+    {
+      "id": "p5-q017",
+      "type": "paraphrase",
+      "lang": "en",
+      "text": "Which character is my youngest portraying in her stage show at school?",
+      "gold": [
+        "p5-m047"
+      ],
+      "note": "Defne plays the moon in the school play."
+    },
+    {
+      "id": "p5-q018",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Evdeki küçükler kaç yaşında ve isimleri ne?",
+      "gold": [
+        "p5-m004"
+      ],
+      "note": "Defne 8, Emre 15."
+    },
+    {
+      "id": "p5-q019",
+      "type": "paraphrase",
+      "lang": "tr",
+      "text": "Ders dışı çalışmadan kazandığım parayı hangi iş için kenara koyuyorum?",
+      "gold": [
+        "p5-m019"
+      ],
+      "note": "Extra lesson income goes to the village roof repair."
+    },
+    {
+      "id": "p5-q020",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "Which two crops does my father look after at the village house?",
+      "gold": [
+        "p5-m010"
+      ],
+      "note": "Apricot and walnut trees (Turkish topic)."
+    },
+    {
+      "id": "p5-q021",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "When does my wife's car need its roadworthiness check?",
+      "gold": [
+        "p5-m027"
+      ],
+      "note": "Sandero inspection on 5 Kasım (Turkish event)."
+    },
+    {
+      "id": "p5-q022",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "What does my wife do for a living?",
+      "gold": [
+        "p5-m003"
+      ],
+      "note": "Gülay is a pharmacist (Turkish topic)."
+    },
+    {
+      "id": "p5-q023",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "Where does my sister live and what is her job?",
+      "gold": [
+        "p5-m017"
+      ],
+      "note": "Burcu, architect in Izmir; brother Murat is a different person."
+    },
+    {
+      "id": "p5-q024",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "What did I decide to have for breakfast on race day?",
+      "gold": [
+        "p5-m040"
+      ],
+      "note": "Oats and banana three hours before the start (Turkish message)."
+    },
+    {
+      "id": "p5-q025",
+      "type": "cross_lingual",
+      "lang": "en",
+      "text": "How much is the excess I would pay if the Egea gets damaged?",
+      "gold": [
+        "p5-m061"
+      ],
+      "note": "2% deductible on the Egea policy; Sandero policy has 3%."
+    },
+    {
+      "id": "p5-q026",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "İstanbul'a uçuşum hangi gün, saat kaçta?",
+      "gold": [
+        "p5-m034"
+      ],
+      "note": "Friday 6 Nov 18:20 (English event)."
+    },
+    {
+      "id": "p5-q027",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Yarış kitini nereden ve hangi saatlerde alabilirim?",
+      "gold": [
+        "p5-m065"
+      ],
+      "note": "Yenikapı Fair Hall, Fri/Sat hours (English doc)."
+    },
+    {
+      "id": "p5-q028",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Hafta sonu hafif koşularda kulaklıkta ne açıyorum?",
+      "gold": [
+        "p5-m022"
+      ],
+      "note": "Weekly physics-teaching podcast (English topic)."
+    },
+    {
+      "id": "p5-q029",
+      "type": "cross_lingual",
+      "lang": "tr",
+      "text": "Oğlum seneye hangi tür okula geçmek istiyor?",
+      "gold": [
+        "p5-m048"
+      ],
+      "note": "Emre wants a science high school (English message)."
+    },
+    {
+      "id": "p5-q030",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "11-B'nin mekanik yazılısı hangi gün yapılacak?",
+      "gold": [
+        "p5-m023"
+      ],
+      "note": "11-B on 4 Kasım; 10-C exam (e2) is on 9 Kasım."
+    },
+    {
+      "id": "p5-q031",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Defne'nin diş kontrolü hangi gün, saat kaçta?",
+      "gold": [
+        "p5-m031"
+      ],
+      "note": "Defne 2 Kasım 16.00; the user's own dentist visit (e8) is 26 Ekim 14.30."
+    },
+    {
+      "id": "p5-q032",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Cemal usta çatı için kaç lira dedi?",
+      "gold": [
+        "p5-m042"
+      ],
+      "note": "Cemal usta 38 bin; the other quote of 31 bin is from someone unnamed."
+    },
+    {
+      "id": "p5-q033",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Murat'ın doğum günü hangi tarihte?",
+      "gold": [
+        "p5-m018"
+      ],
+      "note": "3 Mart; Burcu's is 14 Ocak."
+    },
+    {
+      "id": "p5-q034",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Sandero'nun kasko poliçesi hangi tarihe kadar geçerli?",
+      "gold": [
+        "p5-m063"
+      ],
+      "note": "Sandero policy ends 2 Haziran 2027; Egea's ends 15 Mart 2027."
+    },
+    {
+      "id": "p5-q035",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Salomon ayakkabıyı kaç kilometre sonra değiştiriyorum?",
+      "gold": [
+        "p5-m008"
+      ],
+      "note": "450 km for Salomon; Brooks is 700 km."
+    },
+    {
+      "id": "p5-q036",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "32 km'lik son uzun koşuyu kaç sürede bitirdim?",
+      "gold": [
+        "p5-m028"
+      ],
+      "note": "3 h 05; the 25 km run took 2 h 28."
+    },
+    {
+      "id": "p5-q037",
+      "type": "hard_negative",
+      "lang": "tr",
+      "text": "Kaan'ın doğum günü için hangi tarihte İzmir'e gideceğiz?",
+      "gold": [
+        "p5-m050"
+      ],
+      "note": "19 Aralık Izmir; 26 Aralık is Murat's housewarming in Eskişehir."
+    },
+    {
+      "id": "p5-q038",
+      "type": "hard_negative",
+      "lang": "en",
+      "text": "What date is Emre's basketball tournament?",
+      "gold": [
+        "p5-m049"
+      ],
+      "note": "21 November; Defne's play is on the 19th."
+    },
+    {
+      "id": "p5-q039",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "Egea'nın bir sonraki yağ değişimi ne zaman?",
+      "gold": [],
+      "note": "Egea service appointments exist (tires) but nothing about oil changes."
+    },
+    {
+      "id": "p5-q040",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "Babamın doğum günü hangi ayda?",
+      "gold": [],
+      "note": "Father Hasan is mentioned but no birthday."
+    },
+    {
+      "id": "p5-q041",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "İstanbul'da maraton için hangi otelde kalacağım?",
+      "gold": [],
+      "note": "Flights and race info exist, no hotel."
+    },
+    {
+      "id": "p5-q042",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "10-C sınıfında kaç öğrenci var?",
+      "gold": [],
+      "note": "Homeroom class mentioned, no head count."
+    },
+    {
+      "id": "p5-q043",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "What is the name of Defne's class teacher?",
+      "gold": [],
+      "note": "Defne's school play is stored, no teacher name."
+    },
+    {
+      "id": "p5-q044",
+      "type": "unanswerable",
+      "lang": "tr",
+      "text": "Köy evine arabayla gitmek kaç saat sürüyor?",
+      "gold": [],
+      "note": "Village house and car exist, no travel time."
+    },
+    {
+      "id": "p5-q045",
+      "type": "unanswerable",
+      "lang": "en",
+      "text": "What is my marathon bib number?",
+      "gold": [],
+      "note": "Race guide stored, but no bib number."
+    }
+  ]
+}

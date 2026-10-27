@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Places the brand mark inside the adaptive-icon safe zone: 108dp canvas, 18dp inset on every side
+     scales the mark to the central 72dp (about 66%). The mark's own near-black border matches
+     @color/ic_launcher_background, so the edge of the bitmap is invisible against the background layer. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+  android:drawable="@drawable/turing_mark"
+  android:inset="18dp" />

@@ -1,0 +1,1181 @@
+{
+ "persona": "p8",
+ "summary": "Deniz, 29, third-year bioinformatics PhD researcher in Amsterdam from Eskişehir; supervisor meetings, conferences, board-game nights, vegetarian cooking, a second-hand bike. English/Turkish mix with technical vocabulary.",
+ "items": [
+  {
+   "id": "p8-m001",
+   "kind": "topic",
+   "lang": "en",
+   "title": "PhD topic",
+   "text": "The user is a third-year PhD researcher in bioinformatics at a university in Amsterdam, working on assembling microbial genomes from long-read gut metagenomes.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.9,
+   "container": "p8-c001"
+  },
+  {
+   "id": "p8-m002",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Main supervisor",
+   "text": "The user meets their main supervisor, Prof. Marieke van der Linden, every Thursday at 10:30 in her office.",
+   "age_days": 700,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p8-c002"
+  },
+  {
+   "id": "p8-m003",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Co-supervisor",
+   "text": "Kullanıcının eş danışmanı Dr. Arjun Menon istatistik ve makine öğrenmesi konularında yardım ediyor; kullanıcı onunla her ayın ilk Pazartesi'si görüşüyor.",
+   "age_days": 690,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p8-c003"
+  },
+  {
+   "id": "p8-m004",
+   "kind": "topic",
+   "lang": "mixed",
+   "title": "Compute setup",
+   "text": "The user runs heavy jobs on the department's SLURM cluster 'Marlin' and manages workflows with Snakemake; küçük analizler için laptopta bir conda ortamı kullanıyor.",
+   "age_days": 500,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p8-c004"
+  },
+  {
+   "id": "p8-m005",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Thesis timeline",
+   "text": "The user aims to defend the thesis in autumn 2028 and plans to submit the first paper in January 2027.",
+   "age_days": 420,
+   "confidence": 0.75,
+   "importance": 0.8,
+   "container": "p8-c005"
+  },
+  {
+   "id": "p8-m006",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Mother",
+   "text": "Kullanıcının annesi Ayşe Eskişehir'de emekli bir kimya öğretmeni; kullanıcı onu haftada bir akşam arıyor.",
+   "age_days": 750,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p8-c006"
+  },
+  {
+   "id": "p8-m007",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Brother",
+   "text": "Kullanıcının kardeşi Barkın Ankara'da inşaat mühendisi olarak çalışıyor; doğum günü 9 Kasım.",
+   "age_days": 750,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p8-c007"
+  },
+  {
+   "id": "p8-m008",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Father",
+   "text": "Kullanıcının babası Mehmet Bey emekli bir bankacı; doğum günü 21 Aralık ve hafta sonları balığa gitmeyi seviyor.",
+   "age_days": 750,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p8-c008"
+  },
+  {
+   "id": "p8-m009",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Flat and rent",
+   "text": "The user lives in a shared flat in Amsterdam Oost with two flatmates, Lotte and Sven; their rent is 1,050 euros per month.",
+   "age_days": 380,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p8-c009"
+  },
+  {
+   "id": "p8-m010",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Vegetarian",
+   "text": "The user has been vegetarian for three years and cooks most dinners at home; a favourite dish is mercimek köftesi.",
+   "age_days": 600,
+   "confidence": 0.9,
+   "importance": 0.5,
+   "container": "p8-c010"
+  },
+  {
+   "id": "p8-m011",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Meal prep",
+   "text": "Kullanıcı Pazar günleri haftalık yemek hazırlığı yapıyor ve 3-4 kutu yemeği buzdolabında bekletiyor.",
+   "age_days": 330,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p8-c011"
+  },
+  {
+   "id": "p8-m012",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Bike",
+   "text": "The user owns a second-hand red Gazelle bike and cycles about 9 km to the department every day.",
+   "age_days": 460,
+   "confidence": 0.9,
+   "importance": 0.5,
+   "container": "p8-c012"
+  },
+  {
+   "id": "p8-m013",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Friday game night",
+   "text": "On Friday evenings the user plays board games at their friend Joost's flat; the group's favourites are Wingspan and Terraforming Mars.",
+   "age_days": 400,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p8-c013"
+  },
+  {
+   "id": "p8-m014",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Sunday game group",
+   "text": "Every other Sunday afternoon the user plays Spirit Island and Cascadia with a Turkish students' group at a café in De Pijp.",
+   "age_days": 250,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p8-c014"
+  },
+  {
+   "id": "p8-m015",
+   "kind": "topic",
+   "lang": "mixed",
+   "title": "Dutch class",
+   "text": "Kullanıcı Salı akşamları 19:00-21:00 arası bir Dutch A2 course (Nederlands voor beginners) takip ediyor.",
+   "age_days": 200,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p8-c015"
+  },
+  {
+   "id": "p8-m016",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Friend Elif",
+   "text": "Kullanıcının arkadaşı Elif de Amsterdam'da doktora yapıyor; ikisi ayda bir Türkçe film akşamı düzenliyor.",
+   "age_days": 430,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p8-c016"
+  },
+  {
+   "id": "p8-m017",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Bouldering",
+   "text": "Kullanıcı Pazartesi ve Çarşamba akşamları işten sonra bir boulder tırmanış salonuna gidiyor.",
+   "age_days": 300,
+   "confidence": 0.8,
+   "importance": 0.3,
+   "container": "p8-c017"
+  },
+  {
+   "id": "p8-m018",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Year-end trip",
+   "text": "Kullanıcı her yıl Aralık sonunda ailesini görmek için Eskişehir'e gidiyor ve Ocak başında Amsterdam'a dönüyor.",
+   "age_days": 520,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p8-c018"
+  },
+  {
+   "id": "p8-m019",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Stipend",
+   "text": "Kullanıcının aylık net bursu yaklaşık 2.950 euro; her ay 400 euro'sunu seyahat fonuna ayırıyor.",
+   "age_days": 280,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p8-c019"
+  },
+  {
+   "id": "p8-m020",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Coffee",
+   "text": "The user takes oat milk in their coffee and limits themselves to two cups before noon.",
+   "age_days": 350,
+   "confidence": 0.7,
+   "importance": 0.3,
+   "container": "p8-c020"
+  },
+  {
+   "id": "p8-m021",
+   "kind": "event",
+   "lang": "en",
+   "title": "Committee review",
+   "text": "On 8 October the user said their annual committee review is scheduled for 12 November at 14:00.",
+   "age_days": 15,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p8-c021"
+  },
+  {
+   "id": "p8-m022",
+   "kind": "event",
+   "lang": "en",
+   "title": "Poster printing",
+   "text": "On 19 October the user said the poster for the Leuven conference has to be at the printer by 27 November.",
+   "age_days": 4,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c022"
+  },
+  {
+   "id": "p8-m023",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Draft deadline",
+   "text": "14 Ekim'de kullanıcı ilk makalenin giriş bölümünü 20 Kasım'a kadar Marieke'ye göndereceğini söyledi.",
+   "age_days": 9,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c023"
+  },
+  {
+   "id": "p8-m024",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Joost birthday",
+   "text": "2 Ekim'de kullanıcı Joost'un doğum günü için 31 Ekim Cumartesi akşamı özel bir oyun gecesi yapılacağını söyledi.",
+   "age_days": 21,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c024"
+  },
+  {
+   "id": "p8-m025",
+   "kind": "event",
+   "lang": "en",
+   "title": "Nextflow workshop",
+   "text": "On 22 September the user said they signed up for a two-day Nextflow workshop in Utrecht on 5 and 6 November.",
+   "age_days": 31,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p8-c025"
+  },
+  {
+   "id": "p8-m026",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Rijksmuseum",
+   "text": "27 Eylül'de kullanıcı Elif ile 24 Ekim Cumartesi günü Rijksmuseum'a gideceklerini söyledi.",
+   "age_days": 26,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c026"
+  },
+  {
+   "id": "p8-m027",
+   "kind": "event",
+   "lang": "en",
+   "title": "Repainting",
+   "text": "On 30 September the user said the landlord will have the flat repainted on 17 November, so someone must be home that morning.",
+   "age_days": 23,
+   "confidence": 0.75,
+   "importance": null,
+   "container": "p8-c027"
+  },
+  {
+   "id": "p8-m028",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Dentist",
+   "text": "10 Ekim'de kullanıcı 4 Kasım Çarşamba sabahı 09:15'te diş temizliği randevusu olduğunu söyledi.",
+   "age_days": 13,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p8-c028"
+  },
+  {
+   "id": "p8-m029",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Optician",
+   "text": "16 Ekim'de kullanıcı gözlük ayarı için 3 Kasım Salı günü 17:30'a optisyenden randevu aldığını söyledi.",
+   "age_days": 7,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p8-c029"
+  },
+  {
+   "id": "p8-m030",
+   "kind": "event",
+   "lang": "en",
+   "title": "Barcelona abstract",
+   "text": "On 5 September the user said they submitted an abstract to the Barcelona workshop and expect a decision by 30 October.",
+   "age_days": 48,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c030"
+  },
+  {
+   "id": "p8-m031",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Game night dish",
+   "text": "18 Ekim'de kullanıcı 30 Ekim Cuma oyun gecesine kendi yaptığı mercimek köftesini götüreceğini söyledi.",
+   "age_days": 5,
+   "confidence": 0.75,
+   "importance": null,
+   "container": "p8-c031"
+  },
+  {
+   "id": "p8-m032",
+   "kind": "event",
+   "lang": "en",
+   "title": "Rotterdam seminar",
+   "text": "On 1 October the user said they will take the 6 am train to Rotterdam on 20 November for a bioinformatics seminar and be back by evening.",
+   "age_days": 22,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p8-c032"
+  },
+  {
+   "id": "p8-m033",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Marieke'yle Perşembe toplantısı için slide'ları hazırlamam lazım. Assembly N50 tablosunu güncelledim ama bin refinement sonuçları hâlâ eksik.",
+   "age_days": 35,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c033"
+  },
+  {
+   "id": "p8-m034",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Marieke said the binning results look promising but I need a negative control before the next meeting. Will run the mock community this weekend.",
+   "age_days": 34,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c033"
+  },
+  {
+   "id": "p8-m035",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Control run için cluster'da 64 GB'lık bir slot lazım, partition 'long' dolu. Arjun'a sorayım.",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c033"
+  },
+  {
+   "id": "p8-m036",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Booked the train to Leuven: it leaves Amsterdam Centraal at 14:12 on 2 December, change in Brussels.",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c034"
+  },
+  {
+   "id": "p8-m037",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "The hotel in Leuven is 134 euros for two nights, breakfast not included. Maybe I'll share a room with Tamás.",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c034"
+  },
+  {
+   "id": "p8-m038",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Poster A0 mı A1 mi olacak diye kayıt sayfasında yazıyormuş, A0 dikey bastırmam lazım galiba.",
+   "age_days": 11,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c034"
+  },
+  {
+   "id": "p8-m039",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Bisikletin arka lastiği yine patladı, bu ay üçüncü. Tamirci Javastraat'taki Henk'te, yarın bırakıp Cuma alırım.",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c035"
+  },
+  {
+   "id": "p8-m040",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Henk lastik ve iç lastik için 38 euro dedi, zinciri de yağlayacakmış.",
+   "age_days": 69,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c035"
+  },
+  {
+   "id": "p8-m041",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Bought a second chain lock today, it weighs a ton. My shoulder already hurts from carrying it in the backpack.",
+   "age_days": 69,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c035"
+  },
+  {
+   "id": "p8-m042",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Tried a new shakshuka with feta and a lot of smoked paprika. Next time less chili, it was too hot for Lotte.",
+   "age_days": 55,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c036"
+  },
+  {
+   "id": "p8-m043",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Mercimek köftesi için oran: 1 su bardağı kırmızı mercimek, 1 su bardağı ince bulgur, 2,5 bardak su. Salça ve pul biber ekleyince tam oluyor.",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c036"
+  },
+  {
+   "id": "p8-m044",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Meal prep zamanı: bu hafta chickpea curry ve mantarlı makarna. Rice cooker'da pilav yaptım.",
+   "age_days": 58,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c036"
+  },
+  {
+   "id": "p8-m045",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Game night at Joost's: Wingspan went to Mira again, she somehow always gets the bonus cards.",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c037"
+  },
+  {
+   "id": "p8-m046",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Anyone know if Terraforming Mars Ares Expedition is as good as the original? Tamás wants to buy it.",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c037"
+  },
+  {
+   "id": "p8-m047",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Cumartesi Joost'un doğum günü, ona Cascadia'nın genişleme paketini aldım. Kutuyu sarmam lazım.",
+   "age_days": 24,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c037"
+  },
+  {
+   "id": "p8-m048",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Annemle konuştum, Aralık'ta Eskişehir'e gelince börek yapacakmış. Babam yine balığa gitmiş.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c038"
+  },
+  {
+   "id": "p8-m049",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Uçak biletleri Pegasus'ta 19 Aralık için 210 euro çıkıyor, Türk Hava Yolları 260. Pegasus'u alırım herhalde.",
+   "age_days": 44,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c038"
+  },
+  {
+   "id": "p8-m050",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Barkın wants me to bring Dutch stroopwafels and cheese, said he'd pay me back, which he never does.",
+   "age_days": 44,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c038"
+  },
+  {
+   "id": "p8-m051",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "Snakemake keeps re-running the whole assembly step because of a changed timestamp. Fixed it with --rerun-triggers mtime.",
+   "age_days": 80,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c039"
+  },
+  {
+   "id": "p8-m052",
+   "kind": "message",
+   "lang": "en",
+   "title": "",
+   "text": "My conda environment for the binning tools has 1,200 packages and takes forever to solve; switching to mamba.",
+   "age_days": 79,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c039"
+  },
+  {
+   "id": "p8-m053",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Arjun'un istatistik önerisi mantıklı: bootstrap yerine permutation testi kullanayım, grup sayısı az çünkü.",
+   "age_days": 75,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c039"
+  },
+  {
+   "id": "p8-m054",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Reviewer 2 yine 'limited novelty' yazmış ama methodology kısmını beğenmiş. Yanıt mektubunu cuma'ya kadar bitirmeliyim.",
+   "age_days": 200,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c039"
+  },
+  {
+   "id": "p8-m055",
+   "kind": "message",
+   "lang": "tr",
+   "title": "",
+   "text": "Lotte kombiyi yine açık bırakmış, bu ay gaz faturası 142 euro geldi.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c040"
+  },
+  {
+   "id": "p8-m056",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Hollandaca ödevi için 'ik heb' ve 'ik ben' farkını çalışıyorum, teacher Anouk çok sabırlı.",
+   "age_days": 28,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c040"
+  },
+  {
+   "id": "p8-m057",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "",
+   "text": "Elektrik faturası 68 euro geldi, Sven split etmeyi unutmuş gibi duruyor.",
+   "age_days": 29,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c040"
+  },
+  {
+   "id": "p8-m058",
+   "kind": "document",
+   "lang": "en",
+   "title": "Lease: deposit",
+   "text": "Lease agreement, clause 4 (deposit): The tenant pays a security deposit of 2,100 euros, equal to two months' base rent, into the landlord's escrow account within seven days of signing. The deposit is returned within 30 days after the end of the tenancy, minus documented damages.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c041"
+  },
+  {
+   "id": "p8-m059",
+   "kind": "document",
+   "lang": "en",
+   "title": "Lease: termination",
+   "text": "Clause 9 (termination): Either party may terminate the tenancy with one calendar month's written notice before the end of a month. Early termination during the first twelve months incurs an administrative fee of 250 euros.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c041"
+  },
+  {
+   "id": "p8-m060",
+   "kind": "document",
+   "lang": "en",
+   "title": "Bike insurance: conditions",
+   "text": "Policy conditions: Theft is covered only if the bicycle was locked with a frame lock and a second chain lock at the time. The own-risk amount is 50 euros per claim.",
+   "age_days": 440,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c042"
+  },
+  {
+   "id": "p8-m061",
+   "kind": "document",
+   "lang": "en",
+   "title": "Bike insurance: claims",
+   "text": "Claims must be reported within 48 hours of discovering the loss, together with a police report and the key numbers. The replacement value drops by 15% per year after the second year.",
+   "age_days": 440,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c042"
+  },
+  {
+   "id": "p8-m062",
+   "kind": "document",
+   "lang": "en",
+   "title": "Leuven itinerary day 1",
+   "text": "BBC Leuven itinerary, day 1 (3 December): registration opens at 09:00, keynote at 10:30, and the poster session runs from 16:00 to 18:00 in the Atrium. Dinner is at the Faculty Club at 19:30.",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c043"
+  },
+  {
+   "id": "p8-m063",
+   "kind": "document",
+   "lang": "en",
+   "title": "Leuven itinerary day 2",
+   "text": "Day 2 (4 December): workshop on long-read assembly from 09:30 to 12:00, lunch, closing remarks at 15:30. The return train to Amsterdam leaves Leuven at 17:44.",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c043"
+  },
+  {
+   "id": "p8-m064",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Barcelona programme",
+   "text": "Barselona atölyesi programı: 17 Mart sabahı 09:00'da kayıt, 10:00'da açılış konuşması. Kullanıcının 15 dakikalık sunumu 14:20'de, 3. oturumda yapılacak.",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c044"
+  },
+  {
+   "id": "p8-m065",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Barcelona stay",
+   "text": "Konaklama: Hostal Gràcia, 3 gece, toplam 285 euro, 16-19 Mart. Uçuş Vueling ile 16 Mart sabahı Amsterdam'dan kalkıyor, havalimanından metroyla şehre geçilecek.",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c044"
+  },
+  {
+   "id": "p8-m066",
+   "kind": "document",
+   "lang": "en",
+   "title": "Committee notes: benchmarks",
+   "text": "Progress meeting notes (annual review): the committee asked for a clearer comparison between hybrid and long-read-only assemblies. Action: add three benchmark datasets by the end of January.",
+   "age_days": 330,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c045"
+  },
+  {
+   "id": "p8-m067",
+   "kind": "document",
+   "lang": "en",
+   "title": "Committee notes: courses",
+   "text": "The committee also recommended attending a scientific writing course in spring. Marieke will arrange a teaching assistant slot for the user in the second semester.",
+   "age_days": 330,
+   "confidence": null,
+   "importance": null,
+   "container": "p8-c045"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p8-q001",
+   "type": "direct",
+   "lang": "en",
+   "text": "What time is my weekly Thursday meeting with Marieke?",
+   "gold": [
+    "p8-m002"
+   ],
+   "note": "Thursday 10:30; A1 mentions the meeting but no time"
+  },
+  {
+   "id": "p8-q002",
+   "type": "direct",
+   "lang": "en",
+   "text": "How much is my monthly rent?",
+   "gold": [
+    "p8-m009"
+   ],
+   "note": "1,050 euros; l1 states the deposit, not the rent"
+  },
+  {
+   "id": "p8-q003",
+   "type": "direct",
+   "lang": "en",
+   "text": "When does the poster have to be at the printer?",
+   "gold": [
+    "p8-m022"
+   ],
+   "note": "27 November"
+  },
+  {
+   "id": "p8-q004",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Henk lastik tamiri için ne kadar istedi?",
+   "gold": [
+    "p8-m040"
+   ],
+   "note": "38 euro"
+  },
+  {
+   "id": "p8-q005",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Hollandaca dersim hangi akşam ve saat kaçta?",
+   "gold": [
+    "p8-m015"
+   ],
+   "note": "Tuesday 19:00-21:00"
+  },
+  {
+   "id": "p8-q006",
+   "type": "direct",
+   "lang": "en",
+   "text": "When will the flat be repainted?",
+   "gold": [
+    "p8-m027"
+   ],
+   "note": "17 November morning"
+  },
+  {
+   "id": "p8-q007",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Elif'le Rijksmuseum'a hangi gün gideceğiz?",
+   "gold": [
+    "p8-m026"
+   ],
+   "note": "Saturday 24 October"
+  },
+  {
+   "id": "p8-q008",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What am I studying for my doctorate?",
+   "gold": [
+    "p8-m001"
+   ],
+   "note": "long-read gut metagenome assembly"
+  },
+  {
+   "id": "p8-q009",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Do I eat meat, and for how long have I avoided it?",
+   "gold": [
+    "p8-m010"
+   ],
+   "note": "vegetarian for three years"
+  },
+  {
+   "id": "p8-q010",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How far is my daily ride to work?",
+   "gold": [
+    "p8-m012"
+   ],
+   "note": "about 9 km by bike"
+  },
+  {
+   "id": "p8-q011",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Why was my pipeline repeating the genome-building stage again and again?",
+   "gold": [
+    "p8-m051"
+   ],
+   "note": "changed timestamp triggered the Snakemake rerun"
+  },
+  {
+   "id": "p8-q012",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "When do I find out whether my proposal for the Spanish meeting was accepted?",
+   "gold": [
+    "p8-m030"
+   ],
+   "note": "decision expected by 30 October"
+  },
+  {
+   "id": "p8-q013",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How early is my train for the one-day trip to the harbour city?",
+   "gold": [
+    "p8-m032"
+   ],
+   "note": "6 am train to Rotterdam"
+  },
+  {
+   "id": "p8-q014",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Önceden porsiyonlayıp sakladığım yemekleri hangi gün hazırlıyorum?",
+   "gold": [
+    "p8-m011"
+   ],
+   "note": "Sundays meal prep"
+  },
+  {
+   "id": "p8-q015",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Kardeşimin mesleği neydi?",
+   "gold": [
+    "p8-m007"
+   ],
+   "note": "Barkın is a civil engineer"
+  },
+  {
+   "id": "p8-q016",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Danışmanıma ilk yazı taslağını hangi tarihe kadar yollayacağımı söylemiştim?",
+   "gold": [
+    "p8-m023"
+   ],
+   "note": "introduction section to Marieke by 20 November"
+  },
+  {
+   "id": "p8-q017",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Ailemi görmeye giderken hangi havayolunu seçmeyi düşünüyorum?",
+   "gold": [
+    "p8-m049"
+   ],
+   "note": "Pegasus, 210 euro vs THY 260"
+  },
+  {
+   "id": "p8-q018",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Köfte için baklagil ile tahılın oranı nasıldı?",
+   "gold": [
+    "p8-m043"
+   ],
+   "note": "1 cup red lentils, 1 cup fine bulgur, 2.5 cups water"
+  },
+  {
+   "id": "p8-q019",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What class was I advised to take in the spring semester by my review panel?",
+   "gold": [
+    "p8-m067"
+   ],
+   "note": "scientific writing course"
+  },
+  {
+   "id": "p8-q020",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Tezimi ne zaman savunmayı hedefliyorum?",
+   "gold": [
+    "p8-m005"
+   ],
+   "note": "autumn 2028 (English topic)"
+  },
+  {
+   "id": "p8-q021",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Oyun akşamında son kazanan kim oldu, hangi oyundaydı?",
+   "gold": [
+    "p8-m045"
+   ],
+   "note": "Mira won Wingspan (English message)"
+  },
+  {
+   "id": "p8-q022",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Leuven'den Amsterdam'a dönüş treni kaçta kalkıyor?",
+   "gold": [
+    "p8-m063"
+   ],
+   "note": "17:44 (English document)"
+  },
+  {
+   "id": "p8-q023",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Evin depozitosunu çıkarken ne kadar sürede geri alırım?",
+   "gold": [
+    "p8-m058"
+   ],
+   "note": "within 30 days (English document)"
+  },
+  {
+   "id": "p8-q024",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "İlk yıl dolmadan sözleşmeyi bozarsam ekstra ne ödüyorum?",
+   "gold": [
+    "p8-m059"
+   ],
+   "note": "250 euro administrative fee (English document)"
+  },
+  {
+   "id": "p8-q025",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Bisikletim çalınırsa sigortaya ne kadar zamanda haber vermeliyim?",
+   "gold": [
+    "p8-m061"
+   ],
+   "note": "within 48 hours (English document)"
+  },
+  {
+   "id": "p8-q026",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Kardeşim Hollanda'dan ne getirmemi istedi?",
+   "gold": [
+    "p8-m050"
+   ],
+   "note": "stroopwafels and cheese (English message)"
+  },
+  {
+   "id": "p8-q027",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Where am I staying in Barcelona and for how much?",
+   "gold": [
+    "p8-m065"
+   ],
+   "note": "Hostal Gràcia, 285 euro (Turkish document)"
+  },
+  {
+   "id": "p8-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What homemade dish am I taking to the Friday game night?",
+   "gold": [
+    "p8-m031"
+   ],
+   "note": "mercimek köftesi on 30 October (Turkish event)"
+  },
+  {
+   "id": "p8-q029",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "When is my appointment to get my glasses adjusted?",
+   "gold": [
+    "p8-m029"
+   ],
+   "note": "Tuesday 3 November 17:30 (Turkish event)"
+  },
+  {
+   "id": "p8-q030",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Arjun'la ne sıklıkla görüşüyorum?",
+   "gold": [
+    "p8-m003"
+   ],
+   "note": "first Monday of the month; distractor t2 is Marieke on Thursdays"
+  },
+  {
+   "id": "p8-q031",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Diş temizliği randevum saat kaçta?",
+   "gold": [
+    "p8-m028"
+   ],
+   "note": "09:15 on 4 Nov; distractor e9 optician 17:30 on 3 Nov"
+  },
+  {
+   "id": "p8-q032",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "At what time is the poster session at the Leuven conference?",
+   "gold": [
+    "p8-m062"
+   ],
+   "note": "16:00-18:00; v2 and Barcelona chunks are distractors"
+  },
+  {
+   "id": "p8-q033",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Barselona atölyesindeki sunumum saat kaçta?",
+   "gold": [
+    "p8-m064"
+   ],
+   "note": "14:20; distractor v1 is the Leuven programme"
+  },
+  {
+   "id": "p8-q034",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "How much does my Leuven hotel cost for two nights?",
+   "gold": [
+    "p8-m037"
+   ],
+   "note": "134 euros; distractor w2 is the Barcelona hostal at 285"
+  },
+  {
+   "id": "p8-q035",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Babamın doğum günü ne zaman?",
+   "gold": [
+    "p8-m008"
+   ],
+   "note": "21 December; distractor t7 is Barkın on 9 November"
+  },
+  {
+   "id": "p8-q036",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "Which café do I play board games at on Sunday afternoons?",
+   "gold": [
+    "p8-m014"
+   ],
+   "note": "a café in De Pijp; distractor t13 is Friday at Joost's flat"
+  },
+  {
+   "id": "p8-q037",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Bu ay gaz faturası ne kadar geldi?",
+   "gold": [
+    "p8-m055"
+   ],
+   "note": "142 euro; distractor H3 is the electricity bill at 68"
+  },
+  {
+   "id": "p8-q038",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Annemin mesleği neydi?",
+   "gold": [
+    "p8-m006"
+   ],
+   "note": "retired chemistry teacher; distractors t7 and t8 follow the same template"
+  },
+  {
+   "id": "p8-q039",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the name of the climbing gym I go to?",
+   "gold": [],
+   "note": "bouldering gym stored without a name"
+  },
+  {
+   "id": "p8-q040",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Mira'nın doğum günü ne zaman?",
+   "gold": [],
+   "note": "Mira appears as a game-night friend only"
+  },
+  {
+   "id": "p8-q041",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "How much did the Leuven poster cost to print?",
+   "gold": [],
+   "note": "printing deadline stored, price not"
+  },
+  {
+   "id": "p8-q042",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Nextflow atölyesi için kaç euro ödedim?",
+   "gold": [],
+   "note": "workshop date stored, fee not"
+  },
+  {
+   "id": "p8-q043",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the phone number of my bike repair shop?",
+   "gold": [],
+   "note": "Henk's shop is mentioned, no number"
+  },
+  {
+   "id": "p8-q044",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Marieke'nin bir sonraki konferansı nerede?",
+   "gold": [],
+   "note": "supervisor stored, her travel is not"
+  },
+  {
+   "id": "p8-q045",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What grade did I get on my last Dutch exam?",
+   "gold": [],
+   "note": "Dutch class stored, no exam results"
+  }
+ ]
+}

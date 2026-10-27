@@ -1,0 +1,1225 @@
+{
+ "persona": "p3",
+ "summary": "Derya, a night-shift ward nurse in Izmir with two school-age kids, a marine-engineer husband, a mother-in-law who helps with childcare, and a home mortgage; mostly Turkish with some English.",
+ "items": [
+  {
+   "id": "p3-m001",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Meslek",
+   "text": "Kullanıcı İzmir Karşıyaka'daki bir devlet hastanesinin dahiliye servisinde gece vardiyası hemşiresi olarak çalışıyor.",
+   "age_days": 780,
+   "confidence": 0.92,
+   "importance": 0.85,
+   "container": "p3-c001"
+  },
+  {
+   "id": "p3-m002",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Nöbet düzeni",
+   "text": "Kullanıcının nöbetleri 19:00 ile 07:00 arasında 12 saat sürüyor ve ayda ortalama 10-11 gece nöbeti düşüyor.",
+   "age_days": 640,
+   "confidence": 0.88,
+   "importance": 0.7,
+   "container": "p3-c002"
+  },
+  {
+   "id": "p3-m003",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ege'nin okulu ve sporu",
+   "text": "Kullanıcının oğlu Ege 5. sınıfa gidiyor ve okulun basketbol takımında forvet oynuyor; antrenmanlar pazartesi ve çarşamba günleri 16:30'da.",
+   "age_days": 300,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p3-c003"
+  },
+  {
+   "id": "p3-m004",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Defne'nin resim kursu",
+   "text": "Kullanıcının kızı Defne 2. sınıfa gidiyor; salı ve perşembe günleri 16:00-17:30 arasında resim kursuna katılıyor.",
+   "age_days": 260,
+   "confidence": 0.9,
+   "importance": 0.55,
+   "container": "p3-c004"
+  },
+  {
+   "id": "p3-m005",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kayınvalidenin desteği",
+   "text": "Kayınvalidesi Nermin Hanım Bornova'da oturuyor; kullanıcı gece nöbetindeyken akşam çocukların yanına gelip kalıyor ve sabah onları okul servisine bindiriyor.",
+   "age_days": 700,
+   "confidence": 0.93,
+   "importance": 0.9,
+   "container": "p3-c005"
+  },
+  {
+   "id": "p3-m006",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Konut kredisi",
+   "text": "Kullanıcının Bayraklı'daki dairesi için Ziraat Bankası'ndan 15 yıl vadeli bir konut kredisi var; yaklaşık 9 yıllık ödeme kaldı ve taksit her ayın 5'inde hesaptan otomatik çekiliyor.",
+   "age_days": 520,
+   "confidence": 0.85,
+   "importance": 0.8,
+   "container": "p3-c006"
+  },
+  {
+   "id": "p3-m007",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Husband's rotation",
+   "text": "The user's husband Murat is a marine engineer on a container ship; he usually spends six weeks at sea followed by three weeks at home.",
+   "age_days": 710,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p3-c007"
+  },
+  {
+   "id": "p3-m008",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Defne'nin alerjisi",
+   "text": "Kullanıcının kızı Defne'nin fındık ve fıstığa alerjisi var; okul beslenme çantasına kuruyemiş konmuyor ve okulun revirine bu bilgi verilmiş durumda.",
+   "age_days": 450,
+   "confidence": 0.93,
+   "importance": 0.75,
+   "container": "p3-c008"
+  },
+  {
+   "id": "p3-m009",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Pilates class",
+   "text": "The user goes to a reformer pilates class on Wednesday mornings at 09:30 in Alsancak, straight after her night shift ends.",
+   "age_days": 190,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p3-c009"
+  },
+  {
+   "id": "p3-m010",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kız kardeş Ceren",
+   "text": "Kullanıcının kız kardeşi Ceren Ankara'da ortaokul fen öğretmeni olarak çalışıyor; doğum günü 3 Mart.",
+   "age_days": 600,
+   "confidence": 0.9,
+   "importance": 0.5,
+   "container": "p3-c010"
+  },
+  {
+   "id": "p3-m011",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Murat'ın doğum günü",
+   "text": "Kullanıcının eşi Murat'ın doğum günü 17 Mart; izindeyse ailece Alsancak'ta bir balık lokantasına gidiyorlar.",
+   "age_days": 620,
+   "confidence": 0.9,
+   "importance": 0.5,
+   "container": "p3-c011"
+  },
+  {
+   "id": "p3-m012",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ege'nin doğum günü",
+   "text": "Ege'nin doğum günü 9 Kasım; bu yıl 11 yaşına giriyor ve basketbol takımı arkadaşlarıyla pizza partisi yapmak istiyor.",
+   "age_days": 150,
+   "confidence": 0.88,
+   "importance": 0.55,
+   "container": "p3-c012"
+  },
+  {
+   "id": "p3-m013",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Defne'nin doğum günü",
+   "text": "Defne'nin doğum günü 22 Ağustos; bu yıl 8 yaşına girdi ve evde bahçeli bir resim partisi yapıldı.",
+   "age_days": 62,
+   "confidence": 0.88,
+   "importance": 0.55,
+   "container": "p3-c013"
+  },
+  {
+   "id": "p3-m014",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Aile arabası",
+   "text": "Ailenin arabası 2017 model beyaz bir Fiat Egea; kullanıcı hastaneye ve pilates dersine bununla gidiyor.",
+   "age_days": 540,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p3-c014"
+  },
+  {
+   "id": "p3-m015",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Career idea",
+   "text": "The user is considering an evening nursing management certificate at Dokuz Eylül University because she would like to become a head nurse one day.",
+   "age_days": 90,
+   "confidence": 0.65,
+   "importance": 0.5,
+   "container": "p3-c015"
+  },
+  {
+   "id": "p3-m016",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Gelecek yaz planı",
+   "text": "Kullanıcı gelecek yaz Datça'da bir haftalığına ev kiralamayı planlıyor; gecelik bütçe tavanı 3.500 TL.",
+   "age_days": 70,
+   "confidence": 0.6,
+   "importance": 0.5,
+   "container": "p3-c016"
+  },
+  {
+   "id": "p3-m017",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Friday cooking",
+   "text": "On Friday afternoons the user cooks a big batch of meals and freezes portions so that her mother-in-law only has to reheat them on shift nights.",
+   "age_days": 330,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p3-c017"
+  },
+  {
+   "id": "p3-m018",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ege'nin öğretmeni",
+   "text": "Ege'nin sınıf öğretmeni Kemal Yücel; aynı zamanda matematik derslerine de giriyor.",
+   "age_days": 280,
+   "confidence": 0.9,
+   "importance": 0.45,
+   "container": "p3-c018"
+  },
+  {
+   "id": "p3-m019",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Defne'nin öğretmeni",
+   "text": "Defne'nin sınıf öğretmeni Ayşegül Demirtaş; sınıfta kitap okuma kampanyası yürütüyor.",
+   "age_days": 270,
+   "confidence": 0.9,
+   "importance": 0.45,
+   "container": "p3-c019"
+  },
+  {
+   "id": "p3-m020",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Çocukların birikimi",
+   "text": "Kullanıcı çocukların üniversite masrafları için her ay 3.000 TL'yi bireysel emeklilik sistemine (BES) yatırıyor.",
+   "age_days": 410,
+   "confidence": 0.88,
+   "importance": 0.7,
+   "container": "p3-c020"
+  },
+  {
+   "id": "p3-m021",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Ward colleague",
+   "text": "The user's closest colleague on the ward is Hatice Yıldız; the two of them regularly trade Thursday night shifts when one has a family obligation.",
+   "age_days": 480,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p3-c021"
+  },
+  {
+   "id": "p3-m022",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ev ve aidat",
+   "text": "Kullanıcının dairesi Bayraklı'da 6. katta, 3+1; aylık apartman aidatı 1.200 TL.",
+   "age_days": 500,
+   "confidence": 0.9,
+   "importance": 0.5,
+   "container": "p3-c022"
+  },
+  {
+   "id": "p3-m023",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Evcil hayvan",
+   "text": "Defne'nin Pamuk adında bir cüce hamsteri var; kafesi Defne'nin odasında ve bakımını Defne ile Ege sırayla yapıyor.",
+   "age_days": 230,
+   "confidence": 0.85,
+   "importance": 0.3,
+   "container": "p3-c023"
+  },
+  {
+   "id": "p3-m024",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Ege veli toplantısı",
+   "text": "15 Ekim'de kullanıcı, Ege'nin veli toplantısının 29 Ekim Perşembe günü 17:30'da yapılacağını ve o gün nöbetinin olmadığını söyledi.",
+   "age_days": 8,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c024"
+  },
+  {
+   "id": "p3-m025",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Defne okul gezisi",
+   "text": "20 Ekim'de kullanıcı, Defne'nin sınıfının 6 Kasım Cuma günü Güzelbahçe'deki bir çiftliğe gezi yapacağını, ücretin 150 TL olduğunu ve imzalı izin kâğıdı gerektiğini söyledi.",
+   "age_days": 3,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c025"
+  },
+  {
+   "id": "p3-m026",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Ege okul gezisi",
+   "text": "19 Ekim'de kullanıcı, Ege'nin sınıfının 12 Kasım Perşembe günü Efes Antik Kenti'ne gideceğini, ücretin 280 TL olduğunu ve öğle yemeğinin evden verileceğini söyledi.",
+   "age_days": 4,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c026"
+  },
+  {
+   "id": "p3-m027",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Kullanıcının diş randevusu",
+   "text": "2 Ekim'de kullanıcı, kendi diş hekimi randevusunun 27 Ekim Salı sabahı 10:15'te olduğunu söyledi; nöbet çıkışı uyumadan gidecek.",
+   "age_days": 21,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c027"
+  },
+  {
+   "id": "p3-m028",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Ege ortodonti kontrolü",
+   "text": "9 Ekim'de kullanıcı, Ege'nin ortodonti kontrolünün 4 Kasım Çarşamba öğleden sonra 15:40'ta olduğunu ve Nermin Hanım'ın onu götüreceğini söyledi.",
+   "age_days": 14,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c028"
+  },
+  {
+   "id": "p3-m029",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Kasım nöbet çizelgesi",
+   "text": "20 Ekim'de kullanıcı, Kasım çizelgesinde 7, 8 ve 9 Kasım gecelerinin kendisine yazıldığını, 21 Kasım'ı ise Zehra ile değiştirdiğini söyledi.",
+   "age_days": 3,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p3-c029"
+  },
+  {
+   "id": "p3-m030",
+   "kind": "event",
+   "lang": "en",
+   "title": "Mortgage instalment rise",
+   "text": "On 5 October the user said the bank raised her mortgage instalment from 17,900 to 18,450 TL after the six-month rate review.",
+   "age_days": 18,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c030"
+  },
+  {
+   "id": "p3-m031",
+   "kind": "event",
+   "lang": "en",
+   "title": "Car inspection",
+   "text": "On 8 October the user said the car's compulsory annual inspection is due by 19 November and she still has to book a slot at the inspection station.",
+   "age_days": 15,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p3-c031"
+  },
+  {
+   "id": "p3-m032",
+   "kind": "event",
+   "lang": "en",
+   "title": "Flight to Ankara",
+   "text": "On 21 October the user booked a return flight from Izmir to Ankara for 28 November to visit her sister; the ticket cost 1,890 TL.",
+   "age_days": 2,
+   "confidence": 0.9,
+   "importance": null,
+   "container": "p3-c032"
+  },
+  {
+   "id": "p3-m033",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Nermin Hanım göz kontrolü",
+   "text": "18 Ekim'de kullanıcı, Nermin Hanım'ın göz kontrolünün 3 Kasım Salı sabah 10:00'da Konak'taki hastanede olduğunu ve onu kendisinin götüreceğini söyledi.",
+   "age_days": 5,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c033"
+  },
+  {
+   "id": "p3-m034",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Basketbol turnuvası",
+   "text": "17 Ekim Cumartesi günü Ege'nin basketbol takımı ilçe turnuvasında ikinci oldu; kullanıcı maçı nöbet çıkışı izlemeye gitti.",
+   "age_days": 6,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c034"
+  },
+  {
+   "id": "p3-m035",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Murat'ın dönüşü",
+   "text": "12 Ekim'de kullanıcı, Murat'ın 1 Kasım Pazar günü İstanbul aktarmalı uçakla İzmir'e 14:20'de varacağını söyledi.",
+   "age_days": 11,
+   "confidence": 0.85,
+   "importance": null,
+   "container": "p3-c035"
+  },
+  {
+   "id": "p3-m036",
+   "kind": "event",
+   "lang": "en",
+   "title": "Annual leave",
+   "text": "On 30 September the user said her annual leave was approved for 21 to 28 December.",
+   "age_days": 23,
+   "confidence": 0.8,
+   "importance": null,
+   "container": "p3-c036"
+  },
+  {
+   "id": "p3-m037",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Sabah rutini",
+   "text": "nöbetten 07.30da çıkıyorum, eve 08.15 gibi varıyorum. servis 07.45te geliyor, o yüzden kaynanam olmasa sabahları yetiştiremem gerçekten",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c037"
+  },
+  {
+   "id": "p3-m038",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Ege kahvaltı",
+   "text": "Ege artık yumurta yemiyorum diyor sabahları, hızlı ve doyurucu ne hazırlayabilirim? peynirli tost bile sıkıldı",
+   "age_days": 40,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c037"
+  },
+  {
+   "id": "p3-m039",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Defne beslenme",
+   "text": "Defne'nin beslenmesine kuru üzüm ve yoğurt koydum, tamam mı? kuruyemişi koymuyorum zaten",
+   "age_days": 39,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c037"
+  },
+  {
+   "id": "p3-m040",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Erken kapama düşüncesi",
+   "text": "kredi erken kapatmak mantıklı mı? elimde şu an 140 bin birikmiş durumda, kalan anapara yaklaşık 900 bin",
+   "age_days": 95,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c038"
+  },
+  {
+   "id": "p3-m041",
+   "kind": "message",
+   "lang": "tr",
+   "title": "BES fon değişikliği",
+   "text": "bes fonunu değiştirdim, daha hisse ağırlıklı oldu. 2 yıl sonra tekrar bakarım",
+   "age_days": 95,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c038"
+  },
+  {
+   "id": "p3-m042",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Market bütçesi",
+   "text": "bu ay market bütçesi 14 bini geçmesin, migrosta online sipariş verecem cumartesi",
+   "age_days": 94,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c038"
+  },
+  {
+   "id": "p3-m043",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Datça ev bakışı",
+   "text": "Datça'ya baktım, Mesudiye tarafında 3 yatak odalı bir ev var ama gecesi 4.500 TL, too pricey imo",
+   "age_days": 66,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c039"
+  },
+  {
+   "id": "p3-m044",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Murat izin tarihi",
+   "text": "Murat'ın izni sadece temmuzun son iki haftasına denk geliyor so August is out, maybe we go late July",
+   "age_days": 66,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c039"
+  },
+  {
+   "id": "p3-m045",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Merdiven meselesi",
+   "text": "kaynanam da gelmek istiyor ama çok merdivenli yerler olmasın, dizleri yüzünden",
+   "age_days": 65,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c039"
+  },
+  {
+   "id": "p3-m046",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Ege matematik",
+   "text": "Ege'nin matematik yazılısı 65 gelmiş, kesirlerde takılıyor. ek kaynak önerir misin?",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c040"
+  },
+  {
+   "id": "p3-m047",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Etüt saati",
+   "text": "Kemal hoca perşembeleri okuldan sonra etüt yapıyormuş, ama Ege'yi almak için ben uyanık olamıyorum o saatte",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c040"
+  },
+  {
+   "id": "p3-m048",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Defne okuma",
+   "text": "Defne ise okumada uçuyor, Ayşegül hanım ona Küçük Prens'i önerdi, harika",
+   "age_days": 32,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c040"
+  },
+  {
+   "id": "p3-m049",
+   "kind": "message",
+   "lang": "en",
+   "title": "Rough night",
+   "text": "Brutal night, three admissions after 2 am and the bedside monitor in room 6 kept dropping out",
+   "age_days": 52,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c041"
+  },
+  {
+   "id": "p3-m050",
+   "kind": "message",
+   "lang": "en",
+   "title": "Day team idea",
+   "text": "I'm seriously thinking about moving to the day team in spring. The kids barely see me awake",
+   "age_days": 52,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c041"
+  },
+  {
+   "id": "p3-m051",
+   "kind": "message",
+   "lang": "en",
+   "title": "Day team vacancy",
+   "text": "Sevgül, our head nurse, said the day-team vacancy opens in March and applications close at the end of January",
+   "age_days": 51,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c041"
+  },
+  {
+   "id": "p3-m052",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Pilates bu hafta",
+   "text": "Burcu hoca bu hafta reformer yerine mat çalışacağız dedi, bel bölgesi için iyi geliyormuş",
+   "age_days": 120,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c042"
+  },
+  {
+   "id": "p3-m053",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Pilatese gidiş",
+   "text": "pilatese nöbet çıkışı direkt gidiyorum, spor çantası arabada hazır duruyor, eve uğrasam uyuyakalırım",
+   "age_days": 120,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c042"
+  },
+  {
+   "id": "p3-m054",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Kuru fasulye",
+   "text": "yarın akşam kuru fasulye yapacağım ama pirinç bitmiş, Defne bulgur pilavı yemiyor ki",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c043"
+  },
+  {
+   "id": "p3-m055",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Dondurucu sorunu",
+   "text": "yarın için 3 kg tavuk aldım but the freezer drawer is full, Ege's old ice packs everywhere lol",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c043"
+  },
+  {
+   "id": "p3-m056",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Mercimek köftesi",
+   "text": "mercimek köftesi tarifini 5 kişilik uyarlar mısın? Murat dönünce yaparım, çok özlemiş",
+   "age_days": 19,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c043"
+  },
+  {
+   "id": "p3-m057",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kasko teklifleri",
+   "text": "kasko teklifleri geldi, Anadolu 11.200, Allianz 9.850, teminatlar aynı gibi",
+   "age_days": 180,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c044"
+  },
+  {
+   "id": "p3-m058",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Asansör aidatı",
+   "text": "apartman yönetimi asansör yenileme için 8.000 TL ek aidat çıkarmış, 4 taksit yapmışlar",
+   "age_days": 179,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c044"
+  },
+  {
+   "id": "p3-m059",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kasko kararı",
+   "text": "kaskoyu Allianz'dan yaptırdım sonunda, 4 taksite bölebildim",
+   "age_days": 175,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c044"
+  },
+  {
+   "id": "p3-m060",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Pamuk kaçtı",
+   "text": "Pamuk yine kafesten kaçmış, Defne ağlıyor, buzdolabının arkasında bulduk sonunda",
+   "age_days": 28,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c045"
+  },
+  {
+   "id": "p3-m061",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Hamster veteriner",
+   "text": "hamsterin tırnakları uzamış galiba, Bornova'da egzotik hayvan bakan veteriner var mı",
+   "age_days": 28,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c045"
+  },
+  {
+   "id": "p3-m062",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Konut finansmanı sözleşmesi - tutar ve vade",
+   "text": "Konut Finansmanı Sözleşmesi, Madde 4: Kredi tutarı 1.850.000 TL, vade 180 aydır. Aylık akdi faiz oranı değişken olup ilk altı ay için %1,79'dur; sonraki dönemlerde banka faiz oranını altı ayda bir gözden geçirebilir.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c046"
+  },
+  {
+   "id": "p3-m063",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Konut finansmanı sözleşmesi - erken ödeme",
+   "text": "Madde 7 - Erken ödeme: Kredinin vadesinden önce kapatılması hâlinde, kullanım tarihinden itibaren ilk 36 ay içinde kalan anapara üzerinden %2, 36 aydan sonra %1 oranında erken kapama tazminatı alınır. Kısmi ödemelerde de aynı oran uygulanır.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c046"
+  },
+  {
+   "id": "p3-m064",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Konut finansmanı sözleşmesi - temerrüt",
+   "text": "Madde 9 - Temerrüt: Taksitin vadesinde ödenmemesi hâlinde akdi faize %30 ilave edilerek temerrüt faizi uygulanır. Üst üste üç taksitin ödenmemesi durumunda banka kredinin tamamını muaccel hâle getirme hakkına sahiptir.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c046"
+  },
+  {
+   "id": "p3-m065",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Nöbet yönergesi - değişim",
+   "text": "Hemşirelik Hizmetleri Nöbet Yönergesi, Madde 5: Nöbet değişimi taleplerinin en geç 48 saat önceden yazılı olarak sorumlu hemşireye iletilmesi gerekir. Değişimde iki hemşirenin de aynı yetkinlik düzeyinde olması şarttır.",
+   "age_days": 360,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c047"
+  },
+  {
+   "id": "p3-m066",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Nöbet yönergesi - fazla mesai",
+   "text": "Madde 8: Bir hemşire ayda en fazla 40 saat fazla mesai yapabilir. Fazla mesai ücreti izleyen ayın maaşıyla birlikte ödenir; isteyen personel ücret yerine ücretli izin kullanabilir.",
+   "age_days": 360,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c047"
+  },
+  {
+   "id": "p3-m067",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Nöbet yönergesi - dinlenme",
+   "text": "Madde 11: Gece nöbetinden çıkan personele en az 24 saat dinlenme süresi tanınır. Üst üste en fazla dört gece nöbeti yazılabilir.",
+   "age_days": 360,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c047"
+  },
+  {
+   "id": "p3-m068",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nursing management certificate - schedule",
+   "text": "Dokuz Eylül University Continuing Education, Nursing Management Certificate. The programme runs for 14 weeks, with classes on Tuesday and Thursday evenings from 18:00 to 21:00 on the Balçova campus. Up to 20 percent of sessions may be attended online.",
+   "age_days": 85,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c048"
+  },
+  {
+   "id": "p3-m069",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nursing management certificate - fees",
+   "text": "Tuition is 38,000 TL, payable in four instalments. Employees of public hospitals can apply for a 15 percent reduction by submitting an employer letter.",
+   "age_days": 85,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c048"
+  },
+  {
+   "id": "p3-m070",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nursing management certificate - application",
+   "text": "Applications close on 15 December for the spring intake, which starts in the second week of February. Candidates need a nursing diploma and at least three years of clinical experience.",
+   "age_days": 85,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c048"
+  },
+  {
+   "id": "p3-m071",
+   "kind": "document",
+   "lang": "en",
+   "title": "Nursing management certificate - assessment",
+   "text": "Participants complete a final project on ward staffing, which is presented to a panel in week 14. Those who attend at least 80 percent of sessions receive the certificate.",
+   "age_days": 85,
+   "confidence": null,
+   "importance": null,
+   "container": "p3-c048"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p3-q001",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Ege'nin sınıf öğretmeninin adı neydi?",
+   "gold": [
+    "p3-m018"
+   ],
+   "note": "Ege's class teacher is Kemal Yücel; Defne's teacher is a near-duplicate topic."
+  },
+  {
+   "id": "p3-q002",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Konut kredisinde erken kapama tazminatı yüzde kaç?",
+   "gold": [
+    "p3-m063"
+   ],
+   "note": "Contract clause 7 gives the early repayment compensation rates."
+  },
+  {
+   "id": "p3-q003",
+   "type": "direct",
+   "lang": "en",
+   "text": "Which weekday is my reformer pilates class?",
+   "gold": [
+    "p3-m009"
+   ],
+   "note": "Wednesday mornings; messages about pilates do not state the weekday."
+  },
+  {
+   "id": "p3-q004",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Defne'nin resim kursu hangi günler?",
+   "gold": [
+    "p3-m004"
+   ],
+   "note": "Tuesday and Thursday 16:00-17:30."
+  },
+  {
+   "id": "p3-q005",
+   "type": "direct",
+   "lang": "en",
+   "text": "When do applications close for the nursing management certificate?",
+   "gold": [
+    "p3-m070"
+   ],
+   "note": "15 December; the topic about the certificate gives no deadline."
+  },
+  {
+   "id": "p3-q006",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Aylık apartman aidatını ne kadar ödüyoruz?",
+   "gold": [
+    "p3-m022"
+   ],
+   "note": "1.200 TL monthly; the extra elevator levy in h2 is a one-off."
+  },
+  {
+   "id": "p3-q007",
+   "type": "direct",
+   "lang": "en",
+   "text": "What is the name of my closest colleague on the ward?",
+   "gold": [
+    "p3-m021"
+   ],
+   "note": "Hatice Yıldız."
+  },
+  {
+   "id": "p3-q008",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Vardiyam akşam kaçta başlıyor, sabah kaçta bitiyor?",
+   "gold": [
+    "p3-m002"
+   ],
+   "note": "19:00-07:00 night shifts; paraphrases vardiya as nöbet."
+  },
+  {
+   "id": "p3-q009",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Büyük çocuğumun idman saatleri ve sahadaki yeri neydi?",
+   "gold": [
+    "p3-m003"
+   ],
+   "note": "Ege plays forward, practice Mon/Wed 16:30."
+  },
+  {
+   "id": "p3-q010",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Evde yokken küçüklerle ilgilenen aile büyüğü kimdir, hangi semtte yaşıyor?",
+   "gold": [
+    "p3-m005"
+   ],
+   "note": "Mother-in-law Nermin Hanım lives in Bornova."
+  },
+  {
+   "id": "p3-q011",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Çocuklardan birinin besin hassasiyeti var mıydı, sağlıkçılara haber verilmiş miydi?",
+   "gold": [
+    "p3-m008"
+   ],
+   "note": "Defne's nut allergy and the school infirmary notified; message a3 only mentions leaving nuts out."
+  },
+  {
+   "id": "p3-q012",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Yaz izni için hangi yeri düşünüyordum, konaklamaya ne kadar ayırmıştım?",
+   "gold": [
+    "p3-m016"
+   ],
+   "note": "Datça, nightly ceiling 3.500 TL; message c1 gives a listing price but not the budget."
+  },
+  {
+   "id": "p3-q013",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Bir çalışma arkadaşımla takas yapacaksam kaç gün evvel bildirmeliyim?",
+   "gold": [
+    "p3-m065"
+   ],
+   "note": "48 hours' written notice per the shift policy."
+  },
+  {
+   "id": "p3-q014",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Which weekday does my group exercise happen and where?",
+   "gold": [
+    "p3-m009"
+   ],
+   "note": "Wednesday morning reformer pilates in Alsancak."
+  },
+  {
+   "id": "p3-q015",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "By how much did my home loan repayment go up recently?",
+   "gold": [
+    "p3-m030"
+   ],
+   "note": "17,900 to 18,450 TL, i.e. 550 TL."
+  },
+  {
+   "id": "p3-q016",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Do I owe something to the authorities for my vehicle before late autumn ends?",
+   "gold": [
+    "p3-m031"
+   ],
+   "note": "Annual inspection due by 19 November, slot not booked yet."
+  },
+  {
+   "id": "p3-q017",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "When can I apply to get off nights?",
+   "gold": [
+    "p3-m051"
+   ],
+   "note": "Head nurse: day-team vacancy in March, applications close end of January."
+  },
+  {
+   "id": "p3-q018",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Can I get money off the course price because I work for the state?",
+   "gold": [
+    "p3-m069"
+   ],
+   "note": "15 percent reduction for public hospital employees."
+  },
+  {
+   "id": "p3-q019",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How is the capstone assignment of the programme graded?",
+   "gold": [
+    "p3-m071"
+   ],
+   "note": "Final project on ward staffing presented to a panel in week 14."
+  },
+  {
+   "id": "p3-q020",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Eşim denizde kaç hafta kalıp kaç hafta evde oluyor?",
+   "gold": [
+    "p3-m007"
+   ],
+   "note": "English topic: six weeks at sea, three at home."
+  },
+  {
+   "id": "p3-q021",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Nöbet akşamlarında kayınvalidemin işi kolay olsun diye cuma öğleden sonra ne yapıyorum?",
+   "gold": [
+    "p3-m017"
+   ],
+   "note": "English topic: batch cooking and freezing on Fridays."
+  },
+  {
+   "id": "p3-q022",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Neden akşam kursuna yazılmayı düşünüyorum, ne olmak istiyorum?",
+   "gold": [
+    "p3-m015"
+   ],
+   "note": "English topic: wants to be a head nurse one day."
+  },
+  {
+   "id": "p3-q023",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Kız kardeşimi ziyaret için aldığım uçak bileti kaç liraya geldi?",
+   "gold": [
+    "p3-m032"
+   ],
+   "note": "English event: 1,890 TL return ticket."
+  },
+  {
+   "id": "p3-q024",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "İş arkadaşımla hangi gece vardiyalarını sık sık değiştiriyoruz?",
+   "gold": [
+    "p3-m021"
+   ],
+   "note": "English topic: Thursday night shifts; the Zehra swap in e_shift_nov is one-off and a different person."
+  },
+  {
+   "id": "p3-q025",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What is the monthly amount I put aside for the kids' university costs?",
+   "gold": [
+    "p3-m020"
+   ],
+   "note": "Turkish topic: 3.000 TL into BES."
+  },
+  {
+   "id": "p3-q026",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "How much does Ege's school excursion to the ancient city cost?",
+   "gold": [
+    "p3-m026"
+   ],
+   "note": "Turkish event: Ephesus trip, 280 TL."
+  },
+  {
+   "id": "p3-q027",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What time does my husband land on Sunday?",
+   "gold": [
+    "p3-m035"
+   ],
+   "note": "Turkish event: arrives 14:20 on Sunday 1 November."
+  },
+  {
+   "id": "p3-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Which book did my daughter's teacher recommend?",
+   "gold": [
+    "p3-m048"
+   ],
+   "note": "Turkish message: The Little Prince recommended by Ayşegül hanım."
+  },
+  {
+   "id": "p3-q029",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "How much extra is the building asking everyone to pay for the lift work?",
+   "gold": [
+    "p3-m058"
+   ],
+   "note": "Turkish message: 8,000 TL levy in 4 instalments."
+  },
+  {
+   "id": "p3-q030",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Defne'nin doğum günü ne zaman?",
+   "gold": [
+    "p3-m013"
+   ],
+   "note": "Distractor: Ege's birthday topic in the same template."
+  },
+  {
+   "id": "p3-q031",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Ege'nin ortodonti kontrolü hangi gün ve saatte?",
+   "gold": [
+    "p3-m028"
+   ],
+   "note": "Distractor: the user's own dentist appointment."
+  },
+  {
+   "id": "p3-q032",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Defne'nin sınıf gezisi için kaç TL ödemem gerekiyor?",
+   "gold": [
+    "p3-m025"
+   ],
+   "note": "Distractor: Ege's trip costs 280 TL."
+  },
+  {
+   "id": "p3-q033",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Murat'ın doğum günü hangi tarihte?",
+   "gold": [
+    "p3-m011"
+   ],
+   "note": "Distractor: sister Ceren's birthday."
+  },
+  {
+   "id": "p3-q034",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Kız kardeşimin doğum günü ne zaman?",
+   "gold": [
+    "p3-m010"
+   ],
+   "note": "Distractor: Murat's birthday."
+  },
+  {
+   "id": "p3-q035",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Kaskoyu sonunda hangi şirketten yaptırdım?",
+   "gold": [
+    "p3-m059"
+   ],
+   "note": "h1 lists both quotes but only h3 states the decision (Allianz)."
+  },
+  {
+   "id": "p3-q036",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "Which date am I flying to Ankara?",
+   "gold": [
+    "p3-m032"
+   ],
+   "note": "Distractor: Murat's flight into Izmir on 1 November."
+  },
+  {
+   "id": "p3-q037",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What time does Defne's class end on Thursdays?",
+   "gold": [
+    "p3-m004"
+   ],
+   "note": "Distractor: Ege's practice times topic."
+  },
+  {
+   "id": "p3-q038",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What time is my mother-in-law's eye appointment?",
+   "gold": [
+    "p3-m033"
+   ],
+   "note": "Distractor: Ege's orthodontist event which also mentions Nermin."
+  },
+  {
+   "id": "p3-q039",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Murat'ın çalıştığı geminin adı ne?",
+   "gold": [],
+   "note": "Husband's job is stored, ship name is not."
+  },
+  {
+   "id": "p3-q040",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Ege'nin ortodontistinin adı neydi?",
+   "gold": [],
+   "note": "Appointment time stored, doctor's name not."
+  },
+  {
+   "id": "p3-q041",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Datça'daki ev için kapora ödedim mi?",
+   "gold": [],
+   "note": "Only browsing/budget stored, no booking."
+  },
+  {
+   "id": "p3-q042",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Pilates stüdyosunun aylık üyelik ücreti ne kadar?",
+   "gold": [],
+   "note": "Class time stored, price not."
+  },
+  {
+   "id": "p3-q043",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the name of Ege's basketball coach?",
+   "gold": [],
+   "note": "Team and practice times stored, coach not."
+  },
+  {
+   "id": "p3-q044",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "Which airline am I flying with to Ankara?",
+   "gold": [],
+   "note": "Date and price stored, airline not."
+  },
+  {
+   "id": "p3-q045",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "How many days of annual leave do I have left this year?",
+   "gold": [],
+   "note": "Only the approved December leave is stored, no balance."
+  }
+ ]
+}

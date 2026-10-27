@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Must match TuringDarkColors.background so the window never flashes before Compose draws. -->
+  <color name="turing_window_background">#FF111318</color>
+  <color name="turing_brand">#FFAAC7FF</color>
+</resources>

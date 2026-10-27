@@ -1,0 +1,1247 @@
+{
+ "persona": "p1",
+ "summary": "Defne, a master's student in urban transport in Istanbul, shares a flat in Moda with two housemates, works part-time as a barista, has a cat named Fındık, family in Bursa.",
+ "items": [
+  {
+   "id": "p1-m001",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kardeşi Emre",
+   "text": "Kullanıcının küçük kardeşi Emre Bursa'da lise son sınıfta ve mimarlık okumak istiyor.",
+   "age_days": 420,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p1-c001"
+  },
+  {
+   "id": "p1-m002",
+   "kind": "event",
+   "lang": "en",
+   "title": "Literature review deadline",
+   "text": "On 15 October the user said the literature review chapter must be sent to Prof. Tekin by Friday 6 November.",
+   "age_days": 8,
+   "confidence": 0.85,
+   "importance": 0.7,
+   "container": "p1-c002"
+  },
+  {
+   "id": "p1-m003",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kalabalık Marmaray",
+   "text": "Marmaray bu sabah çok kalabalıktı, Ayrılık Çeşmesi'nde bineceğim vagonun kapısına bile yaklaşamadım",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c003"
+  },
+  {
+   "id": "p1-m004",
+   "kind": "message",
+   "lang": "tr",
+   "title": "10 km koşu",
+   "text": "pazar günü Kuşdili'nde 10 km'yi 58 dakikada koştum, geçen aydan 3 dakika iyi",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c003"
+  },
+  {
+   "id": "p1-m005",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Koşu ayakkabısı",
+   "text": "yeni koşu ayakkabısına bakıyorum ama 3.500 TL civarı, çok pahalı geldi, belki indirim beklerim",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c003"
+  },
+  {
+   "id": "p1-m006",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Annesi Nermin",
+   "text": "Kullanıcının annesi Nermin Bursa'da ilkokul öğretmeni.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p1-c004"
+  },
+  {
+   "id": "p1-m007",
+   "kind": "document",
+   "lang": "en",
+   "title": "URB 640 grading",
+   "text": "URB 640 Transport Policy Seminar, instructor Assoc. Prof. Levent Arıkan. Grading: 40% seminar presentation, 40% policy brief, 20% participation; there is no written exam. The seminar meets Thursdays 14:00-16:50.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c005"
+  },
+  {
+   "id": "p1-m008",
+   "kind": "document",
+   "lang": "en",
+   "title": "URB 640 policy brief",
+   "text": "Each student presents one paper between weeks 9 and 13 and writes a four-page policy brief on it. Late policy briefs lose 5% per day, up to a maximum of five days.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c005"
+  },
+  {
+   "id": "p1-m009",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Food preferences",
+   "text": "The user does not eat red meat but does eat fish, and strongly dislikes cilantro.",
+   "age_days": 450,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c006"
+  },
+  {
+   "id": "p1-m010",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ev arkadaşı Burak",
+   "text": "Kullanıcının ev arkadaşı Burak hastane laboratuvarında gece vardiyasında çalışıyor ve gündüzleri uyuyor.",
+   "age_days": 400,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c007"
+  },
+  {
+   "id": "p1-m011",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Espresso makinesi arızası",
+   "text": "bugün kafede espresso makinesinin group head'i sızdırmaya başladı, Orhan teknik servisi aradı ama pazartesiden önce gelemezlermiş",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c008"
+  },
+  {
+   "id": "p1-m012",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Tek başına açılış",
+   "text": "cumartesi tek başıma açılış yapıyorum + kasayı da ben kapatıcam, offf. neyse tip jar'a bakarız",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c008"
+  },
+  {
+   "id": "p1-m013",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Balkabaklı latte",
+   "text": "yeni sezon menüsüne balkabaklı latte eklediler, şurubu kendimiz kaynatıyoruz, tarifi not aldım: 200 gr balkabağı, tarçın, esmer şeker",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c008"
+  },
+  {
+   "id": "p1-m014",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Diş randevusu",
+   "text": "9 Ekim'de kullanıcı, kendi diş hekimi randevusunun 28 Ekim Çarşamba günü saat 10:15'te olduğunu söyledi.",
+   "age_days": 14,
+   "confidence": 0.85,
+   "importance": 0.7,
+   "container": "p1-c009"
+  },
+  {
+   "id": "p1-m015",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kedinin veterineri",
+   "text": "Kullanıcı kedisi Fındık'ı Moda'daki veteriner Dr. Aylin Sezer'e götürüyor.",
+   "age_days": 600,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c010"
+  },
+  {
+   "id": "p1-m016",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Babanın doğum günü",
+   "text": "5 Ekim'de kullanıcı, babasının doğum gününün 2 Aralık olduğunu ve ona bir termos almayı düşündüğünü söyledi.",
+   "age_days": 18,
+   "confidence": 0.8,
+   "importance": 0.7,
+   "container": "p1-c011"
+  },
+  {
+   "id": "p1-m017",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kışlık mont kargosu",
+   "text": "annemle konuştum, kışlık montumu kargoya vermiş, perşembe gelir dedi. takip no'yu da atacakmış",
+   "age_days": 15,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c012"
+  },
+  {
+   "id": "p1-m018",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Emre deneme sınavı",
+   "text": "Emre'nin son deneme sınavı 412 çıkmış, hedefi 470 civarı. çalışıyor da telefondan kopamıyor 😂",
+   "age_days": 15,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c012"
+  },
+  {
+   "id": "p1-m019",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Babanın tezgâhı",
+   "text": "babam dükkâna yeni bir tezgâh yaptırmış, hafta sonu fotoğraf atacak, bakalım ne kadar abartmış",
+   "age_days": 15,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c012"
+  },
+  {
+   "id": "p1-m020",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Café wage",
+   "text": "The user earns 135 TL per hour at the café, and the owner Orhan pays wages into the user's account on the 10th of every month.",
+   "age_days": 320,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p1-c013"
+  },
+  {
+   "id": "p1-m021",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ev arkadaşı Selin",
+   "text": "Kullanıcının ev arkadaşı Selin üniversitede grafik tasarım okuyor ve çoğunlukla akşamları evde çalışıyor.",
+   "age_days": 400,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c014"
+  },
+  {
+   "id": "p1-m022",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kampüse ulaşım",
+   "text": "Kullanıcı Maslak'taki kampüse Kadıköy'den Marmaray ve M2 ile gidiyor; yol yaklaşık 70 dakika sürüyor.",
+   "age_days": 360,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c015"
+  },
+  {
+   "id": "p1-m023",
+   "kind": "document",
+   "lang": "en",
+   "title": "URB 612 grading",
+   "text": "URB 612 Urban Mobility Modeling, instructor Prof. Gülsen Tekin. Grading: 30% midterm exam, 30% term project, 30% final exam, 10% class participation. The course meets Mondays 09:30-12:20.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c016"
+  },
+  {
+   "id": "p1-m024",
+   "kind": "document",
+   "lang": "en",
+   "title": "URB 612 week 6",
+   "text": "Week 6 covers the four-step demand model: trip generation, trip distribution, mode choice and route assignment. Lab 3, an assignment on a toy network with 40 zones, must be submitted through the course portal by Friday 23:59 that week.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c016"
+  },
+  {
+   "id": "p1-m025",
+   "kind": "document",
+   "lang": "en",
+   "title": "URB 612 policies",
+   "text": "Late submissions lose 10% per day. Laptops are allowed in lab sessions only. The term project may be done in pairs and must be based on real data from Istanbul.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c016"
+  },
+  {
+   "id": "p1-m026",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "İkinci danışman",
+   "text": "Kullanıcının ikinci danışmanı Doç. Dr. Levent Arıkan'ın ofis saatleri perşembe günleri 11:00'de.",
+   "age_days": 300,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p1-c017"
+  },
+  {
+   "id": "p1-m027",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Koşu hedefi",
+   "text": "Kullanıcı hafta sonları Kuşdili Çayırı'nda koşuyor ve gelecek bahar bir yarı maraton koşmayı hedefliyor.",
+   "age_days": 260,
+   "confidence": 0.75,
+   "importance": 0.5,
+   "container": "p1-c018"
+  },
+  {
+   "id": "p1-m028",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Tez konusu",
+   "text": "Kullanıcının yüksek lisans tezi, Kadıköy–Karaköy hattında vapur ile metro arasındaki aktarma sürelerini ve bekleme davranışını inceliyor.",
+   "age_days": 520,
+   "confidence": 0.9,
+   "importance": 0.85,
+   "container": "p1-c019"
+  },
+  {
+   "id": "p1-m029",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Selin doğum günü yemeği",
+   "text": "22 Ekim'de kullanıcı, Selin'in 25 Ekim Pazar akşamı evde doğum günü yemeği vereceğini ve yaklaşık sekiz kişinin geleceğini söyledi.",
+   "age_days": 1,
+   "confidence": 0.8,
+   "importance": 0.7,
+   "container": "p1-c020"
+  },
+  {
+   "id": "p1-m030",
+   "kind": "event",
+   "lang": "en",
+   "title": "Methodology draft deadline",
+   "text": "On 21 October the user said the methodology chapter draft is due to co-advisor Levent Arıkan on Friday 20 November.",
+   "age_days": 2,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c021"
+  },
+  {
+   "id": "p1-m031",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Annenin doğum günü",
+   "text": "20 Ekim'de kullanıcı, annesinin doğum gününün 14 Kasım olduğunu ve o Cumartesi sabahı 09:00 otobüsüyle Bursa'ya gideceğini söyledi.",
+   "age_days": 3,
+   "confidence": 0.8,
+   "importance": 0.6,
+   "container": "p1-c022"
+  },
+  {
+   "id": "p1-m032",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Scholarship",
+   "text": "The user receives a graduate scholarship of 8,200 TL per month from the university.",
+   "age_days": 540,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p1-c023"
+  },
+  {
+   "id": "p1-m033",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Mercimek köfte püf noktası",
+   "text": "mercimek köftede biberi salçayla kavurup en sonda nar ekşisi koymak olayı çözdü, bulgur da ince olacak",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c024"
+  },
+  {
+   "id": "p1-m034",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kıymasız karnıyarık",
+   "text": "Selin karnıyarığı bu sefer kıymasız yaptı ve çok iyi çıktı, tarifini istedim",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c024"
+  },
+  {
+   "id": "p1-m035",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Yarın akşam yemeği",
+   "text": "yarın ne yapsam? Burak'ın nöbeti var, evde ben ve Selin olacağız, balık alırım belki",
+   "age_days": 33,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c024"
+  },
+  {
+   "id": "p1-m036",
+   "kind": "event",
+   "lang": "en",
+   "title": "Train to Eskişehir",
+   "text": "On 19 October the user booked a high-speed train ticket to Eskişehir for Saturday 21 November, departing at 08:40, to visit their cousin.",
+   "age_days": 4,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p1-c025"
+  },
+  {
+   "id": "p1-m037",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Thesis advisor",
+   "text": "The user's thesis advisor is Prof. Gülsen Tekin, whose office hours are on Wednesdays at 14:00.",
+   "age_days": 500,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p1-c026"
+  },
+  {
+   "id": "p1-m038",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Seasickness",
+   "text": "The user gets seasick on the ferry when the sea is rough and avoids sailing on stormy days.",
+   "age_days": 610,
+   "confidence": 0.75,
+   "importance": 0.4,
+   "container": "p1-c027"
+  },
+  {
+   "id": "p1-m039",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Emre ortodonti",
+   "text": "18 Ekim'de kullanıcı, kardeşi Emre'nin Bursa'daki ortodonti randevusunun 7 Kasım Cumartesi saat 11:00'de olduğunu söyledi.",
+   "age_days": 5,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p1-c028"
+  },
+  {
+   "id": "p1-m040",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Kedi maması",
+   "text": "fındık yine mama yemiyo, ıslak maması bitmiş diye surat yapıyor 😅 hangisini alsam bilemedim",
+   "age_days": 41,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c029"
+  },
+  {
+   "id": "p1-m041",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Somonlu pouch",
+   "text": "geçen hafta Moda'daki pet shoptan aldığım somonlu pouch'u iki günde bitirdi, tavuklu olanı koklayıp bıraktı bile",
+   "age_days": 41,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c029"
+  },
+  {
+   "id": "p1-m042",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Tırmalama tahtası",
+   "text": "bi de tırmalama tahtası lazım, koltuğun kenarı perişan oldu, Selin de bakıyor bana öyle",
+   "age_days": 41,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c029"
+  },
+  {
+   "id": "p1-m043",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Fındık aşı randevusu",
+   "text": "3 Ekim'de kullanıcı, Fındık'ın kuduz hatırlatma aşısı için 3 Kasım Salı günü veterinerden randevu aldığını söyledi.",
+   "age_days": 20,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p1-c030"
+  },
+  {
+   "id": "p1-m044",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kitap kulübü",
+   "text": "Kullanıcı pazar akşamları Moda'daki bir kitap kulübüne katılıyor; kulüp bu ay Sabahattin Ali'nin 'Kürk Mantolu Madonna' romanını okuyor.",
+   "age_days": 200,
+   "confidence": 0.7,
+   "importance": 0.35,
+   "container": "p1-c031"
+  },
+  {
+   "id": "p1-m045",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kira payı",
+   "text": "Kullanıcı Moda'daki üç kişilik dairenin kirasından payına düşen 9.500 TL'yi her ay ev sahibi Cemal Bey'e ödüyor.",
+   "age_days": 380,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p1-c032"
+  },
+  {
+   "id": "p1-m046",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Babası Hakan",
+   "text": "Kullanıcının babası Hakan Osmangazi'de küçük bir oto yedek parça dükkânı işletiyor.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p1-c033"
+  },
+  {
+   "id": "p1-m047",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Staj planı",
+   "text": "Kullanıcı gelecek yaz İzmir Büyükşehir Belediyesi'nin ulaşım dairesinde staj yapmayı düşünüyor.",
+   "age_days": 110,
+   "confidence": 0.7,
+   "importance": 0.6,
+   "container": "p1-c034"
+  },
+  {
+   "id": "p1-m048",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Kira sözleşmesi madde 3",
+   "text": "KİRA SÖZLEŞMESİ – Madde 3: Aylık kira bedeli 28.500 TL'dir ve her ayın ilk beş günü içinde kiraya veren Cemal Aydoğan'ın banka hesabına yatırılır. Kira bedeli her yıl TÜFE oranında artırılır.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c035"
+  },
+  {
+   "id": "p1-m049",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Kira sözleşmesi madde 7",
+   "text": "Madde 7: Kiracılar depozito olarak 57.000 TL öder. Depozito, sözleşme sonunda dairede hasar yoksa 30 gün içinde iade edilir. Kiracılar evcil hayvan besleyebilir, ancak diğer apartman sakinlerini rahatsız etmemekle yükümlüdür.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c035"
+  },
+  {
+   "id": "p1-m050",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Kira sözleşmesi madde 9",
+   "text": "Madde 9: Kiracı sözleşmeyi erken sonlandırmak isterse en az 60 gün önce yazılı bildirimde bulunmalıdır. Süresinden önce ayrılma halinde iki aylık kira bedeli cezai şart olarak tahsil edilir.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c035"
+  },
+  {
+   "id": "p1-m051",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Kira sözleşmesi madde 12",
+   "text": "Madde 12: Elektrik, doğalgaz, su ve internet abonelikleri kiracılara aittir. Apartman aidatı aylık 1.800 TL'dir ve kiracılar tarafından ödenir. Balkonda mangal yakmak yasaktır.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c035"
+  },
+  {
+   "id": "p1-m052",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Cat Fındık",
+   "text": "The user has a grey tabby cat named Fındık who is terrified of the vacuum cleaner.",
+   "age_days": 700,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p1-c036"
+  },
+  {
+   "id": "p1-m053",
+   "kind": "message",
+   "lang": "en",
+   "title": "Internship deadline",
+   "text": "Thinking about applying for the summer internship at the İzmir municipality's transport department. Deadline is 15 January I think.",
+   "age_days": 55,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c037"
+  },
+  {
+   "id": "p1-m054",
+   "kind": "message",
+   "lang": "en",
+   "title": "Application documents",
+   "text": "They want a CV in English, a one-page motivation letter and a recommendation from my advisor.",
+   "age_days": 55,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c037"
+  },
+  {
+   "id": "p1-m055",
+   "kind": "message",
+   "lang": "en",
+   "title": "Recommendation letter",
+   "text": "Prof. Tekin said she'd write it as long as I send her my draft at least two weeks before.",
+   "age_days": 55,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c037"
+  },
+  {
+   "id": "p1-m056",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Cumartesi açılış vardiyası",
+   "text": "16 Ekim'de kullanıcı, patronu Orhan'ın 31 Ekim Cumartesi açılış vardiyasını kendisine verdiğini ve o gün 07:30'da kafede olması gerektiğini söyledi.",
+   "age_days": 7,
+   "confidence": 0.75,
+   "importance": 0.6,
+   "container": "p1-c038"
+  },
+  {
+   "id": "p1-m057",
+   "kind": "message",
+   "lang": "en",
+   "title": "Budget check",
+   "text": "Okay budget check: rent plus building fee ~10,100, utilities ~450, transit ~900, food ~5,000. Scholarship and café pay cover it but leave maybe 6,000.",
+   "age_days": 90,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c039"
+  },
+  {
+   "id": "p1-m058",
+   "kind": "message",
+   "lang": "en",
+   "title": "Payday gap",
+   "text": "The café pays only once a month so the last week before payday is always tight.",
+   "age_days": 90,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c039"
+  },
+  {
+   "id": "p1-m059",
+   "kind": "message",
+   "lang": "en",
+   "title": "Savings account idea",
+   "text": "Should I open a separate savings account? Maybe put away 500 TL each month.",
+   "age_days": 90,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c039"
+  },
+  {
+   "id": "p1-m060",
+   "kind": "message",
+   "lang": "en",
+   "title": "Rent after Burak leaves",
+   "text": "Probably not until Burak's room is rented again, because once he leaves the split goes from three to two and my rent share jumps to about 14,250.",
+   "age_days": 90,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c039"
+  },
+  {
+   "id": "p1-m061",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kuzeni Ece",
+   "text": "Kullanıcının kuzeni Ece Eskişehir'de şehir planlama okuyor ve orada bir öğrenci evinde kalıyor.",
+   "age_days": 350,
+   "confidence": 0.75,
+   "importance": 0.4,
+   "container": "p1-c040"
+  },
+  {
+   "id": "p1-m062",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kafede part-time iş",
+   "text": "Kullanıcı Moda'daki Fincan & Plak kafesinde salı, perşembe ve cumartesi günleri part-time barista olarak çalışıyor.",
+   "age_days": 330,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p1-c041"
+  },
+  {
+   "id": "p1-m063",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Bulaşık ve çöp",
+   "text": "Selin yine bulaşıkları lavaboda bırakmış ama neyse, I'll do them tonight. Burak'la konuştum, çöp nöbetini haftalık dönüşümlü yapalım dedik",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c042"
+  },
+  {
+   "id": "p1-m064",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Wifi şifresi",
+   "text": "btw wifi şifresini değiştirdik, yeni şifre mavi-vapur-47, modemin altına da yazdım",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c042"
+  },
+  {
+   "id": "p1-m065",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Elektrik faturası",
+   "text": "elektrik faturası bu ay 1.240 TL geldi, üçe bölünce 413 TL düşüyor kişi başı",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c042"
+  },
+  {
+   "id": "p1-m066",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Geçen ayki fatura",
+   "text": "geçen ayki fatura 980'di, aradaki fark Burak'ın elektrikli ısıtıcısı olsa gerek",
+   "age_days": 20,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c042"
+  },
+  {
+   "id": "p1-m067",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Burak taşınıyor",
+   "text": "13 Ekim'de kullanıcı, Burak'ın Kocaeli'nde iş bulduğunu ve 30 Kasım'da evden taşınacağını, boşalan oda için yeni bir ev arkadaşı aranacağını söyledi.",
+   "age_days": 10,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p1-c043"
+  },
+  {
+   "id": "p1-m068",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Fındık aşı karnesi",
+   "text": "Aşı karnesi – Fındık (tekir, dişi, 2023 doğumlu). Karma aşı: 14 Nisan 2026. Kuduz aşısı: 3 Kasım 2025, bir sonraki hatırlatma 3 Kasım 2026. Tırnak kesimi ve parazit damlası kayıtları ayrı sayfada.",
+   "age_days": 200,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c044"
+  },
+  {
+   "id": "p1-m069",
+   "kind": "event",
+   "lang": "en",
+   "title": "Seminar presentation",
+   "text": "On 8 October the user said their Transport Policy Seminar presentation is on Wednesday 11 November at 09:30 in room A114.",
+   "age_days": 15,
+   "confidence": 0.85,
+   "importance": 0.7,
+   "container": "p1-c045"
+  },
+  {
+   "id": "p1-m070",
+   "kind": "message",
+   "lang": "en",
+   "title": "Ferry boarding data",
+   "text": "Finally got the ferry boarding counts for Kadıköy-Karaköy from the operator, but only 2023 and 2024. 2025 is 'still being processed' lol",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c046"
+  },
+  {
+   "id": "p1-m071",
+   "kind": "message",
+   "lang": "en",
+   "title": "Transfer time result",
+   "text": "Average transfer time between the ferry pier and the M4 station at Kadıköy comes out around 11.4 minutes in my sample, way higher than the official 6.",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c046"
+  },
+  {
+   "id": "p1-m072",
+   "kind": "message",
+   "lang": "en",
+   "title": "Waiting caveat",
+   "text": "need to check if that includes people who just miss a boat and wait for the next one, otherwise the number is kinda meaningless",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p1-c046"
+  },
+  {
+   "id": "p1-m073",
+   "kind": "event",
+   "lang": "en",
+   "title": "Midterm exam",
+   "text": "On 8 October the user said the Urban Mobility Modeling midterm is on Wednesday 4 November at 13:00 in room B207.",
+   "age_days": 15,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p1-c047"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p1-q001",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Evin wifi şifresi ne?",
+   "gold": [
+    "p1-m064"
+   ],
+   "note": "Wifi password is in the flat messages conversation."
+  },
+  {
+   "id": "p1-q002",
+   "type": "direct",
+   "lang": "en",
+   "text": "Do I have the 2025 ferry boarding counts yet?",
+   "gold": [
+    "p1-m070"
+   ],
+   "note": "m_thes1: only 2023 and 2024 delivered, 2025 still being processed."
+  },
+  {
+   "id": "p1-q003",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Selin'in doğum günü yemeği ne zaman?",
+   "gold": [
+    "p1-m029"
+   ],
+   "note": "Event: Selin's birthday dinner on 25 October."
+  },
+  {
+   "id": "p1-q004",
+   "type": "direct",
+   "lang": "en",
+   "text": "How much is my monthly graduate scholarship?",
+   "gold": [
+    "p1-m032"
+   ],
+   "note": "8,200 TL; no other item states the scholarship amount."
+  },
+  {
+   "id": "p1-q005",
+   "type": "direct",
+   "lang": "en",
+   "text": "Which room is the Transport Policy Seminar presentation in?",
+   "gold": [
+    "p1-m069"
+   ],
+   "note": "Room A114; the midterm event is the near-duplicate with another room."
+  },
+  {
+   "id": "p1-q006",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Depozito ne zaman iade edilir?",
+   "gold": [
+    "p1-m049"
+   ],
+   "note": "Lease clause 7: refunded within 30 days if no damage."
+  },
+  {
+   "id": "p1-q007",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Burak ne zaman taşınıyor?",
+   "gold": [
+    "p1-m067"
+   ],
+   "note": "30 November; only this event gives the date."
+  },
+  {
+   "id": "p1-q008",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Annem ne iş yapıyor?",
+   "gold": [
+    "p1-m006"
+   ],
+   "note": "Mother is a primary-school teacher in Bursa."
+  },
+  {
+   "id": "p1-q009",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "When do I need to hand in the background-reading section to my supervisor?",
+   "gold": [
+    "p1-m002"
+   ],
+   "note": "Literature review chapter to Prof. Tekin by 6 November; methodology event is the distractor."
+  },
+  {
+   "id": "p1-q010",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Kafedeki kahve cihazı bozulunca tamirci ne zaman uğrayacak?",
+   "gold": [
+    "p1-m011"
+   ],
+   "note": "Technical service cannot come before Monday."
+  },
+  {
+   "id": "p1-q011",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "When does my salary hit the bank?",
+   "gold": [
+    "p1-m020"
+   ],
+   "note": "Wages are paid on the 10th; the budget message deliberately gives no date."
+  },
+  {
+   "id": "p1-q012",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How much do I typically spend on getting around the city each month?",
+   "gold": [
+    "p1-m057"
+   ],
+   "note": "Transit ~900 in the budget check."
+  },
+  {
+   "id": "p1-q013",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What's the deadline for the practical exercise in my travel-forecasting class?",
+   "gold": [
+    "p1-m024"
+   ],
+   "note": "Lab 3 due Friday 23:59 of week 6."
+  },
+  {
+   "id": "p1-q014",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Önümüzdeki ilkbaharda hangi yarışa katılmayı planlıyorum?",
+   "gold": [
+    "p1-m027"
+   ],
+   "note": "Half marathon next spring."
+  },
+  {
+   "id": "p1-q015",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What dietary restrictions should I mention when ordering for the group?",
+   "gold": [
+    "p1-m009"
+   ],
+   "note": "No red meat, eats fish, dislikes cilantro."
+  },
+  {
+   "id": "p1-q016",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Kontrat bitmeden taşınırsam ne kadar önceden haber vermem gerek?",
+   "gold": [
+    "p1-m050"
+   ],
+   "note": "60 days written notice."
+  },
+  {
+   "id": "p1-q017",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What's the cutoff for that traineeship at the city hall?",
+   "gold": [
+    "p1-m053"
+   ],
+   "note": "Deadline 15 January."
+  },
+  {
+   "id": "p1-q018",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Kırmızı mercimekli o yemeği daha lezzetli yapan numara neydi?",
+   "gold": [
+    "p1-m033"
+   ],
+   "note": "Fry pepper with paste, pomegranate molasses at the end."
+  },
+  {
+   "id": "p1-q019",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Once my flatmate has moved out, how much will I owe each month for the flat?",
+   "gold": [
+    "p1-m060"
+   ],
+   "note": "Rent share jumps to about 14,250."
+  },
+  {
+   "id": "p1-q020",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "How much do I currently pay as my part of the apartment rent?",
+   "gold": [
+    "p1-m045"
+   ],
+   "note": "Turkish topic: 9,500 TL share; the lease chunk gives the total 28,500 and the budget message a future figure."
+  },
+  {
+   "id": "p1-q021",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Who is the animal doctor I take my cat to?",
+   "gold": [
+    "p1-m015"
+   ],
+   "note": "Dr. Aylin Sezer."
+  },
+  {
+   "id": "p1-q022",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Kuzenime gideceğim günün tren saati nedir?",
+   "gold": [
+    "p1-m036"
+   ],
+   "note": "English event: train to Eskişehir at 08:40 on 21 November."
+  },
+  {
+   "id": "p1-q023",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Evdeki hangi alet kedimi korkutuyor?",
+   "gold": [
+    "p1-m052"
+   ],
+   "note": "English topic: vacuum cleaner."
+  },
+  {
+   "id": "p1-q024",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Danışman hocamı çarşamba günü kaçta bulabilirim?",
+   "gold": [
+    "p1-m037"
+   ],
+   "note": "English topic: Prof. Tekin office hours Wednesday 14:00; co-advisor has Thursday hours."
+  },
+  {
+   "id": "p1-q025",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "When did my cat get her previous rabies injection?",
+   "gold": [
+    "p1-m068"
+   ],
+   "note": "Turkish vaccination card: 3 November 2025."
+  },
+  {
+   "id": "p1-q026",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What flavour of wet food did my cat actually eat last week?",
+   "gold": [
+    "p1-m041"
+   ],
+   "note": "Turkish message: the salmon pouch, she ignored the chicken one."
+  },
+  {
+   "id": "p1-q027",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Örneklemimde vapurdan metroya geçiş ortalama kaç dakika çıktı?",
+   "gold": [
+    "p1-m071"
+   ],
+   "note": "English message: about 11.4 minutes."
+  },
+  {
+   "id": "p1-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Which day is my mom's parcel with the winter jacket supposed to arrive?",
+   "gold": [
+    "p1-m017"
+   ],
+   "note": "Turkish message: Thursday."
+  },
+  {
+   "id": "p1-q029",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Neden fırtınalı günlerde vapura binmek istemiyorum?",
+   "gold": [
+    "p1-m038"
+   ],
+   "note": "English topic: gets seasick when the sea is rough."
+  },
+  {
+   "id": "p1-q030",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Kendi diş randevum hangi gün?",
+   "gold": [
+    "p1-m014"
+   ],
+   "note": "28 October; Emre's orthodontist appointment is the distractor."
+  },
+  {
+   "id": "p1-q031",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Annemin doğum günü ne zaman?",
+   "gold": [
+    "p1-m031"
+   ],
+   "note": "14 November; father's birthday event is the distractor."
+  },
+  {
+   "id": "p1-q032",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "When is the methodology chapter due?",
+   "gold": [
+    "p1-m030"
+   ],
+   "note": "20 November; literature review deadline is the distractor."
+  },
+  {
+   "id": "p1-q033",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What penalty do late policy briefs get per day?",
+   "gold": [
+    "p1-m008"
+   ],
+   "note": "5% per day; the URB 612 syllabus has 10% for late submissions."
+  },
+  {
+   "id": "p1-q034",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Hangi ev arkadaşım gece vardiyasında çalışıyor?",
+   "gold": [
+    "p1-m010"
+   ],
+   "note": "Burak works nights; Selin is the design student."
+  },
+  {
+   "id": "p1-q035",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Babam hangi işi yapıyor?",
+   "gold": [
+    "p1-m046"
+   ],
+   "note": "Runs an auto-parts shop; mother is a teacher."
+  },
+  {
+   "id": "p1-q036",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "Which room is the midterm in?",
+   "gold": [
+    "p1-m073"
+   ],
+   "note": "Room B207; the seminar presentation is in A114."
+  },
+  {
+   "id": "p1-q037",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Kardeşim hangi bölümü okumak istiyor?",
+   "gold": [
+    "p1-m001"
+   ],
+   "note": "Emre wants architecture; cousin Ece studies urban planning."
+  },
+  {
+   "id": "p1-q038",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Bu ayki elektrik faturası kaç TL geldi?",
+   "gold": [
+    "p1-m065"
+   ],
+   "note": "1,240 TL this month; last month's 980 is the distractor."
+  },
+  {
+   "id": "p1-q039",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Burak'ın yerine gelecek yeni ev arkadaşı kim?",
+   "gold": [],
+   "note": "Only the need for a new housemate is stored, not who."
+  },
+  {
+   "id": "p1-q040",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What date is my thesis defense?",
+   "gold": [],
+   "note": "Chapter deadlines exist, no defense date."
+  },
+  {
+   "id": "p1-q041",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Fındık kaç kilo?",
+   "gold": [],
+   "note": "Vaccination card has no weight."
+  },
+  {
+   "id": "p1-q042",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the name of the coworker who covers the weekday shifts at the café?",
+   "gold": [],
+   "note": "Only owner Orhan is named."
+  },
+  {
+   "id": "p1-q043",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Koşu ayakkabısını hangi mağazadan almıştım?",
+   "gold": [],
+   "note": "The user is only looking at shoes, nothing purchased."
+  },
+  {
+   "id": "p1-q044",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What time does my bus back from Bursa leave on 15 November?",
+   "gold": [],
+   "note": "Only the outbound bus on 14 November is stored."
+  },
+  {
+   "id": "p1-q045",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Kafede hafta sonu çalışırsam ekstra ücret alıyor muyum?",
+   "gold": [],
+   "note": "Only the flat hourly wage is stored."
+  }
+ ]
+}

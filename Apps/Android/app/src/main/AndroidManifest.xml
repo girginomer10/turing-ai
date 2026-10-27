@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Scheduled-prompt results; requested in context from Automations only (Android 13+). -->
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <!-- Device connections (Calendar / Contacts providers); requested only after tapping Allow
+       access in Settings → Connections. Writes run only for an exact, reviewed request. -->
+  <uses-permission android:name="android.permission.READ_CALENDAR" />
+  <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+  <!-- Gemini Live dictation; requested in context from the composer's microphone button, used
+       only while the chat is visible (no foreground service, no background recording). -->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+  <application
+    android:name=".TuringApplication"
+    android:allowBackup="false"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="false"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:networkSecurityConfig="@xml/network_security_config"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.Turing">
+    <activity
+      android:name=".MainActivity"
+      android:exported="true"
+      android:windowSoftInputMode="adjustResize">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <!-- Share target ("Send to Turing AI"): shared content is copied into app-private storage
+         and queued under Shared items; nothing is sent until the person opens a draft. -->
+    <activity
+      android:name=".ui.share.ShareReceiverActivity"
+      android:exported="true"
+      android:windowSoftInputMode="adjustResize">
+      <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+        <data android:mimeType="text/markdown" />
+        <data android:mimeType="text/x-markdown" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="application/pdf" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.SEND_MULTIPLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+        <data android:mimeType="text/markdown" />
+        <data android:mimeType="text/x-markdown" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="application/pdf" />
+      </intent-filter>
+    </activity>
+
+    <!-- Connections OAuth: the browser leg returns to com.omergirgin.turing:/oauth/<provider>.
+         The activity hands the exact URI to the pending sign-in (PKCE + single state check) and
+         finishes; unsolicited callbacks are ignored. -->
+    <activity
+      android:name=".ui.connections.OAuthRedirectActivity"
+      android:exported="true"
+      android:excludeFromRecents="true"
+      android:noHistory="true"
+      android:theme="@android:style/Theme.NoDisplay">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="com.omergirgin.turing" />
+      </intent-filter>
+    </activity>
+
+    <!-- ML Kit OCR runs fully on-device, but its bundled SDK also uploads usage metrics through
+         Google's datatransport backend. Turing AI promises that requests go only to the services
+         the user chose, so the upload backend is removed (events are dropped before any upload is
+         scheduled); recognition is unaffected. Lint cannot resolve the class because it lives in a
+         transitive runtime AAR (transport-runtime); the manifest merger report confirms the removal. -->
+    <service
+      android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+      tools:node="remove"
+      tools:ignore="MissingClass" />
+  </application>
+</manifest>

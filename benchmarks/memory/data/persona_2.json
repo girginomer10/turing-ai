@@ -1,0 +1,1247 @@
+{
+ "persona": "p2",
+ "summary": "Kaan, a Turkish backend engineer in Berlin who cycles to work, rents a flat in Neukölln, juggles residence-permit paperwork, expects family visits from Turkey and is saving for a house deposit with his partner Clara.",
+ "items": [
+  {
+   "id": "p2-m001",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Ablası geliyor",
+   "text": "20 Ekim'de kullanıcı, ablası Derya'nın çocuklarıyla birlikte 18 Aralık Cuma günü İzmir'den Berlin'e geleceğini ve 27 Aralık'a kadar kalacaklarını söyledi.",
+   "age_days": 3,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p2-c001"
+  },
+  {
+   "id": "p2-m002",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Tax advisor",
+   "text": "The user files the annual tax return with the help of a Steuerberater, Herr Albrecht, who charges a flat fee of €280.",
+   "age_days": 250,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p2-c002"
+  },
+  {
+   "id": "p2-m003",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Goethe B2 sınavı",
+   "text": "8 Ekim'de kullanıcı, Goethe B2 sınavının 28 Kasım Cumartesi sabahı 09:00'da olduğunu söyledi.",
+   "age_days": 15,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p2-c003"
+  },
+  {
+   "id": "p2-m004",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Misafir odası",
+   "text": "annemler 12 Kasım'da geliyor, Clara'yla çalışma odasını guest room yapıyoruz, sofa bed sipariş ettim, perşembe teslim",
+   "age_days": 8,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c004"
+  },
+  {
+   "id": "p2-m005",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Babanın Berlin planı",
+   "text": "babam Berlin'e ilk kez geliyor, Brandenburger Tor ve Pergamon'u görmek istiyor ama Museum Island'ın bir kısmı renovation'da kapalıymış galiba",
+   "age_days": 8,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c004"
+  },
+  {
+   "id": "p2-m006",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Annemin hediyeleri",
+   "text": "annem Antep fıstığı, kuru kayısı ve pekmez getirecek; sucuk getirmesin dedim çünkü gümrükte el koyuyorlar",
+   "age_days": 8,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c004"
+  },
+  {
+   "id": "p2-m007",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Old flat deposit",
+   "text": "The user's previous flat in Wedding was managed by Hausverwaltung Kramer, and the €1,950 deposit from that flat has not been fully refunded yet.",
+   "age_days": 300,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p2-c005"
+  },
+  {
+   "id": "p2-m008",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Kredi danışmanı görüşmesi",
+   "text": "19 Ekim'de kullanıcı, kredi danışmanı Herr Neumann ile 9 Kasım Pazartesi saat 17:00'de görüşeceğini söyledi.",
+   "age_days": 4,
+   "confidence": 0.85,
+   "importance": 0.7,
+   "container": "p2-c006"
+  },
+  {
+   "id": "p2-m009",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Falkensee ısıtma",
+   "text": "Falkensee'deki ev güzeldi ama ısıtma 1978 model gaz kazanı, yenilemek en az 25 bin euro tutarmış",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c007"
+  },
+  {
+   "id": "p2-m010",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Bernau ısı pompası",
+   "text": "Bernau'daki evde daha yeni bir ısı pompası var ama bahçe minicik, Clara bahçeye çok önem veriyor",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c007"
+  },
+  {
+   "id": "p2-m011",
+   "kind": "message",
+   "lang": "tr",
+   "title": "S-Bahn mesafesi",
+   "text": "ikisini S-Bahn'a yakınlığa göre kıyaslıyorum: Falkensee'de istasyona 9 dakika yürüyüş, Bernau'da 17 dakika",
+   "age_days": 12,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c007"
+  },
+  {
+   "id": "p2-m012",
+   "kind": "document",
+   "lang": "en",
+   "title": "Bike insurance § 3",
+   "text": "Bicycle theft insurance, section 3: Theft is covered only if the bike was locked with an approved lock worth at least €60 to a fixed object. The deductible is €50. Between 22:00 and 06:00 the bike is covered only if stored in a locked room.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c008"
+  },
+  {
+   "id": "p2-m013",
+   "kind": "document",
+   "lang": "en",
+   "title": "Bike insurance § 5",
+   "text": "Section 5: Theft must be reported to the police within 24 hours and to the insurer within seven days. The maximum payout is the replacement value, capped at €1,200.",
+   "age_days": 380,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c008"
+  },
+  {
+   "id": "p2-m014",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Damlayan musluk",
+   "text": "mutfak musluğu damlıyor, iki gündür sesi uyutmuyor, umarım bu hafta gelirler",
+   "age_days": 35,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c009"
+  },
+  {
+   "id": "p2-m015",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Komşu Frau Lindqvist",
+   "text": "üst kattaki komşu Frau Lindqvist cumartesi gecesi gürültü için özür diledi, kapıya kuru pasta bırakmış, çok tatlı",
+   "age_days": 35,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c009"
+  },
+  {
+   "id": "p2-m016",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Bisiklet odası anahtarı",
+   "text": "bisiklet odasının anahtarı kayboldu, yenisi 15 euro, Hausmeister Herr Böhm yedeğini cuma günü verecekmiş",
+   "age_days": 35,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c009"
+  },
+  {
+   "id": "p2-m017",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Clara's bike",
+   "text": "The user's partner Clara rides a green Dutch city bike with a front basket.",
+   "age_days": 300,
+   "confidence": 0.75,
+   "importance": 0.3,
+   "container": "p2-c010"
+  },
+  {
+   "id": "p2-m018",
+   "kind": "document",
+   "lang": "en",
+   "title": "Rental agreement § 2",
+   "text": "Rental agreement, § 2: The monthly cold rent is €900. Advance payments for heating and utilities are €280, so the total monthly payment is €1,180, due by the third working day of each month.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c011"
+  },
+  {
+   "id": "p2-m019",
+   "kind": "document",
+   "lang": "en",
+   "title": "Rental agreement § 5",
+   "text": "§ 5: The tenant pays a security deposit of €2,700, which may be paid in three equal instalments. The landlord will place the deposit in a separate interest-bearing account.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c011"
+  },
+  {
+   "id": "p2-m020",
+   "kind": "document",
+   "lang": "en",
+   "title": "Rental agreement § 8",
+   "text": "§ 8: The tenant may terminate the contract with a notice period of three months, delivered in writing and received by the third working day of the month. Subletting requires written consent.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c011"
+  },
+  {
+   "id": "p2-m021",
+   "kind": "document",
+   "lang": "en",
+   "title": "Rental agreement § 11",
+   "text": "§ 11: Bicycles may be stored only in the bicycle room in the rear building. Quiet hours are 22:00 to 06:00 and all day on Sundays. Leaving the stairwell blocked is prohibited.",
+   "age_days": 520,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c011"
+  },
+  {
+   "id": "p2-m022",
+   "kind": "message",
+   "lang": "en",
+   "title": "Lock contention bug",
+   "text": "Spent the whole afternoon on a nasty lock contention problem in the billing service. Turned out a migration was holding an ACCESS EXCLUSIVE lock on the invoices table for 40 seconds.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c012"
+  },
+  {
+   "id": "p2-m023",
+   "kind": "message",
+   "lang": "en",
+   "title": "Migration fix",
+   "text": "Fix was creating the index concurrently and splitting the migration into two deploys. Marlene approved the PR within ten minutes, which is rare.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c012"
+  },
+  {
+   "id": "p2-m024",
+   "kind": "message",
+   "lang": "en",
+   "title": "Meetup talk idea",
+   "text": "Might propose a short talk about it at the Berlin Go meetup in January, if they'll have me.",
+   "age_days": 30,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c012"
+  },
+  {
+   "id": "p2-m025",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Randevu sıkıntısı",
+   "text": "Kullanıcı yabancılar dairesinden randevu almakta zorlanıyor; online sistemde boş yer genellikle altı hafta sonrasına çıkıyor.",
+   "age_days": 200,
+   "confidence": 0.8,
+   "importance": 0.6,
+   "container": "p2-c013"
+  },
+  {
+   "id": "p2-m026",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Konjunktiv II",
+   "text": "bu akşam Konjunktiv II alıştırmalarını yaptım, uzun cümlelerde hâlâ 'wäre' ile 'hätte'yi karıştırıyorum",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c014"
+  },
+  {
+   "id": "p2-m027",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Hocanın tavsiyesi",
+   "text": "hoca Frau Okafor yazımın iyi olduğunu ama konuşmamın zayıf olduğunu söyledi, bir Tandem partner bulmamı önerdi",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c014"
+  },
+  {
+   "id": "p2-m028",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Pazar Almancası",
+   "text": "Clara pazar günleri benimle sadece Almanca konuşmayı teklif etti. Şans dileyin",
+   "age_days": 25,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c014"
+  },
+  {
+   "id": "p2-m029",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Lastik patladı",
+   "text": "bugün Landwehrkanal kenarında bisikletle giderken ön lastik patladı, yağmur da yağıyor, tam felaket. yarın yeni lastik takacağım",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c015"
+  },
+  {
+   "id": "p2-m030",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Karşı rüzgar",
+   "text": "akşam dönüşte rüzgar tam karşıdan esti, her zamankinden çok daha uzun sürdü, bacaklarım bitik",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c015"
+  },
+  {
+   "id": "p2-m031",
+   "kind": "message",
+   "lang": "tr",
+   "title": "Yeni arka lamba",
+   "text": "arka lamba pili bitmiş, USB'den şarj olan bir lamba almam lazım, 25 euro civarı",
+   "age_days": 14,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c015"
+  },
+  {
+   "id": "p2-m032",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Yeni roaster",
+   "text": "Kreuzberg'de yeni bir roaster denedim, Ethiopian filter harikaydı ama 250 gram için 14 euro biraz fazla",
+   "age_days": 18,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c016"
+  },
+  {
+   "id": "p2-m033",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Maç iptal",
+   "text": "Perşembe maçı iptal oldu çünkü sahayı iki kere rezerve etmişler. Jonas'la pub'a gittik sonunda",
+   "age_days": 18,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c016"
+  },
+  {
+   "id": "p2-m034",
+   "kind": "message",
+   "lang": "mixed",
+   "title": "Deutschlandticket",
+   "text": "Not: Deutschlandticket'ı hâlâ tutuyorum, yağmurlu günler için lazım. İptal etmek için ayın 10'una kadar haber vermek gerekiyormuş",
+   "age_days": 18,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c016"
+  },
+  {
+   "id": "p2-m035",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Ziyaretçi vizesi listesi",
+   "text": "Ebeveynler için ziyaretçi vizesi başvuru listesi: geçerli pasaportlar, en az 30.000 euro teminatlı seyahat sağlık sigortası, davet mektubu, gidiş-dönüş uçak rezervasyonu ve davet edenin kira sözleşmesinin kopyası.",
+   "age_days": 130,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c017"
+  },
+  {
+   "id": "p2-m036",
+   "kind": "document",
+   "lang": "tr",
+   "title": "Vize ücreti",
+   "text": "Vize ücreti kişi başı 90 euro'dur ve başvuru sırasında kartla ödenir. Sonuç genellikle 10 ila 15 iş günü içinde bildirilir.",
+   "age_days": 130,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c017"
+  },
+  {
+   "id": "p2-m037",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Lizbon tatili",
+   "text": "Kullanıcı Clara ile nisan ayında Lizbon'da dört günlük bir tatil planlıyor.",
+   "age_days": 22,
+   "confidence": 0.8,
+   "importance": 0.4,
+   "container": "p2-c018"
+  },
+  {
+   "id": "p2-m038",
+   "kind": "event",
+   "lang": "en",
+   "title": "Parents' visas approved",
+   "text": "On 6 October the user said the visitor visas for their parents were approved and are valid from 10 November to 10 December.",
+   "age_days": 17,
+   "confidence": 0.85,
+   "importance": 0.8,
+   "container": "p2-c019"
+  },
+  {
+   "id": "p2-m039",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Hausverwaltung Brandt",
+   "text": "Kullanıcının ev sahibi adına işlem yapan Hausverwaltung Brandt arızaları yalnızca e-posta ile kabul ediyor, telefonla aramak işe yaramıyor.",
+   "age_days": 350,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p2-c020"
+  },
+  {
+   "id": "p2-m040",
+   "kind": "event",
+   "lang": "en",
+   "title": "On-call week",
+   "text": "On 20 October the user said their on-call week starts on Monday 16 November at 09:00.",
+   "age_days": 3,
+   "confidence": 0.8,
+   "importance": 0.7,
+   "container": "p2-c021"
+  },
+  {
+   "id": "p2-m041",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Annesi Fatma",
+   "text": "Kullanıcının annesi Fatma Ankara'da emekli bir muhasebeci; sarma ve mantı yapmakta çok iyidir.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p2-c022"
+  },
+  {
+   "id": "p2-m042",
+   "kind": "event",
+   "lang": "en",
+   "title": "Dentist appointment",
+   "text": "On 15 October the user said they have a dentist appointment on Monday 2 November at 08:00.",
+   "age_days": 8,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p2-c023"
+  },
+  {
+   "id": "p2-m043",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Thursday football",
+   "text": "The user plays five-a-side football on Thursday evenings at a pitch in Tempelhof.",
+   "age_days": 380,
+   "confidence": 0.75,
+   "importance": 0.4,
+   "container": "p2-c024"
+  },
+  {
+   "id": "p2-m044",
+   "kind": "topic",
+   "lang": "en",
+   "title": "House deposit goal",
+   "text": "The user is saving toward a house deposit (Eigenkapital) with a target of €60,000.",
+   "age_days": 200,
+   "confidence": 0.9,
+   "importance": 0.85,
+   "container": "p2-c025"
+  },
+  {
+   "id": "p2-m045",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Eski depozito",
+   "text": "9 Ekim'de kullanıcı, eski dairenin ev yönetimi Hausverwaltung Kramer'in depozitodan kalan 750 euroyu 30 Kasım'a kadar hesabına yatıracağını söylediğini aktardı.",
+   "age_days": 14,
+   "confidence": 0.8,
+   "importance": 0.8,
+   "container": "p2-c026"
+  },
+  {
+   "id": "p2-m046",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Ablası Derya",
+   "text": "Kullanıcının ablası Derya İzmir'de eczacı; eşi Cem ve iki çocuğuyla yaşıyor.",
+   "age_days": 700,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p2-c027"
+  },
+  {
+   "id": "p2-m047",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Almanca kursu",
+   "text": "Kullanıcı çarşamba akşamları halk eğitim merkezinde (Volkshochschule) B2 seviyesi Almanca kursuna gidiyor.",
+   "age_days": 150,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p2-c028"
+  },
+  {
+   "id": "p2-m048",
+   "kind": "message",
+   "lang": "en",
+   "title": "Savings progress",
+   "text": "Checked the numbers again: 27,400 saved so far, so about 32,600 still to go.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c029"
+  },
+  {
+   "id": "p2-m049",
+   "kind": "message",
+   "lang": "en",
+   "title": "Transfer tax",
+   "text": "Also the property transfer tax in Brandenburg is 6.5%, so on a 400k house that's another 26k just for Grunderwerbsteuer. Ouch.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c029"
+  },
+  {
+   "id": "p2-m050",
+   "kind": "message",
+   "lang": "en",
+   "title": "Notary costs",
+   "text": "Notary plus land registry will be another 1.5 to 2 percent. So realistically I need way more than the deposit.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c029"
+  },
+  {
+   "id": "p2-m051",
+   "kind": "message",
+   "lang": "en",
+   "title": "Co-borrower question",
+   "text": "Should ask Herr Neumann whether Clara's income can count too if we apply as co-borrowers.",
+   "age_days": 45,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c029"
+  },
+  {
+   "id": "p2-m052",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Bike commute",
+   "text": "The user cycles to the office, roughly 9 km along the Landwehrkanal, which takes about 28 minutes.",
+   "age_days": 500,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p2-c030"
+  },
+  {
+   "id": "p2-m053",
+   "kind": "topic",
+   "lang": "en",
+   "title": "The user's bike",
+   "text": "The user's bike is a second-hand grey Cube gravel bike bought for €450.",
+   "age_days": 420,
+   "confidence": 0.85,
+   "importance": 0.4,
+   "container": "p2-c031"
+  },
+  {
+   "id": "p2-m054",
+   "kind": "document",
+   "lang": "en",
+   "title": "Permit card checklist",
+   "text": "Checklist for replacing the residence permit card: valid passport, the current card, a registration certificate (Anmeldebestätigung) issued within the last three months, and one biometric photo in 35x45 mm format. The replacement fee is €67.",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c032"
+  },
+  {
+   "id": "p2-m055",
+   "kind": "document",
+   "lang": "en",
+   "title": "Booking portal tips",
+   "text": "Appointments are released on the official booking portal on weekdays around 07:00, and cancelled slots often reappear around noon. If you cannot attend, cancel at least 24 hours before the appointment.",
+   "age_days": 70,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c032"
+  },
+  {
+   "id": "p2-m056",
+   "kind": "event",
+   "lang": "en",
+   "title": "House viewing Bernau",
+   "text": "On Saturday 17 October the user viewed a house in Bernau with an asking price of €410,000, four bedrooms and 120 square metres of living space.",
+   "age_days": 6,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p2-c033"
+  },
+  {
+   "id": "p2-m057",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Partner Clara",
+   "text": "The user's partner Clara teaches at a primary school in Pankow and is slowly learning Turkish from the user.",
+   "age_days": 480,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p2-c034"
+  },
+  {
+   "id": "p2-m058",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Job",
+   "text": "The user works as a backend engineer at Lumenform GmbH in Berlin, mostly writing Go services on top of PostgreSQL.",
+   "age_days": 600,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p2-c035"
+  },
+  {
+   "id": "p2-m059",
+   "kind": "event",
+   "lang": "en",
+   "title": "House viewing Falkensee",
+   "text": "On Saturday 10 October the user viewed a house in Falkensee with an asking price of €395,000, three bedrooms and a large garden.",
+   "age_days": 13,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p2-c036"
+  },
+  {
+   "id": "p2-m060",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Aylık tasarruf",
+   "text": "Kullanıcı her ayın 28'inde maaşından 1.300 avroyu otomatik olarak faizli bir tasarruf hesabına aktarıyor.",
+   "age_days": 180,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p2-c037"
+  },
+  {
+   "id": "p2-m061",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Babası Mehmet",
+   "text": "Kullanıcının babası Mehmet Ankara'da emekli bir inşaat mühendisi ve kullanıcının Berlin'de bisikletle işe gitmesinden endişe ediyor.",
+   "age_days": 800,
+   "confidence": 0.9,
+   "importance": 0.6,
+   "container": "p2-c038"
+  },
+  {
+   "id": "p2-m062",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Blue Card",
+   "text": "The user holds an EU Blue Card valid until 14 March 2028.",
+   "age_days": 450,
+   "confidence": 0.9,
+   "importance": 0.8,
+   "container": "p2-c039"
+  },
+  {
+   "id": "p2-m063",
+   "kind": "event",
+   "lang": "en",
+   "title": "Immigration office appointment",
+   "text": "On 12 October the user said they have an immigration office appointment on Thursday 5 November at 08:40 to get the new address printed on the residence permit card.",
+   "age_days": 11,
+   "confidence": 0.85,
+   "importance": 0.8,
+   "container": "p2-c040"
+  },
+  {
+   "id": "p2-m064",
+   "kind": "event",
+   "lang": "tr",
+   "title": "Bisiklet bakımı",
+   "text": "16 Ekim'de kullanıcı, bisikletinin zincir ve fren bakımı için 29 Ekim Perşembe öğle 12:00'de atölyeye gideceğini söyledi.",
+   "age_days": 7,
+   "confidence": 0.8,
+   "importance": 0.5,
+   "container": "p2-c041"
+  },
+  {
+   "id": "p2-m065",
+   "kind": "event",
+   "lang": "en",
+   "title": "Parents' flight",
+   "text": "On 18 October the user said their parents' flight from Ankara lands at BER on Thursday 12 November at 15:20.",
+   "age_days": 5,
+   "confidence": 0.85,
+   "importance": 0.8,
+   "container": "p2-c042"
+  },
+  {
+   "id": "p2-m066",
+   "kind": "event",
+   "lang": "en",
+   "title": "Clara's dentist appointment",
+   "text": "On 21 October the user said Clara has a dentist appointment on Tuesday 10 November at 16:30.",
+   "age_days": 2,
+   "confidence": 0.8,
+   "importance": 0.7,
+   "container": "p2-c043"
+  },
+  {
+   "id": "p2-m067",
+   "kind": "topic",
+   "lang": "tr",
+   "title": "Kahve alışkanlığı",
+   "text": "Kullanıcı sabahları evde Chemex ile filtre kahve yapıyor, Türk kahvesini sadece hafta sonları içiyor.",
+   "age_days": 330,
+   "confidence": 0.7,
+   "importance": 0.3,
+   "container": "p2-c044"
+  },
+  {
+   "id": "p2-m068",
+   "kind": "message",
+   "lang": "en",
+   "title": "Immigration paperwork",
+   "text": "Need to gather everything for the immigration office: passport, registration certificate, tenancy agreement, employer's letter and a biometric photo.",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c045"
+  },
+  {
+   "id": "p2-m069",
+   "kind": "message",
+   "lang": "en",
+   "title": "Employer letter",
+   "text": "HR said they can issue the employer letter within three working days, I just have to ask on Slack.",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c045"
+  },
+  {
+   "id": "p2-m070",
+   "kind": "message",
+   "lang": "en",
+   "title": "Insurance confirmation",
+   "text": "Also bring the health insurance confirmation, otherwise they'll send me home like last time lol",
+   "age_days": 60,
+   "confidence": null,
+   "importance": null,
+   "container": "p2-c045"
+  },
+  {
+   "id": "p2-m071",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Office days",
+   "text": "The user's office is in Friedrichshain; the team is expected on site on Tuesdays and Thursdays, and the other days are remote.",
+   "age_days": 450,
+   "confidence": 0.85,
+   "importance": 0.5,
+   "container": "p2-c046"
+  },
+  {
+   "id": "p2-m072",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Current flat",
+   "text": "The user rents a two-room flat in Neukölln near Weserstraße on the third floor, with a balcony facing the courtyard.",
+   "age_days": 520,
+   "confidence": 0.9,
+   "importance": 0.7,
+   "container": "p2-c047"
+  },
+  {
+   "id": "p2-m073",
+   "kind": "topic",
+   "lang": "en",
+   "title": "Mortgage broker",
+   "text": "The user's mortgage broker is Herr Neumann, who advises having at least 20% equity before applying.",
+   "age_days": 90,
+   "confidence": 0.85,
+   "importance": 0.6,
+   "container": "p2-c048"
+  }
+ ],
+ "queries": [
+  {
+   "id": "p2-q001",
+   "type": "direct",
+   "lang": "en",
+   "text": "How much are the advance payments for heating and utilities?",
+   "gold": [
+    "p2-m018"
+   ],
+   "note": "Lease § 2: €280 advance payments."
+  },
+  {
+   "id": "p2-q002",
+   "type": "direct",
+   "lang": "en",
+   "text": "When does my on-call week start?",
+   "gold": [
+    "p2-m040"
+   ],
+   "note": "Monday 16 November at 09:00."
+  },
+  {
+   "id": "p2-q003",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Goethe B2 sınavı ne zaman?",
+   "gold": [
+    "p2-m003"
+   ],
+   "note": "28 November 09:00; the course topic gives no exam date."
+  },
+  {
+   "id": "p2-q004",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Bisiklet odasının anahtarı kaç euro?",
+   "gold": [
+    "p2-m016"
+   ],
+   "note": "A new key costs 15 euro."
+  },
+  {
+   "id": "p2-q005",
+   "type": "direct",
+   "lang": "en",
+   "text": "What is the property transfer tax rate in Brandenburg?",
+   "gold": [
+    "p2-m049"
+   ],
+   "note": "6.5%; the notary message is the near-miss."
+  },
+  {
+   "id": "p2-q006",
+   "type": "direct",
+   "lang": "tr",
+   "text": "Hausverwaltung Kramer eski depozitodan ne kadar ödeyecek?",
+   "gold": [
+    "p2-m045"
+   ],
+   "note": "The remaining 750 euro by 30 November."
+  },
+  {
+   "id": "p2-q007",
+   "type": "direct",
+   "lang": "en",
+   "text": "What kind of lock does my bike theft insurance require?",
+   "gold": [
+    "p2-m012"
+   ],
+   "note": "Approved lock worth at least €60 on a fixed object."
+  },
+  {
+   "id": "p2-q008",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How long does my daily trip to the workplace take?",
+   "gold": [
+    "p2-m052"
+   ],
+   "note": "About 28 minutes by bike; the headwind message deliberately gives no duration."
+  },
+  {
+   "id": "p2-q009",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Dairede bir şey bozulursa yönetime nasıl ulaşmalıyım?",
+   "gold": [
+    "p2-m039"
+   ],
+   "note": "Only by e-mail, not by phone."
+  },
+  {
+   "id": "p2-q010",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "Until when am I allowed to stay in Germany on my current permit?",
+   "gold": [
+    "p2-m062"
+   ],
+   "note": "Blue Card valid until 14 March 2028; parents' visas are a different item."
+  },
+  {
+   "id": "p2-q011",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Aylık ne kadar kenara atıyorum?",
+   "gold": [
+    "p2-m060"
+   ],
+   "note": "1.300 euro monthly transfer."
+  },
+  {
+   "id": "p2-q012",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What does my girlfriend do for a living?",
+   "gold": [
+    "p2-m057"
+   ],
+   "note": "Clara is a primary-school teacher in Pankow."
+  },
+  {
+   "id": "p2-q013",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Almanca konuşmamı düzeltmek için öğretmen ne tavsiye etti?",
+   "gold": [
+    "p2-m027"
+   ],
+   "note": "A Tandem partner."
+  },
+  {
+   "id": "p2-q014",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What share of the purchase price should I put in myself when asking a bank for money?",
+   "gold": [
+    "p2-m073"
+   ],
+   "note": "At least 20% equity."
+  },
+  {
+   "id": "p2-q015",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Babam benim ulaşım tarzım konusunda ne düşünüyor?",
+   "gold": [
+    "p2-m061"
+   ],
+   "note": "He worries about the user cycling to work."
+  },
+  {
+   "id": "p2-q016",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "How long are mom and dad allowed to stay when they come?",
+   "gold": [
+    "p2-m038"
+   ],
+   "note": "Visas valid 10 November to 10 December."
+  },
+  {
+   "id": "p2-q017",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Güne hangi içecekle başlıyorum, nasıl yapıyorum?",
+   "gold": [
+    "p2-m067"
+   ],
+   "note": "Chemex filter coffee."
+  },
+  {
+   "id": "p2-q018",
+   "type": "paraphrase",
+   "lang": "en",
+   "text": "What was the cure for the database problem at work last time?",
+   "gold": [
+    "p2-m023"
+   ],
+   "note": "Concurrent index creation and splitting the migration."
+  },
+  {
+   "id": "p2-q019",
+   "type": "paraphrase",
+   "lang": "tr",
+   "text": "Annemin valizindeki hediyelik yiyecekler neler?",
+   "gold": [
+    "p2-m006"
+   ],
+   "note": "Pistachios, dried apricots and molasses; no sucuk."
+  },
+  {
+   "id": "p2-q020",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Futbol maçlarını nerede oynuyorum?",
+   "gold": [
+    "p2-m043"
+   ],
+   "note": "English topic: a pitch in Tempelhof."
+  },
+  {
+   "id": "p2-q021",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Vergi beyannamesi için danışmana ne kadar ödüyorum?",
+   "gold": [
+    "p2-m002"
+   ],
+   "note": "English topic: flat €280."
+  },
+  {
+   "id": "p2-q022",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What does my older sister do for work?",
+   "gold": [
+    "p2-m046"
+   ],
+   "note": "Turkish topic: pharmacist in Izmir."
+  },
+  {
+   "id": "p2-q023",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Which evening do I go to German class?",
+   "gold": [
+    "p2-m047"
+   ],
+   "note": "Turkish topic: Wednesday evenings."
+  },
+  {
+   "id": "p2-q024",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Noter ve tapu masrafları yüzde kaç tutar?",
+   "gold": [
+    "p2-m050"
+   ],
+   "note": "English message: 1.5 to 2 percent."
+  },
+  {
+   "id": "p2-q025",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "When am I meeting the mortgage guy?",
+   "gold": [
+    "p2-m008"
+   ],
+   "note": "Turkish event: Monday 9 November at 17:00."
+  },
+  {
+   "id": "p2-q026",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Kira sözleşmesini feshetmek için kaç ay önceden haber vermem gerekir?",
+   "gold": [
+    "p2-m020"
+   ],
+   "note": "English lease chunk: three months written notice."
+  },
+  {
+   "id": "p2-q027",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "What happened to my bike on the canal path in the rain?",
+   "gold": [
+    "p2-m029"
+   ],
+   "note": "Turkish message: front tyre punctured."
+  },
+  {
+   "id": "p2-q028",
+   "type": "cross_lingual",
+   "lang": "en",
+   "text": "Where am I headed for a short trip with my girlfriend in spring?",
+   "gold": [
+    "p2-m037"
+   ],
+   "note": "Turkish topic: Lisbon in April."
+  },
+  {
+   "id": "p2-q029",
+   "type": "cross_lingual",
+   "lang": "tr",
+   "text": "Bisiklet çalınırsa polise kaç saat içinde bildirmem gerekiyor?",
+   "gold": [
+    "p2-m013"
+   ],
+   "note": "English policy chunk: within 24 hours."
+  },
+  {
+   "id": "p2-q030",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "When is my dentist appointment?",
+   "gold": [
+    "p2-m042"
+   ],
+   "note": "2 November 08:00; Clara's appointment is the distractor."
+  },
+  {
+   "id": "p2-q031",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What was the asking price of the Bernau house?",
+   "gold": [
+    "p2-m056"
+   ],
+   "note": "€410,000; Falkensee is the distractor with €395,000."
+  },
+  {
+   "id": "p2-q032",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Falkensee'deki evin ısıtma sistemi neydi?",
+   "gold": [
+    "p2-m009"
+   ],
+   "note": "1978 gas boiler; Bernau has a heat pump."
+  },
+  {
+   "id": "p2-q033",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "How much deposit did I pay for my current flat?",
+   "gold": [
+    "p2-m019"
+   ],
+   "note": "€2,700; the old flat's deposit was €1,950."
+  },
+  {
+   "id": "p2-q034",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Ablam İzmir'den ne zaman geliyor?",
+   "gold": [
+    "p2-m001"
+   ],
+   "note": "18 December; parents arrive 12 November."
+  },
+  {
+   "id": "p2-q035",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "What colour is my bike?",
+   "gold": [
+    "p2-m053"
+   ],
+   "note": "Grey; Clara's bike is green."
+  },
+  {
+   "id": "p2-q036",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "How much does the card replacement cost?",
+   "gold": [
+    "p2-m054"
+   ],
+   "note": "€67; the Turkish visa chunk lists €90 for visas."
+  },
+  {
+   "id": "p2-q037",
+   "type": "hard_negative",
+   "lang": "tr",
+   "text": "Annem emekli olmadan önce hangi meslekteydi?",
+   "gold": [
+    "p2-m041"
+   ],
+   "note": "Accountant; father was a civil engineer."
+  },
+  {
+   "id": "p2-q038",
+   "type": "hard_negative",
+   "lang": "en",
+   "text": "Where does the lease say I can park my bike?",
+   "gold": [
+    "p2-m021"
+   ],
+   "note": "Only the bicycle room in the rear building; the insurance chunk talks about locked rooms for cover."
+  },
+  {
+   "id": "p2-q039",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Hausverwaltung Brandt'ın telefon numarası ne?",
+   "gold": [],
+   "note": "Only the e-mail-only policy is stored, no contact detail."
+  },
+  {
+   "id": "p2-q040",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is the street address of the Falkensee house I viewed?",
+   "gold": [],
+   "note": "Only price, bedrooms and garden are stored."
+  },
+  {
+   "id": "p2-q041",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Bernau'daki evin bahçesi kaç metrekare?",
+   "gold": [],
+   "note": "The garden is only described as tiny."
+  },
+  {
+   "id": "p2-q042",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "What is my monthly salary at Lumenform?",
+   "gold": [],
+   "note": "The job is stored, not the pay."
+  },
+  {
+   "id": "p2-q043",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Ablamın çocuklarının yaşları kaç?",
+   "gold": [],
+   "note": "Only that she has two children."
+  },
+  {
+   "id": "p2-q044",
+   "type": "unanswerable",
+   "lang": "en",
+   "text": "Which airline are my parents flying with?",
+   "gold": [],
+   "note": "Only arrival time and airport are stored."
+  },
+  {
+   "id": "p2-q045",
+   "type": "unanswerable",
+   "lang": "tr",
+   "text": "Lizbon'da kalacağım otelin adı ne?",
+   "gold": [],
+   "note": "Only the trip plan is stored."
+  }
+ ]
+}
