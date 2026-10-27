@@ -17,6 +17,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
 </p>
 
+<p align="center">
+  <a href="https://testflight.apple.com/join/Fjtm5j1Z"><b>Try the beta on TestFlight</b></a>
+</p>
+
 ---
 
 Turing AI is a single interface for many model providers. It is not a hosted service: there is no account, no backend, and no telemetry. API keys live in the platform keychain, requests go directly from the device to the provider you configured, and everything else, including conversations, imported documents, learned memory, and request receipts, stays in a local database.
@@ -58,6 +62,8 @@ The project started as an exercise in answering one question well: **what should
 The Apple apps share one Swift package, `MosaicCore`, which holds the entire feature layer. The Android app is a full native port with the same application ID, data model rules, limits, and backup format.
 
 ## Getting started
+
+To try the app without building it, join the public [TestFlight beta](https://testflight.apple.com/join/Fjtm5j1Z).
 
 ### Apple platforms
 
