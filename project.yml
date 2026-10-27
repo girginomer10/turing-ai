@@ -212,6 +212,7 @@ targets:
         CFBundleName: Turing AI
         LSApplicationCategoryType: public.app-category.productivity
         LSMultipleInstancesProhibited: true
+        ITSAppUsesNonExemptEncryption: false
         NSAppTransportSecurity:
           NSAllowsLocalNetworking: true
         NSHumanReadableCopyright: Copyright © 2026. All rights reserved.
