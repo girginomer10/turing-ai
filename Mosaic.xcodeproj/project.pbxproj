@@ -506,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -732,7 +732,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omergirgin.mosaic;
 				SDKROOT = macosx;
 			};
 			name = Release;

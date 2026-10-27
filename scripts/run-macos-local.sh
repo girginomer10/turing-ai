@@ -44,7 +44,7 @@ fi
 built_bundle_identifier=$(
   /usr/bin/plutil -extract CFBundleIdentifier raw "${app_path}/Contents/Info.plist"
 )
-if [[ "${built_bundle_identifier}" != "com.omergirgin.mosaic.macos" ]]; then
+if [[ "${built_bundle_identifier}" != "com.omergirgin.mosaic" ]]; then
   print -u2 "Refusing to sign an unexpected bundle identifier: ${built_bundle_identifier}"
   exit 1
 fi

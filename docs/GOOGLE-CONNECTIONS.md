@@ -37,7 +37,7 @@ Original source links use iOS universal-link routing first, then the system brow
 The bundled public native client IDs (not secrets):
 
 - iPhone, `com.omergirgin.mosaic`: `986659128595-2ouh9lfcb6lpj494rsmeeoegqmpki0eq.apps.googleusercontent.com`
-- Mac, `com.omergirgin.mosaic.macos`: `986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t.apps.googleusercontent.com`
+- Mac, `com.omergirgin.mosaic`: `986659128595-ibb80ggv4eltjhv14sskmbiouigpjd2t.apps.googleusercontent.com`
 
 Public release needs restricted-scope verification, public homepage/privacy/terms URLs, privacy disclosures, and an assessment of the transfer of excerpts to the selected AI provider; a device-only design does not automatically waive these requirements. Testing-mode refresh-token expiry and Workspace admin restrictions may require reconnecting or admin approval.
 
