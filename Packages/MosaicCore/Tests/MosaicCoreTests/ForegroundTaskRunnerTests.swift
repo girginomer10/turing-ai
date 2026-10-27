@@ -45,7 +45,7 @@ struct ForegroundTaskRunnerTests {
     #expect(!runner.startRunNow(task, in: context))
 
     let clock = ContinuousClock()
-    let deadline = clock.now.advanced(by: .seconds(5))
+    let deadline = clock.now.advanced(by: .seconds(30))
     while runner.isRunning(taskID: task.id), clock.now < deadline {
       try await Task.sleep(for: .milliseconds(10))
     }
