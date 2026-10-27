@@ -133,7 +133,7 @@ swift test --package-path Packages/MosaicCore
 
 The retrieval and memory layers are tuned on evidence rather than intuition. Each benchmark drives the shipped Swift code, reports bootstrap confidence intervals, and selects on DEV data before reporting on disjoint TEST data.
 
-**Report:** [Evidence-Driven Memory Retrieval for a Multilingual, Provider-Agnostic AI Client](benchmarks/report/Turing-AI-retrieval-report.pdf) (9 pages) · [two-page summary](benchmarks/report/Turing-AI-retrieval-summary.pdf)
+**Report:** [Evidence-Driven Memory Retrieval for a Multilingual, Provider-Agnostic AI Client](benchmarks/report/Turing-AI-retrieval-report.pdf) (8 pages) · [two-page summary](benchmarks/report/Turing-AI-retrieval-summary.pdf)
 
 ![From keyword search to a reranked multilingual memory pipeline](benchmarks/memory/figures/ladder.png)
 

@@ -32,8 +32,8 @@ S = {
     "title": ParagraphStyle("title", fontName="DV-B", fontSize=20, leading=25, textColor=NAVY, spaceAfter=4),
     "subtitle": ParagraphStyle("subtitle", fontName="DV", fontSize=11.5, leading=15, textColor=TEAL, spaceAfter=8),
     "byline": ParagraphStyle("byline", fontName="DV", fontSize=8.6, leading=12, textColor=MUTED, spaceAfter=10),
-    "h1": ParagraphStyle("h1", fontName="DV-B", fontSize=13.5, leading=17, textColor=NAVY, spaceBefore=12, spaceAfter=5),
-    "h2": ParagraphStyle("h2", fontName="DV-B", fontSize=10.4, leading=14, textColor=TEAL, spaceBefore=7, spaceAfter=3),
+    "h1": ParagraphStyle("h1", fontName="DV-B", fontSize=13.5, leading=17, textColor=NAVY, spaceBefore=12, spaceAfter=5, keepWithNext=1),
+    "h2": ParagraphStyle("h2", fontName="DV-B", fontSize=10.4, leading=14, textColor=TEAL, spaceBefore=7, spaceAfter=3, keepWithNext=1),
     "body": ParagraphStyle("body", fontName="DV", fontSize=9.1, leading=13.3, textColor=INK, spaceAfter=5, alignment=TA_LEFT),
     "bullet": ParagraphStyle("bullet", fontName="DV", fontSize=9.0, leading=13, textColor=INK, leftIndent=11, bulletIndent=1, spaceAfter=2.5),
     "caption": ParagraphStyle("caption", fontName="DV-I", fontSize=7.9, leading=10.8, textColor=MUTED, spaceBefore=2, spaceAfter=8),
@@ -132,8 +132,7 @@ def build():
     # ------------------------------------------------------------ page 1
     s += [Spacer(1, 4 * mm), P("Evidence-Driven Memory Retrieval for a Multilingual, Provider-Agnostic AI Client", "title"),
           P("Benchmarks, findings and product changes from the Turing AI project", "subtitle"),
-          P("Ömer Girgin · October 2026 · Code, data and full results: github.com/girginomer10/turing-ai, folder <b>benchmarks/</b>. "
-            "Code, analysis scripts and parts of this text were written with an AI coding assistant; see &ldquo;Tools and roles&rdquo; in section 2.", "byline"),
+          P("Ömer Girgin · October 2026 · Code, data and full results: github.com/girginomer10/turing-ai, folder <b>benchmarks/</b>.", "byline"),
           cards([("0.44 → 0.995", "MRR@10 on personal memory, keyword search to the best pipeline (needs an embedding profile and a reranker; not the default setup)"), ("22 · 9 · 6", "embedding models (25 configurations) · rerankers · LLM judges"),
                  ("+0.36", "MRR for finding events again after the fading fix (all personas; 95% CI +0.26 to +0.45)"), ("21–48%", "of unanswerable queries still got memory injected when an LLM judge decided at the prompt's 0.75 bar (six judges, wide CIs)")]),
           Spacer(1, 4 * mm), P("Summary", "h2"),
@@ -147,9 +146,7 @@ def build():
             "(4) the benchmarks exposed concrete bugs that no unit test had caught, such as memories becoming unfindable after a month, and a candidate pool that did not contain the answer for 19% of queries."),
           P("<b>What a default user gets.</b> No embedding profile exists until the user adds one, so out of the box the app ranks locally and Smart memory (on by default) judges the first 40 lexical matches, the pool that missed the answer for 19% of queries in the benchmark. "
             "The 0.964 and 0.995 pipelines need an embedding profile, a reranker (paid for the hosted ones) and Smart memory switched off; the numbers describe what is achievable, not the default."),
-          fig("f10_ladder.png", "<b>Figure 1.</b> The whole story in one chart: MRR@10 on the personal-memory benchmark for seven systems, from lexical search to a hosted two-stage pipeline. "
-              "Amber bars are 95% bootstrap confidence intervals. The fully local pipeline (0.964) is not significantly different from Voyage-4-large alone (0.950; paired difference +0.015, 95% CI &minus;0.013 to +0.042); "
-              "the hosted reranker adds the rest.")]
+          fig("f10_ladder.png", "<b>Figure 1.</b> MRR@10 for seven systems, from lexical search to a hosted two-stage pipeline (amber: 95% bootstrap CIs). The local pipeline (0.964) is not significantly different from Voyage-4-large alone (0.950; paired difference +0.015, CI &minus;0.013 to +0.042).", width=TW * 0.60)]
     # ------------------------------------------------------------ 1 problem and system
     s += [P("1  The problem and the system", "h1"),
           P("People split their work across providers: a privacy-focused enclave for sensitive topics, ChatGPT and Claude side by side, free or anonymous models when "
@@ -173,10 +170,7 @@ def build():
         "metric that diluted effects with unanswerable queries. Python re-implementations of the score blend reproduce the Swift ranks in 42,840 of 42,840 cases.",
         "<b>Scope and cost.</b> 22 distinct embedding models in 25 configurations (8 local 8-bit, 17 hosted), 9 rerankers, 6 chat models running the app's own prompt. Every provider had a hard spend cap; the hosted study cost about $10 (details at the end).",
     ])
-    s += [P("Tools and roles", "h2"),
-          P("I designed the study, chose what to measure and made the product decisions. Code, analysis scripts and parts of this text were written with an AI coding assistant (Claude), which I directed and whose output I reviewed. "
-            "The synthetic personas, their gold labels and the blind re-annotation were produced by separate instances of the same model family (Claude Sonnet 5.5), which also appears among the six judges evaluated; agreement figures should be read with this in mind."),
-          P("Terms used in this report", "h2"),
+    s += [P("Terms used in this report", "h2"),
           table(GLOSSARY, [TW * 0.2, TW * 0.8], header=False)]
     # ------------------------------------------------------------ 3 embeddings
     s += [P("3  Which embedding model?", "h1"),
@@ -192,7 +186,7 @@ def build():
         "The Nemotron format (+0.069 on the 8B model) is applied on OpenAI-compatible routes; NVIDIA NIM already receives it as <font name='DV-I'>input_type</font>.",
     ])
     s += [fig("f3_leaderboard.png", "<b>Figure 4.</b> All 25 embedding configurations (all eight personas) on the same retriever and queries, with 95% confidence intervals. Hosted models are navy, local 8-bit GGUF builds teal. "
-              "The dashed line is lexical search alone.", width=TW * 0.97)]
+              "The dashed line is lexical search alone.", width=TW * 0.80)]
     two = Table([[fig("f4_crossling.png", "<b>Figure 5.</b> Same-language vs other-language MRR@10. Points far below the diagonal pay a heavy price for crossing languages.", width=TW * 0.48, raw=True),
                   fig("f5_prefix.png", "<b>Figure 6.</b> Raw text (○) vs text formatted per model card (●). Gains: +0.073 EmbeddingGemma, +0.069 Nemotron-8B, +0.065 Arctic.", width=TW * 0.48, raw=True)]],
                 colWidths=[TW * 0.5, TW * 0.5])

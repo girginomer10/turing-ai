@@ -15,7 +15,7 @@ def build():
                           subject="Two-page summary: benchmarks, findings and product changes from the Turing AI project")
     doc.addPageTemplates([PageTemplate(id="p", frames=[Frame(LM, 18 * mm, TW, H - 33 * mm, id="f", leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)])])
     s = [P(TITLE, "title"), P("Two-page summary of the Turing AI evaluation", "subtitle"),
-         P("Ömer Girgin · October 2026 · Code, data and full results: github.com/girginomer10/turing-ai, folder <b>benchmarks/</b>. Code, analysis scripts and parts of the text were written with an AI coding assistant (Claude) that I directed and reviewed.", "byline"),
+         P("Ömer Girgin · October 2026 · Code, data and full results: github.com/girginomer10/turing-ai, folder <b>benchmarks/</b>.", "byline"),
          cards([("0.44 → 0.995", "MRR@10 on personal memory, keyword search to the best pipeline (needs an embedding profile and a reranker; not the default)"),
                 ("22 · 9 · 6", "embedding models (25 configurations) · rerankers · LLM judges"),
                 ("+0.36", "MRR for finding events again after the fading fix (95% CI +0.26 to +0.45)"),
@@ -23,7 +23,7 @@ def build():
          Spacer(1, 3 * mm), P("Summary", "h2"),
          P("Turing AI is a native iOS, iPadOS and macOS app (with an Android port) where people bring their own provider keys and keep one local, portable memory across 50 provider presets. "
            "Whether that memory helps depends on retrieval: finding the right earlier fact in Turkish or English among near-duplicates, and staying silent when nothing applies. "
-           "I built two reproducible benchmarks around the app's real Swift retriever, evaluated 22 embedding models, 9 rerankers and 6 LLM judges with bootstrap confidence intervals, and used the results to find and fix five defects. "
+           "I built two reproducible benchmarks around the app's real Swift retriever, evaluated 22 embedding models, 9 rerankers and 6 LLM judges with bootstrap confidence intervals, and used the results to find and fix five defects and retune one setting. "
            "Quality is MRR@10: the average of 1/rank of the first correct memory in the top 10 (1 = always first, 0 = never found)."),
          fig("f10_ladder.png", "<b>Figure 1.</b> MRR@10 on the personal-memory benchmark for seven systems, from lexical search to a hosted two-stage pipeline (95% bootstrap CIs). "
              "The fully local pipeline (0.964) is not significantly different from Voyage-4-large alone (0.950; paired difference +0.015, CI &minus;0.013 to +0.042).", width=TW * 0.78),

@@ -2,7 +2,7 @@
 
 Evaluation work behind Turing AI's retrieval and memory layers. Every benchmark drives the shipped code (the Swift `HybridMemoryRetriever`, the app's Smart memory prompt and decoder, the automatic-memory validator) rather than a re-implementation, and reports bootstrap confidence intervals. Where a configuration is chosen, it is chosen on DEV data and reported on disjoint TEST data.
 
-**Report:** [Evidence-Driven Memory Retrieval for a Multilingual, Provider-Agnostic AI Client](report/Turing-AI-retrieval-report.pdf) (9 pages) · [two-page summary](report/Turing-AI-retrieval-summary.pdf)
+**Report:** [Evidence-Driven Memory Retrieval for a Multilingual, Provider-Agnostic AI Client](report/Turing-AI-retrieval-report.pdf) (8 pages) · [two-page summary](report/Turing-AI-retrieval-summary.pdf)
 
 | Directory | What it measures | Status |
 | --- | --- | --- |
